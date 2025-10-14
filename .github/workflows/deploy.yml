@@ -1,0 +1,51 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches: [ main ]
+  # 如需先手動試跑，改成：
+  # workflow_dispatch:
+
+jobs:
+  deploy:
+    permissions:
+      contents: read
+      id-token: write   # WIF 必須
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Auth to GCP (WIF)
+      uses: google-github-actions/auth@v2
+      with:
+        workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+        service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
+
+    - name: Setup gcloud
+      uses: google-github-actions/setup-gcloud@v2
+
+    - name: Configure Artifact Registry auth
+      run: gcloud auth configure-docker ${{ vars.REGION }}-docker.pkg.dev -q
+
+    - name: Build & Push image
+      env:
+        IMAGE: ${{ vars.REGION }}-docker.pkg.dev/${{ vars.PROJECT_ID }}/${{ vars.REPO }}/app:${{ github.sha }}
+      run: |
+        docker build -t "${IMAGE}" .
+        docker push "${IMAGE}"
+        echo "IMAGE=${IMAGE}" >> $GITHUB_ENV
+
+    - name: Deploy to Cloud Run
+      run: |
+        gcloud run deploy ${{ vars.SERVICE_NAME }} \
+          --image "${IMAGE}" \
+          --region ${{ vars.REGION }} \
+          --platform managed \
+          --allow-unauthenticated \
+          --service-account cr-runtime@${{ vars.PROJECT_ID }}.iam.gserviceaccount.com \
+          --cpu 1 --memory 512Mi \
+          --concurrency 10 --timeout 10s \
+          --min-instances 1 \
+          --set-env-vars=ASSET_BASE_URL=https://storage.googleapis.com/${{ vars.ASSET_BUCKET }} \
+          --set-secrets=CHANNEL_SECRET=CHANNEL_SECRET:latest,CHANNEL_ACCESS_TOKEN=CHANNEL_ACCESS_TOKEN:latest

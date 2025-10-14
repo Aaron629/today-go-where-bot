@@ -1,0 +1,3151 @@
+[
+  {
+    "name": "國立自然科學博物館",
+    "type": "spot",
+    "city": "台中",
+    "district": "北區",
+    "description": "台灣最大自然科學博物館，含植物園、科學中心及太空劇場",
+    "tags": [
+      "博物館",
+      "科學",
+      "親子",
+      "展覽"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%9C%8B%E7%AB%8B%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E5%8D%9A%E7%89%A9%E9%A4%A8",
+    "image_url": "https://your-bot-cdn.com/taichung/natl_science_museum.jpg"
+  },
+  {
+    "name": "台中公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "北區",
+    "description": "百年歷史公園，日月湖與湖心亭為地標，適合散步",
+    "tags": [
+      "公園",
+      "散步",
+      "古蹟",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_park.jpg"
+  },
+  {
+    "name": "一中街商圈",
+    "type": "spot",
+    "city": "台中",
+    "district": "北區",
+    "description": "學生聚集商圈，平價美食與服飾店",
+    "tags": [
+      "購物",
+      "美食",
+      "小吃",
+      "逛街"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%88",
+    "image_url": "https://your-bot-cdn.com/taichung/yizhong_st.jpg"
+  },
+  {
+    "name": "宮原眼科",
+    "type": "cafe",
+    "city": "台中",
+    "district": "中區",
+    "description": "歷史建築改建甜點店，知名冰淇淋與伴手禮",
+    "tags": [
+      "美食",
+      "甜點",
+      "古蹟",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%91",
+    "image_url": "https://your-bot-cdn.com/taichung/miyahara_eyeclinic.jpg"
+  },
+  {
+    "name": "台中第二市場",
+    "type": "spot",
+    "city": "台中",
+    "district": "中區",
+    "description": "傳統市場美食，老字號小吃聚集地",
+    "tags": [
+      "傳統市場",
+      "美食",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B4",
+    "image_url": "https://your-bot-cdn.com/taichung/2nd_market.jpg"
+  },
+  {
+    "name": "台中火車站",
+    "type": "spot",
+    "city": "台中",
+    "district": "中區",
+    "description": "百年古蹟車站，結合新舊站體建築",
+    "tags": [
+      "古蹟",
+      "建築",
+      "地標",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%99",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_station.jpg"
+  },
+  {
+    "name": "東區樂成宮",
+    "type": "spot",
+    "city": "台中",
+    "district": "東區",
+    "description": "百年媽祖廟，台中重要信仰中心",
+    "tags": [
+      "寺廟",
+      "文化",
+      "古蹟",
+      "信仰"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE",
+    "image_url": "https://your-bot-cdn.com/taichung/lecheng_temple.jpg"
+  },
+  {
+    "name": "台中酒廠文創園區",
+    "type": "spot",
+    "city": "台中",
+    "district": "東區",
+    "description": "老酒廠轉型文創空間，展覽與市集",
+    "tags": [
+      "文創",
+      "展覽",
+      "市集",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A0",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_brewery.jpg"
+  },
+  {
+    "name": "旱溪夜市",
+    "type": "spot",
+    "city": "台中",
+    "district": "東區",
+    "description": "在地人氣夜市，小吃與遊戲攤位",
+    "tags": [
+      "夜市",
+      "美食",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%82",
+    "image_url": "https://your-bot-cdn.com/taichung/hanxi_nightmarket.jpg"
+  },
+  {
+    "name": "審計新村",
+    "type": "cafe",
+    "city": "台中",
+    "district": "西區",
+    "description": "老眷村改造文創聚落，特色小店與咖啡廳",
+    "tags": [
+      "文創",
+      "咖啡",
+      "拍照",
+      "文青"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AF%A9%E8%A8%88%E6%96%B0%E6%9D%91",
+    "image_url": "https://your-bot-cdn.com/taichung/shenji_newvillage.jpg"
+  },
+  {
+    "name": "勤美術館與草悟道",
+    "type": "walk",
+    "city": "台中",
+    "district": "西區",
+    "description": "綠園道與戶外美術館結合，都市綠地休閒區，適合散步",
+    "tags": [
+      "藝術",
+      "散步",
+      "文創",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8B%A4%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "image_url": "https://your-bot-cdn.com/taichung/calligraphy_greenway.jpg"
+  },
+  {
+    "name": "國立台灣美術館",
+    "type": "spot",
+    "city": "台中",
+    "district": "西區",
+    "description": "台灣重要美術館，免費參觀典藏與特展",
+    "tags": [
+      "美術館",
+      "藝術",
+      "展覽",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%9C%8B%E7%AB%8B%E5%8F%B0%E7%81%A3%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "image_url": "https://your-bot-cdn.com/taichung/natl_taiwan_museum_of_fine_arts.jpg"
+  },
+  {
+    "name": "彩虹眷村",
+    "type": "spot",
+    "city": "台中",
+    "district": "南屯區",
+    "description": "彩繪老眷村，充滿童趣色彩的藝術景點",
+    "tags": [
+      "彩繪",
+      "藝術",
+      "拍照",
+      "文創"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%BD%A9%E8%99%B9%E7%9C%B7%E6%9D%91",
+    "image_url": "https://your-bot-cdn.com/taichung/rainbow_village.jpg"
+  },
+  {
+    "name": "豐樂雕塑公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "南屯區",
+    "description": "台灣首座公立雕塑公園，藝術與綠地結合，適合散步",
+    "tags": [
+      "公園",
+      "雕塑",
+      "藝術",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E8%B1%90%E6%A8%82%E9%9B%95%E5%A1%91%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/feng_le_sculpture_park.jpg"
+  },
+  {
+    "name": "萬和宮",
+    "type": "spot",
+    "city": "台中",
+    "district": "南屯區",
+    "description": "三級古蹟媽祖廟，南屯信仰中心",
+    "tags": [
+      "寺廟",
+      "古蹟",
+      "文化",
+      "信仰"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E8%90%AC%E5%92%8C%E5%AE%AE",
+    "image_url": "https://your-bot-cdn.com/taichung/wanhe_temple.jpg"
+  },
+  {
+    "name": "台中國家歌劇院",
+    "type": "spot",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "世界級建築地標，獨特曲牆設計，提供表演藝術與展覽",
+    "tags": [
+      "建築",
+      "藝文",
+      "地標",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%9C%8B%E5%AE%B6%E6%AD%8C%E5%8A%87%E9%99%A2",
+    "image_url": "https://your-bot-cdn.com/taichung/natl_taichung_theater.jpg"
+  },
+  {
+    "name": "逢甲夜市",
+    "type": "spot",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "台灣最大夜市之一，各式創意小吃與流行商品",
+    "tags": [
+      "夜市",
+      "美食",
+      "購物",
+      "小吃"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%80%A2%E7%94%B2%E5%A4%9C%E5%B8%82",
+    "image_url": "https://your-bot-cdn.com/taichung/fengjia_nightmarket.jpg"
+  },
+  {
+    "name": "東海大學路思義教堂",
+    "type": "spot",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "著名建築地標，優美校園環境適合散步",
+    "tags": [
+      "建築",
+      "校園",
+      "拍照",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E8%B7%AF%E6%80%9D%E7%BE%A9%E6%95%99%E5%A0%82",
+    "image_url": "https://your-bot-cdn.com/taichung/luces_chapel.jpg"
+  },
+  {
+    "name": "秋紅谷景觀生態公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "都市下凹式生態公園，湖景與夜景優美，適合散步",
+    "tags": [
+      "公園",
+      "湖景",
+      "夜景",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E7%A7%8B%E7%B4%85%E8%B0%B7",
+    "image_url": "https://your-bot-cdn.com/taichung/maple_valley_park.jpg"
+  },
+  {
+    "name": "南區忠孝夜市",
+    "type": "spot",
+    "city": "台中",
+    "district": "南區",
+    "description": "在地老字號夜市，傳統小吃美食",
+    "tags": [
+      "夜市",
+      "美食",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%BF%A0%E5%AD%9D%E5%A4%9C%E5%B8%82",
+    "image_url": "https://your-bot-cdn.com/taichung/zhongxiao_nightmarket.jpg"
+  },
+  {
+    "name": "文化創意產業園區",
+    "type": "spot",
+    "city": "台中",
+    "district": "南區",
+    "description": "老酒廠活化，文創展演與藝文活動空間",
+    "tags": [
+      "文創",
+      "展覽",
+      "藝文",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E6%96%87%E5%8C%96%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E5%9C%92%E5%8D%80",
+    "image_url": "https://your-bot-cdn.com/taichung/cultural_creative_park.jpg"
+  },
+  {
+    "name": "中興大學",
+    "type": "walk",
+    "city": "台中",
+    "district": "南區",
+    "description": "綠意盎然校園，康堤與湖畔景觀優美，適合散步",
+    "tags": [
+      "校園",
+      "散步",
+      "湖景",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%AD%E8%88%88%E5%A4%A7%E5%AD%B8",
+    "image_url": "https://your-bot-cdn.com/taichung/NCHU.jpg"
+  },
+  {
+    "name": "大坑風景區",
+    "type": "spot",
+    "city": "台中",
+    "district": "北屯區",
+    "description": "多條登山步道，溫泉與景觀餐廳聚集地",
+    "tags": [
+      "登山",
+      "步道",
+      "溫泉",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%A4%A7%E5%9D%91%E9%A2%A8%E6%99%AF%E5%8D%80",
+    "image_url": "https://your-bot-cdn.com/taichung/dakeng.jpg"
+  },
+  {
+    "name": "心之芳庭",
+    "type": "spot",
+    "city": "台中",
+    "district": "北屯區",
+    "description": "浪漫歐風庭園，適合拍照與用餐",
+    "tags": [
+      "庭園",
+      "拍照",
+      "餐廳",
+      "浪漫"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%BF%83%E4%B9%8B%E8%8A%B3%E5%BA%AD",
+    "image_url": "https://your-bot-cdn.com/taichung/moncoeur.jpg"
+  },
+  {
+    "name": "廍子公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "北屯區",
+    "description": "黃花風鈴木與落羽松美景，季節性賞花景點，適合散步",
+    "tags": [
+      "公園",
+      "賞花",
+      "拍照",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%BB%8D%E5%AD%90%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/bu_zi_park.jpg"
+  },
+  {
+    "name": "潭雅神綠園道",
+    "type": "walk",
+    "city": "台中",
+    "district": "潭子區",
+    "description": "舊鐵道改建自行車道，綠蔭步道適合騎車",
+    "tags": [
+      "自行車",
+      "步道",
+      "休閒",
+      "運動"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%BD%AD%E9%9B%85%E7%A5%9E%E7%B6%A0%E5%9C%92%E9%81%93",
+    "image_url": "https://your-bot-cdn.com/taichung/tanyashen_bikeway.jpg"
+  },
+  {
+    "name": "潭子國小日式宿舍群",
+    "type": "spot",
+    "city": "台中",
+    "district": "潭子區",
+    "description": "歷史建築群，日式氛圍拍照景點",
+    "tags": [
+      "古蹟",
+      "日式",
+      "拍照",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%BD%AD%E5%AD%90%E5%9C%8B%E5%B0%8F%E6%97%A5%E5%BC%8F%E5%AE%BF%E8%88%8D",
+    "image_url": "https://your-bot-cdn.com/taichung/tanzi_school_dorm.jpg"
+  },
+  {
+    "name": "摘星山莊",
+    "type": "spot",
+    "city": "台中",
+    "district": "潭子區",
+    "description": "國定古蹟，傳統閩南建築代表作",
+    "tags": [
+      "古蹟",
+      "建築",
+      "文化",
+      "歷史"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%91%98%E6%98%9F%E5%B1%B1%E8%8E%8A",
+    "image_url": "https://your-bot-cdn.com/taichung/zhai_xing_mountain_villa.jpg"
+  },
+  {
+    "name": "大雅小麥文化節",
+    "type": "spot",
+    "city": "台中",
+    "district": "大雅區",
+    "description": "季節性小麥田景觀，金黃麥浪美景",
+    "tags": [
+      "農業",
+      "季節限定",
+      "拍照",
+      "田園"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%A4%A7%E9%9B%85%E5%B0%8F%E9%BA%A5",
+    "image_url": "https://your-bot-cdn.com/taichung/daya_wheat_festival.jpg"
+  },
+  {
+    "name": "太平十八彎古道",
+    "type": "walk",
+    "city": "台中",
+    "district": "太平區",
+    "description": "登山步道與林蔭景觀，是在地熱門健行地點",
+    "tags": [
+      "步道",
+      "登山",
+      "自然",
+      "健行"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%AA%E5%B9%B3%E5%8D%80%20%E5%A4%AA%E5%B9%B3%E5%8D%81%E5%85%AB%E5%BD%8E%E5%8F%A4%E9%81%93",
+    "image_url": "https://your-bot-cdn.com/taichung/taiping_trail.jpg"
+  },
+  {
+    "name": "太平運動公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "太平區",
+    "description": "綠地寬敞，適合運動與親子散步",
+    "tags": [
+      "公園",
+      "運動",
+      "親子",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%AA%E5%B9%B3%E5%8D%80%20%E5%A4%AA%E5%B9%B3%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/taiping_sports_park.jpg"
+  },
+  {
+    "name": "頭汴坑生態園區",
+    "type": "walk",
+    "city": "台中",
+    "district": "太平區",
+    "description": "溪流生態區域，生態解說與自然步道",
+    "tags": [
+      "生態",
+      "自然",
+      "散步",
+      "教育"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%AA%E5%B9%B3%E5%8D%80%20%E9%A0%AD%E6%B1%B4%E5%9D%91%E7%94%9F%E6%85%8B%E5%9C%92%E5%8D%80",
+    "image_url": "https://your-bot-cdn.com/taichung/toubianteng_ecopark.jpg"
+  },
+  {
+    "name": "內新黃昏市場",
+    "type": "spot",
+    "city": "台中",
+    "district": "大里區",
+    "description": "熱鬧的傳統市場，品嚐在地小吃",
+    "tags": [
+      "市場",
+      "小吃",
+      "在地",
+      "美食"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E9%87%8C%E5%8D%80%20%E5%85%A7%E6%96%B0%E9%BB%83%E6%98%8F%E5%B8%82%E5%A0%B4",
+    "image_url": "https://your-bot-cdn.com/taichung/neixin_market.jpg"
+  },
+  {
+    "name": "大里文化公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "大里區",
+    "description": "大型公園與湖景步道，適合散步",
+    "tags": [
+      "公園",
+      "湖景",
+      "親子",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E9%87%8C%E5%8D%80%20%E5%A4%A7%E9%87%8C%E6%96%87%E5%8C%96%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/dali_culture_park.jpg"
+  },
+  {
+    "name": "塗城環保公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "大里區",
+    "description": "結合環保與休憩空間的綠地公園，適合散步",
+    "tags": [
+      "公園",
+      "環保",
+      "散步",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E9%87%8C%E5%8D%80%20%E5%A1%97%E5%9F%8E%E7%92%B0%E4%BF%9D%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/tucheng_park.jpg"
+  },
+  {
+    "name": "霧峰林家花園",
+    "type": "spot",
+    "city": "台中",
+    "district": "霧峰區",
+    "description": "國定古蹟，傳統閩南建築代表作",
+    "tags": [
+      "古蹟",
+      "建築",
+      "歷史",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E9%9C%A7%E5%B3%B0%E5%8D%80%20%E9%9C%A7%E5%B3%B0%E6%9E%97%E5%AE%B6%E8%8A%B1%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/wufeng_lin_family_garden.jpg"
+  },
+  {
+    "name": "亞洲大學現代美術館",
+    "type": "spot",
+    "city": "台中",
+    "district": "霧峰區",
+    "description": "安藤忠雄設計建築，融合藝術與自然",
+    "tags": [
+      "建築",
+      "美術館",
+      "藝術",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E9%9C%A7%E5%B3%B0%E5%8D%80%20%E4%BA%9E%E6%B4%B2%E5%A4%A7%E5%AD%B8%E7%8F%BE%E4%BB%A3%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "image_url": "https://your-bot-cdn.com/taichung/asia_university_museum.jpg"
+  },
+  {
+    "name": "光復新村",
+    "type": "cafe",
+    "city": "台中",
+    "district": "霧峰區",
+    "description": "老宿舍群改造文創園區，有許多特色咖啡廳與小店",
+    "tags": [
+      "文創",
+      "老屋",
+      "拍照",
+      "咖啡"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E9%9C%A7%E5%B3%B0%E5%8D%80%20%E5%85%89%E5%BE%A9%E6%96%B0%E6%9D%91",
+    "image_url": "https://your-bot-cdn.com/taichung/guangfu_new_village.jpg"
+  },
+  {
+    "name": "靜宜大學",
+    "type": "walk",
+    "city": "台中",
+    "district": "沙鹿區",
+    "description": "校園景觀優美，視野遼闊可遠眺海線，適合散步",
+    "tags": [
+      "校園",
+      "景觀",
+      "拍照",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B2%99%E9%B9%BF%E5%8D%80%20%E9%9D%9C%E5%AE%9C%E5%A4%A7%E5%AD%B8",
+    "image_url": "https://your-bot-cdn.com/taichung/providence_university.jpg"
+  },
+  {
+    "name": "沙鹿夢想街",
+    "type": "spot",
+    "city": "台中",
+    "district": "沙鹿區",
+    "description": "充滿彩繪與文創小店的街道",
+    "tags": [
+      "彩繪",
+      "文創",
+      "拍照",
+      "文青"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B2%99%E9%B9%BF%E5%8D%80%20%E6%B2%99%E9%B9%BF%E5%A4%A2%E6%83%B3%E8%A1%97",
+    "image_url": "https://your-bot-cdn.com/taichung/shalu_dream_st.jpg"
+  },
+  {
+    "name": "北勢溪親水公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "沙鹿區",
+    "description": "溪畔步道與休閒綠地，適合散步",
+    "tags": [
+      "自然",
+      "親水",
+      "親子",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B2%99%E9%B9%BF%E5%8D%80%20%E5%8C%97%E5%8B%A2%E6%BA%AA%E8%A6%AA%E6%B0%B4%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/beishi_river_park.jpg"
+  },
+  {
+    "name": "龍井海岸",
+    "type": "walk",
+    "city": "台中",
+    "district": "龍井區",
+    "description": "觀浪與夕陽美景的海岸步道，適合散步",
+    "tags": [
+      "海景",
+      "散步",
+      "拍照",
+      "夕陽"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E9%BE%8D%E4%BA%95%E5%8D%80%20%E9%BE%8D%E4%BA%95%E6%B5%B7%E5%B2%B8",
+    "image_url": "https://your-bot-cdn.com/taichung/longjing_coast.jpg"
+  },
+  {
+    "name": "靜宜大學商圈",
+    "type": "spot",
+    "city": "台中",
+    "district": "龍井區",
+    "description": "學生美食聚集地",
+    "tags": [
+      "美食",
+      "學生",
+      "平價",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E9%BE%8D%E4%BA%95%E5%8D%80%20%E9%9D%9C%E5%AE%9C%E5%A4%A7%E5%AD%B8%E5%95%86%E5%9C%88",
+    "image_url": "https://your-bot-cdn.com/taichung/providence_uni_market.jpg"
+  },
+  {
+    "name": "高美濕地自行車道（起點段）",
+    "type": "walk",
+    "city": "台中",
+    "district": "龍井區",
+    "description": "連接海岸的綠色廊道，適合自行車與散步",
+    "tags": [
+      "自行車",
+      "自然",
+      "海景",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E9%BE%8D%E4%BA%95%E5%8D%80%20%E9%AB%98%E7%BE%8E%E6%BF%95%E5%9C%B0%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%EF%BC%88%E8%B5%B7%E9%BB%9E%E6%AE%B5%EF%BC%89",
+    "image_url": "https://your-bot-cdn.com/taichung/gaomei_bikeway.jpg"
+  },
+  {
+    "name": "高美濕地",
+    "type": "spot",
+    "city": "台中",
+    "district": "清水區",
+    "description": "台灣知名濕地景觀，賞鳥與夕陽勝地",
+    "tags": [
+      "自然",
+      "夕陽",
+      "生態",
+      "觀景"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B8%85%E6%B0%B4%E5%8D%80%20%E9%AB%98%E7%BE%8E%E6%BF%95%E5%9C%B0",
+    "image_url": "https://your-bot-cdn.com/taichung/gaomei_wetland.jpg"
+  },
+  {
+    "name": "鰲峰山公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "清水區",
+    "description": "視野遼闊，能眺望台中港與夜景，適合散步",
+    "tags": [
+      "觀景",
+      "公園",
+      "夜景",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B8%85%E6%B0%B4%E5%8D%80%20%E9%B0%B2%E5%B3%B0%E5%B1%B1%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/aofeng_park.jpg"
+  },
+  {
+    "name": "清水紫雲巖",
+    "type": "spot",
+    "city": "台中",
+    "district": "清水區",
+    "description": "百年歷史寺廟，建築華麗",
+    "tags": [
+      "宗教",
+      "古蹟",
+      "文化",
+      "信仰"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B8%85%E6%B0%B4%E5%8D%80%20%E6%B8%85%E6%B0%B4%E7%B4%AB%E9%9B%B2%E5%B7%96",
+    "image_url": "https://your-bot-cdn.com/taichung/ziyun_temple.jpg"
+  },
+  {
+    "name": "鎮瀾宮",
+    "type": "spot",
+    "city": "台中",
+    "district": "大甲區",
+    "description": "全台知名媽祖廟，遶境活動盛大",
+    "tags": [
+      "宗教",
+      "信仰",
+      "文化",
+      "地標"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E7%94%B2%E5%8D%80%20%E9%8E%AE%E7%80%BE%E5%AE%AE",
+    "image_url": "https://your-bot-cdn.com/taichung/zhenlan_temple.jpg"
+  },
+  {
+    "name": "大甲鐵砧山風景區",
+    "type": "walk",
+    "city": "台中",
+    "district": "大甲區",
+    "description": "登山與觀景的熱門景點",
+    "tags": [
+      "登山",
+      "步道",
+      "觀景",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E7%94%B2%E5%8D%80%20%E5%A4%A7%E7%94%B2%E9%90%B5%E7%A0%A7%E5%B1%B1%E9%A2%A8%E6%99%AF%E5%8D%80",
+    "image_url": "https://your-bot-cdn.com/taichung/tieh_chen_mountain.jpg"
+  },
+  {
+    "name": "大甲文昌祠",
+    "type": "spot",
+    "city": "台中",
+    "district": "大甲區",
+    "description": "傳統文昌信仰與古風建築",
+    "tags": [
+      "宗教",
+      "文化",
+      "歷史",
+      "古蹟"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E7%94%B2%E5%8D%80%20%E5%A4%A7%E7%94%B2%E6%96%87%E6%98%8C%E7%A5%A0",
+    "image_url": "https://your-bot-cdn.com/taichung/wenchang_shrine.jpg"
+  },
+  {
+    "name": "豐原廟東夜市",
+    "type": "spot",
+    "city": "台中",
+    "district": "豐原區",
+    "description": "歷史悠久夜市，美食密集",
+    "tags": [
+      "夜市",
+      "美食",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E8%B1%90%E5%8E%9F%E5%8D%80%20%E8%B1%90%E5%8E%9F%E5%BB%9F%E6%9D%B1%E5%A4%9C%E5%B8%82",
+    "image_url": "https://your-bot-cdn.com/taichung/fengyuan_miaodong_nightmarket.jpg"
+  },
+  {
+    "name": "葫蘆墩公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "豐原區",
+    "description": "豐原市中心大型綠地，步道與河景，適合散步",
+    "tags": [
+      "公園",
+      "散步",
+      "休閒",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E8%B1%90%E5%8E%9F%E5%8D%80%20%E8%91%AB%E8%98%86%E5%A2%A9%E5%85%AC%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/huludun_park.jpg"
+  },
+  {
+    "name": "慈濟宮",
+    "type": "spot",
+    "city": "台中",
+    "district": "豐原區",
+    "description": "豐原信仰中心，歷史悠久媽祖廟",
+    "tags": [
+      "宗教",
+      "文化",
+      "古蹟",
+      "信仰"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E8%B1%90%E5%8E%9F%E5%8D%80%20%E6%85%88%E6%BF%9F%E5%AE%AE",
+    "image_url": "https://your-bot-cdn.com/taichung/cici_temple.jpg"
+  },
+  {
+    "name": "麗寶樂園",
+    "type": "spot",
+    "city": "台中",
+    "district": "后里區",
+    "description": "大型主題樂園與摩天輪地標",
+    "tags": [
+      "樂園",
+      "娛樂",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%90%8E%E9%87%8C%E5%8D%80%20%E9%BA%97%E5%AF%B6%E6%A8%82%E5%9C%92",
+    "image_url": "https://your-bot-cdn.com/taichung/lihpao_land.jpg"
+  },
+  {
+    "name": "中社花市花海",
+    "type": "spot",
+    "city": "台中",
+    "district": "后里區",
+    "description": "四季花卉主題園區",
+    "tags": [
+      "花卉",
+      "拍照",
+      "季節限定",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%90%8E%E9%87%8C%E5%8D%80%20%E4%B8%AD%E7%A4%BE%E8%8A%B1%E5%B8%82%E8%8A%B1%E6%B5%B7",
+    "image_url": "https://your-bot-cdn.com/taichung/zhongshe_flower_market.jpg"
+  },
+  {
+    "name": "后里馬場",
+    "type": "spot",
+    "city": "台中",
+    "district": "后里區",
+    "description": "歷史悠久的馬術場，提供體驗活動",
+    "tags": [
+      "馬術",
+      "運動",
+      "體驗",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%90%8E%E9%87%8C%E5%8D%80%20%E5%90%8E%E9%87%8C%E9%A6%AC%E5%A0%B4",
+    "image_url": "https://your-bot-cdn.com/taichung/houli_horse_farm.jpg"
+  },
+  {
+    "name": "一德洋樓 (林懋陽故居)",
+    "type": "spot",
+    "city": "台中",
+    "district": "北屯區",
+    "description": "結合閩式、日式、西式風格的百年建築，常有藝文展覽",
+    "tags": [
+      "古蹟",
+      "建築",
+      "藝文",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E8%80%81%E8%A1%976",
+    "image_url": "https://your-bot-cdn.com/taichung/yide_mansion.jpg"
+  },
+  {
+    "name": "分子藥局 (大里店)",
+    "type": "cafe",
+    "city": "台中",
+    "district": "大里區",
+    "description": "設計感十足的金色藥局/咖啡廳，網美拍照熱點",
+    "tags": [
+      "咖啡",
+      "拍照",
+      "建築",
+      "文青"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E8%80%81%E8%A1%977",
+    "image_url": "https://your-bot-cdn.com/taichung/molecule_pharmacy.jpg"
+  },
+  {
+    "name": "臺中文學館",
+    "type": "spot",
+    "city": "台中",
+    "district": "西區",
+    "description": "日式宿舍群改建，結合文學展示與日式庭園",
+    "tags": [
+      "文化",
+      "日式",
+      "文學",
+      "古蹟"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E8%80%81%E8%A1%978",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_literature_museum.jpg"
+  },
+  {
+    "name": "新社花海",
+    "type": "spot",
+    "city": "台中",
+    "district": "新社區",
+    "description": "季節性大型花卉展覽，廣闊花田景觀",
+    "tags": [
+      "花卉",
+      "季節限定",
+      "拍照",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E8%80%81%E8%A1%979",
+    "image_url": "https://your-bot-cdn.com/taichung/xinshie_sea_of_flowers.jpg"
+  },
+  {
+    "name": "后豐鐵馬道",
+    "type": "walk",
+    "city": "台中",
+    "district": "后里區",
+    "description": "舊山線鐵路改建自行車道，沿途有九號隧道與花梁鋼橋",
+    "tags": [
+      "自行車",
+      "步道",
+      "古蹟",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B40",
+    "image_url": "https://your-bot-cdn.com/taichung/houfeng_bikeway.jpg"
+  },
+  {
+    "name": "望高寮夜景公園",
+    "type": "spot",
+    "city": "台中",
+    "district": "南屯區",
+    "description": "居高臨下，欣賞大台中夜景的絕佳地點",
+    "tags": [
+      "夜景",
+      "觀景",
+      "拍照",
+      "浪漫"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B41",
+    "image_url": "https://your-bot-cdn.com/taichung/wanggaoliao_park.jpg"
+  },
+  {
+    "name": "柳川水岸景觀步道",
+    "type": "walk",
+    "city": "台中",
+    "district": "中區",
+    "description": "市區親水河岸步道，夜晚燈光優美，適合散步",
+    "tags": [
+      "散步",
+      "水岸",
+      "夜景",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B42",
+    "image_url": "https://your-bot-cdn.com/taichung/liuchuan_waterfront.jpg"
+  },
+  {
+    "name": "筏子溪門戶迎賓水岸廊道",
+    "type": "walk",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "水岸景觀與大型TAICHUNG裝置藝術，適合散步拍照",
+    "tags": [
+      "水岸",
+      "拍照",
+      "散步",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B43",
+    "image_url": "https://your-bot-cdn.com/taichung/fazi_river_corridor.jpg"
+  },
+  {
+    "name": "路地冰の怪物",
+    "type": "cafe",
+    "city": "台中",
+    "district": "西區",
+    "description": "日式風格的刨冰專賣店，造型可愛的冰品人氣高",
+    "tags": [
+      "甜點",
+      "日式",
+      "美食",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B44",
+    "image_url": "https://your-bot-cdn.com/taichung/luji_ice_monster.jpg"
+  },
+  {
+    "name": "清水鬼洞",
+    "type": "spot",
+    "city": "台中",
+    "district": "清水區",
+    "description": "二次大戰遺跡，神秘的地下通道",
+    "tags": [
+      "歷史",
+      "探險",
+      "遺跡",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B420",
+    "image_url": "https://your-bot-cdn.com/taichung/qingshui_ghost_cave.jpg"
+  },
+  {
+    "name": "沙鹿休閒景觀公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "沙鹿區",
+    "description": "大型觀景平台，可俯瞰海線美景",
+    "tags": [
+      "公園",
+      "觀景",
+      "休閒",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B421",
+    "image_url": "https://your-bot-cdn.com/taichung/shalu_leisure_park.jpg"
+  },
+  {
+    "name": "東海藝術街商圈",
+    "type": "cafe",
+    "city": "台中",
+    "district": "龍井區",
+    "description": "充滿異國風情的藝術街道，特色咖啡廳與手作店",
+    "tags": [
+      "藝術",
+      "文創",
+      "咖啡",
+      "逛街"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B422",
+    "image_url": "https://your-bot-cdn.com/taichung/donghai_art_st.jpg"
+  },
+  {
+    "name": "大安濱海樂園",
+    "type": "spot",
+    "city": "台中",
+    "district": "大安區",
+    "description": "海灘與親水設施，適合夏季戲水",
+    "tags": [
+      "海邊",
+      "戲水",
+      "親子",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B423",
+    "image_url": "https://your-bot-cdn.com/taichung/daan_beach.jpg"
+  },
+  {
+    "name": "后里泰安派出所櫻花",
+    "type": "spot",
+    "city": "台中",
+    "district": "后里區",
+    "description": "季節限定的櫻花林，是中部熱門賞櫻地",
+    "tags": [
+      "季節限定",
+      "櫻花",
+      "拍照",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B424",
+    "image_url": "https://your-bot-cdn.com/taichung/tai-an_sakura.jpg"
+  },
+  {
+    "name": "東勢林場遊樂區",
+    "type": "walk",
+    "city": "台中",
+    "district": "東勢區",
+    "description": "多樣生態與林相，螢火蟲、桐花等季節美景",
+    "tags": [
+      "森林",
+      "生態",
+      "自然",
+      "賞花"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B425",
+    "image_url": "https://your-bot-cdn.com/taichung/dongshi_forest.jpg"
+  },
+  {
+    "name": "新社古堡花園",
+    "type": "spot",
+    "city": "台中",
+    "district": "新社區",
+    "description": "歐式古堡與庭園造景，適合情侶約會及拍照",
+    "tags": [
+      "歐風",
+      "庭園",
+      "拍照",
+      "約會"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B426",
+    "image_url": "https://your-bot-cdn.com/taichung/xinshie_castle.jpg"
+  },
+  {
+    "name": "石岡情人木橋",
+    "type": "walk",
+    "city": "台中",
+    "district": "石岡區",
+    "description": "地震遺跡與特色木橋，周邊有觀景與休閒區",
+    "tags": [
+      "古蹟",
+      "拍照",
+      "休閒",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B427",
+    "image_url": "https://your-bot-cdn.com/taichung/shigang_lovers_bridge.jpg"
+  },
+  {
+    "name": "谷關溫泉區",
+    "type": "spot",
+    "city": "台中",
+    "district": "和平區",
+    "description": "知名山區溫泉區，多家溫泉飯店與泡湯設施",
+    "tags": [
+      "溫泉",
+      "山區",
+      "休閒",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B428",
+    "image_url": "https://your-bot-cdn.com/taichung/guguan_hotspring.jpg"
+  },
+  {
+    "name": "武陵農場",
+    "type": "spot",
+    "city": "台中",
+    "district": "和平區",
+    "description": "高山農場，四季花卉、雪景與露營區",
+    "tags": [
+      "高山",
+      "自然",
+      "賞花",
+      "露營"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B429",
+    "image_url": "https://your-bot-cdn.com/taichung/wuling_farm.jpg"
+  },
+  {
+    "name": "福壽山農場",
+    "type": "spot",
+    "city": "台中",
+    "district": "和平區",
+    "description": "高山景觀與果園，蘋果王與天池為特色",
+    "tags": [
+      "高山",
+      "自然",
+      "果園",
+      "觀景"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%920",
+    "image_url": "https://your-bot-cdn.com/taichung/fushoushan_farm.jpg"
+  },
+  {
+    "name": "大雪山國家森林遊樂區",
+    "type": "walk",
+    "city": "台中",
+    "district": "和平區",
+    "description": "高海拔森林，賞鳥、日出、雲海勝地",
+    "tags": [
+      "森林",
+      "自然",
+      "登山",
+      "生態"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%921",
+    "image_url": "https://your-bot-cdn.com/taichung/dasyueshan_forest.jpg"
+  },
+  {
+    "name": "八仙山國家森林遊樂區",
+    "type": "walk",
+    "city": "台中",
+    "district": "和平區",
+    "description": "台灣八大景之一，林木蓊鬱，適合避暑",
+    "tags": [
+      "森林",
+      "自然",
+      "登山",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%922",
+    "image_url": "https://your-bot-cdn.com/taichung/baxianshan_forest.jpg"
+  },
+  {
+    "name": "東豐自行車綠廊",
+    "type": "walk",
+    "city": "台中",
+    "district": "豐原區",
+    "description": "全台首條由鐵道改建的自行車專用道",
+    "tags": [
+      "自行車",
+      "休閒",
+      "步道",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%923",
+    "image_url": "https://your-bot-cdn.com/taichung/dongfeng_bikeway.jpg"
+  },
+  {
+    "name": "月眉糖廠",
+    "type": "spot",
+    "city": "台中",
+    "district": "后里區",
+    "description": "歷史悠久的糖廠，有製糖文物展示與冰品販售",
+    "tags": [
+      "古蹟",
+      "歷史",
+      "甜點",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%924",
+    "image_url": "https://your-bot-cdn.com/taichung/yuemei_sugar_factory.jpg"
+  },
+  {
+    "name": "張家祖廟",
+    "type": "spot",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "保存完整的清代閩南式建築，國定古蹟",
+    "tags": [
+      "古蹟",
+      "建築",
+      "文化",
+      "歷史"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%925",
+    "image_url": "https://your-bot-cdn.com/taichung/zhang_family_temple.jpg"
+  },
+  {
+    "name": "梧棲觀光漁港",
+    "type": "spot",
+    "city": "台中",
+    "district": "梧棲區",
+    "description": "海鮮市場與觀光區，可品嚐海產與搭船遊港",
+    "tags": [
+      "美食",
+      "海鮮",
+      "漁港",
+      "觀光"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%926",
+    "image_url": "https://your-bot-cdn.com/taichung/wuqi_fish_port.jpg"
+  },
+  {
+    "name": "都會公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "台中最大的都市綠地，適合全家大小休閒與運動",
+    "tags": [
+      "公園",
+      "散步",
+      "休閒",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%927",
+    "image_url": "https://your-bot-cdn.com/taichung/metropolitan_park.jpg"
+  },
+  {
+    "name": "旱溪親水式自行車道",
+    "type": "walk",
+    "city": "台中",
+    "district": "東區",
+    "description": "沿著旱溪興建的自行車道，環境舒適",
+    "tags": [
+      "自行車",
+      "水岸",
+      "休閒",
+      "運動"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%928",
+    "image_url": "https://your-bot-cdn.com/taichung/hanxi_bikeway.jpg"
+  },
+  {
+    "name": "北區中正公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "北區",
+    "description": "歷史悠久的市民公園，有湖心亭與綠地",
+    "tags": [
+      "公園",
+      "休閒",
+      "散步",
+      "古蹟"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%929",
+    "image_url": "https://your-bot-cdn.com/taichung/zhongzheng_park.jpg"
+  },
+  {
+    "name": "孔廟",
+    "type": "spot",
+    "city": "台中",
+    "district": "北區",
+    "description": "莊嚴宏偉的傳統建築，提供文化氛圍",
+    "tags": [
+      "古蹟",
+      "文化",
+      "建築",
+      "宗教"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%880",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_confucius_temple.jpg"
+  },
+  {
+    "name": "刑務所演武場",
+    "type": "spot",
+    "city": "台中",
+    "district": "西區",
+    "description": "日式武道館建築，充滿歷史氛圍與藝文活動",
+    "tags": [
+      "古蹟",
+      "日式",
+      "藝文",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%881",
+    "image_url": "https://your-bot-cdn.com/taichung/shiwuso_enbudan.jpg"
+  },
+  {
+    "name": "台灣印刷探索館",
+    "type": "spot",
+    "city": "台中",
+    "district": "南區",
+    "description": "印刷主題的觀光工廠，適合親子教育與體驗",
+    "tags": [
+      "親子",
+      "教育",
+      "工廠",
+      "體驗"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%882",
+    "image_url": "https://your-bot-cdn.com/taichung/printing_museum.jpg"
+  },
+  {
+    "name": "知卡宣森林公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "太平區",
+    "description": "大型森林公園，多樣遊樂設施與花園景觀",
+    "tags": [
+      "公園",
+      "森林",
+      "親子",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%883",
+    "image_url": "https://your-bot-cdn.com/taichung/jikaxuan_park.jpg"
+  },
+  {
+    "name": "九二一地震教育園區",
+    "type": "spot",
+    "city": "台中",
+    "district": "霧峰區",
+    "description": "保留地震遺跡的博物館，具教育意義",
+    "tags": [
+      "教育",
+      "歷史",
+      "博物館",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%884",
+    "image_url": "https://your-bot-cdn.com/taichung/921_earthquake_museum.jpg"
+  },
+  {
+    "name": "潭子運動公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "潭子區",
+    "description": "寬敞綠地與運動設施，適合散步與活動",
+    "tags": [
+      "公園",
+      "運動",
+      "休閒",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%885",
+    "image_url": "https://your-bot-cdn.com/taichung/tanzi_sports_park.jpg"
+  },
+  {
+    "name": "烏日高鐵站廣場",
+    "type": "spot",
+    "city": "台中",
+    "district": "烏日區",
+    "description": "交通樞紐，周邊有商場與美食",
+    "tags": [
+      "交通",
+      "購物",
+      "美食",
+      "地標"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%886",
+    "image_url": "https://your-bot-cdn.com/taichung/wuri_thsr.jpg"
+  },
+  {
+    "name": "大雅公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "大雅區",
+    "description": "當地社區公園，有兒童遊樂設施與步道",
+    "tags": [
+      "公園",
+      "休閒",
+      "親子",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%887",
+    "image_url": "https://your-bot-cdn.com/taichung/daya_park.jpg"
+  },
+  {
+    "name": "大里區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "大里區",
+    "description": "當地地標，周邊有行政與商業區",
+    "tags": [
+      "地標",
+      "行政",
+      "商業",
+      "城市"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%888",
+    "image_url": "https://your-bot-cdn.com/taichung/dali_district_office.jpg"
+  },
+  {
+    "name": "南屯老街",
+    "type": "spot",
+    "city": "台中",
+    "district": "南屯區",
+    "description": "台中發源地之一，保留傳統街景與在地小吃",
+    "tags": [
+      "老街",
+      "古蹟",
+      "美食",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%889",
+    "image_url": "https://your-bot-cdn.com/taichung/nantun_old_street.jpg"
+  },
+  {
+    "name": "台中市議會",
+    "type": "spot",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "現代建築地標，周邊有大片綠地",
+    "tags": [
+      "地標",
+      "建築",
+      "城市",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%910",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_city_council.jpg"
+  },
+  {
+    "name": "逢甲大學",
+    "type": "walk",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "校園環境開放，附近美食多，適合夜晚散步",
+    "tags": [
+      "校園",
+      "散步",
+      "美食",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%911",
+    "image_url": "https://your-bot-cdn.com/taichung/feng_chia_university.jpg"
+  },
+  {
+    "name": "東海別墅商圈",
+    "type": "spot",
+    "city": "台中",
+    "district": "龍井區",
+    "description": "大學城商圈，平價美食與生活機能集中",
+    "tags": [
+      "商圈",
+      "美食",
+      "學生",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%912",
+    "image_url": "https://your-bot-cdn.com/taichung/donghai_villa_market.jpg"
+  },
+  {
+    "name": "台中港",
+    "type": "spot",
+    "city": "台中",
+    "district": "梧棲區",
+    "description": "重要海港與工業區，有觀景碼頭",
+    "tags": [
+      "海港",
+      "觀景",
+      "工業",
+      "城市"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%913",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_port.jpg"
+  },
+  {
+    "name": "神岡區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "神岡區",
+    "description": "當地行政中心，周邊有主要街道",
+    "tags": [
+      "地標",
+      "行政",
+      "城市",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%914",
+    "image_url": "https://your-bot-cdn.com/taichung/shengang_office.jpg"
+  },
+  {
+    "name": "神岡社口犂頭店",
+    "type": "spot",
+    "city": "台中",
+    "district": "神岡區",
+    "description": "歷史悠久傳統農具店，具文化保存價值",
+    "tags": [
+      "古蹟",
+      "文化",
+      "歷史",
+      "在地"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%915",
+    "image_url": "https://your-bot-cdn.com/taichung/shekou_litou_shop.jpg"
+  },
+  {
+    "name": "社口林宅",
+    "type": "spot",
+    "city": "台中",
+    "district": "神岡區",
+    "description": "傳統閩南式古宅，列為市定古蹟",
+    "tags": [
+      "古蹟",
+      "建築",
+      "文化",
+      "歷史"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%916",
+    "image_url": "https://your-bot-cdn.com/taichung/shekou_lin_residence.jpg"
+  },
+  {
+    "name": "和平區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "和平區",
+    "description": "山區行政中心，周邊有原住民文化景點",
+    "tags": [
+      "行政",
+      "原民文化",
+      "山區",
+      "地標"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%917",
+    "image_url": "https://your-bot-cdn.com/taichung/heping_office.jpg"
+  },
+  {
+    "name": "梨山風景區",
+    "type": "spot",
+    "city": "台中",
+    "district": "和平區",
+    "description": "高山景點，四季皆有不同的自然美景與果園",
+    "tags": [
+      "高山",
+      "自然",
+      "觀景",
+      "果園"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%918",
+    "image_url": "https://your-bot-cdn.com/taichung/lishan_scenic_area.jpg"
+  },
+  {
+    "name": "環山部落",
+    "type": "walk",
+    "city": "台中",
+    "district": "和平區",
+    "description": "泰雅族部落，有獨特的山區生活與文化體驗",
+    "tags": [
+      "原民文化",
+      "山區",
+      "自然",
+      "體驗"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%919",
+    "image_url": "https://your-bot-cdn.com/taichung/huanshan_tribe.jpg"
+  },
+  {
+    "name": "梨山文物陳列館",
+    "type": "spot",
+    "city": "台中",
+    "district": "和平區",
+    "description": "展示梨山地區自然生態與原住民文物",
+    "tags": [
+      "博物館",
+      "文化",
+      "自然",
+      "教育"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B40",
+    "image_url": "https://your-bot-cdn.com/taichung/lishan_museum.jpg"
+  },
+  {
+    "name": "松鶴部落",
+    "type": "walk",
+    "city": "台中",
+    "district": "和平區",
+    "description": "充滿日式木屋風格的部落，具歷史氛圍",
+    "tags": [
+      "原民文化",
+      "日式",
+      "古蹟",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B41",
+    "image_url": "https://your-bot-cdn.com/taichung/songhe_tribe.jpg"
+  },
+  {
+    "name": "谷關七雄步道群（入門段）",
+    "type": "walk",
+    "city": "台中",
+    "district": "和平區",
+    "description": "知名登山步道群，多樣難度選擇",
+    "tags": [
+      "登山",
+      "步道",
+      "自然",
+      "運動"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B42",
+    "image_url": "https://your-bot-cdn.com/taichung/guguan_7_heroes.jpg"
+  },
+  {
+    "name": "石岡水壩",
+    "type": "spot",
+    "city": "台中",
+    "district": "石岡區",
+    "description": "重要水利設施，有觀景與休閒步道",
+    "tags": [
+      "水利",
+      "觀景",
+      "自然",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B43",
+    "image_url": "https://your-bot-cdn.com/taichung/shigang_dam.jpg"
+  },
+  {
+    "name": "東勢客家文化園區",
+    "type": "spot",
+    "city": "台中",
+    "district": "東勢區",
+    "description": "由舊火車站改建，展示客家文化與歷史",
+    "tags": [
+      "客家文化",
+      "歷史",
+      "古蹟",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B44",
+    "image_url": "https://your-bot-cdn.com/taichung/dongshi_hakka_park.jpg"
+  },
+  {
+    "name": "東勢林業文化園區",
+    "type": "walk",
+    "city": "台中",
+    "district": "東勢區",
+    "description": "昔日伐木場，有水池與歷史建築，適合散步",
+    "tags": [
+      "歷史",
+      "自然",
+      "古蹟",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B45",
+    "image_url": "https://your-bot-cdn.com/taichung/dongshi_forestry_park.jpg"
+  },
+  {
+    "name": "后里環保公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "后里區",
+    "description": "利用掩埋場改建的綠地，視野遼闊",
+    "tags": [
+      "公園",
+      "休閒",
+      "散步",
+      "觀景"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B46",
+    "image_url": "https://your-bot-cdn.com/taichung/houli_eco_park.jpg"
+  },
+  {
+    "name": "月眉人工濕地公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "后里區",
+    "description": "生態豐富的濕地，賞鳥與自然教育地點",
+    "tags": [
+      "生態",
+      "自然",
+      "教育",
+      "賞鳥"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B47",
+    "image_url": "https://your-bot-cdn.com/taichung/yuemei_wetland.jpg"
+  },
+  {
+    "name": "外埔區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "外埔區",
+    "description": "當地行政中心，周邊有農田景觀",
+    "tags": [
+      "行政",
+      "田園",
+      "城市",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B48",
+    "image_url": "https://your-bot-cdn.com/taichung/waipu_office.jpg"
+  },
+  {
+    "name": "永豐里桐花步道",
+    "type": "walk",
+    "city": "台中",
+    "district": "外埔區",
+    "description": "季節限定的桐花步道，可賞五月雪",
+    "tags": [
+      "步道",
+      "賞花",
+      "自然",
+      "季節限定"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B49",
+    "image_url": "https://your-bot-cdn.com/taichung/yongfeng_tung_blossom.jpg"
+  },
+  {
+    "name": "鐵砧山劍井",
+    "type": "spot",
+    "city": "台中",
+    "district": "大甲區",
+    "description": "鄭成功插劍取水傳說地，具歷史意義",
+    "tags": [
+      "歷史",
+      "古蹟",
+      "文化",
+      "傳說"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%990",
+    "image_url": "https://your-bot-cdn.com/taichung/tieh_chen_jianjing.jpg"
+  },
+  {
+    "name": "清水街觀光夜市",
+    "type": "spot",
+    "city": "台中",
+    "district": "清水區",
+    "description": "清水地區主要的夜市，在地美食多樣",
+    "tags": [
+      "夜市",
+      "美食",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%991",
+    "image_url": "https://your-bot-cdn.com/taichung/qingshui_nightmarket.jpg"
+  },
+  {
+    "name": "大雅橫山公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "大雅區",
+    "description": "社區公園，有兒童遊樂區與散步步道",
+    "tags": [
+      "公園",
+      "休閒",
+      "親子",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%992",
+    "image_url": "https://your-bot-cdn.com/taichung/daya_hengshan_park.jpg"
+  },
+  {
+    "name": "台中市纖維工藝博物館",
+    "type": "spot",
+    "city": "台中",
+    "district": "大里區",
+    "description": "台灣唯一的纖維工藝主題博物館",
+    "tags": [
+      "博物館",
+      "工藝",
+      "文化",
+      "展覽"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%993",
+    "image_url": "https://your-bot-cdn.com/taichung/fiber_arts_museum.jpg"
+  },
+  {
+    "name": "太平古農莊文物館",
+    "type": "spot",
+    "city": "台中",
+    "district": "太平區",
+    "description": "保存農村文物與歷史，具地方特色",
+    "tags": [
+      "歷史",
+      "文化",
+      "古蹟",
+      "在地"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%994",
+    "image_url": "https://your-bot-cdn.com/taichung/taiping_farm_museum.jpg"
+  },
+  {
+    "name": "潭子區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "潭子區",
+    "description": "當地行政中心，周邊有主要商業區",
+    "tags": [
+      "行政",
+      "商業",
+      "城市",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%995",
+    "image_url": "https://your-bot-cdn.com/taichung/tanzi_office.jpg"
+  },
+  {
+    "name": "大雅忠義公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "大雅區",
+    "description": "社區型公園，有籃球場與兒童遊戲區",
+    "tags": [
+      "公園",
+      "休閒",
+      "運動",
+      "親子"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%996",
+    "image_url": "https://your-bot-cdn.com/taichung/daya_zhongyi_park.jpg"
+  },
+  {
+    "name": "臺中港旅客服務中心",
+    "type": "spot",
+    "city": "台中",
+    "district": "梧棲區",
+    "description": "提供遊港服務與觀景平台，近梧棲漁港",
+    "tags": [
+      "海港",
+      "觀景",
+      "休閒",
+      "觀光"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%997",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_port_center.jpg"
+  },
+  {
+    "name": "外埔農會花園",
+    "type": "spot",
+    "city": "台中",
+    "district": "外埔區",
+    "description": "季節性花卉展覽，充滿田園風光",
+    "tags": [
+      "花卉",
+      "自然",
+      "拍照",
+      "季節限定"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%998",
+    "image_url": "https://your-bot-cdn.com/taichung/waipu_farmers_garden.jpg"
+  },
+  {
+    "name": "清水眷村文化園區",
+    "type": "spot",
+    "city": "台中",
+    "district": "清水區",
+    "description": "保存眷村建築與文化，常有文創市集",
+    "tags": [
+      "眷村",
+      "文創",
+      "古蹟",
+      "拍照"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%999",
+    "image_url": "https://your-bot-cdn.com/taichung/qingshui_military_village.jpg"
+  },
+  {
+    "name": "大甲林氏貞孝坊",
+    "type": "spot",
+    "city": "台中",
+    "district": "大甲區",
+    "description": "清代石牌坊，具歷史與建築價值",
+    "tags": [
+      "古蹟",
+      "歷史",
+      "建築",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE0",
+    "image_url": "https://your-bot-cdn.com/taichung/dajia_lin_shrine.jpg"
+  },
+  {
+    "name": "大里藝術廣場",
+    "type": "spot",
+    "city": "台中",
+    "district": "大里區",
+    "description": "購物中心結合藝文展演空間",
+    "tags": [
+      "購物",
+      "藝文",
+      "展覽",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE1",
+    "image_url": "https://your-bot-cdn.com/taichung/dali_art_plaza.jpg"
+  },
+  {
+    "name": "豐原漆藝館",
+    "type": "spot",
+    "city": "台中",
+    "district": "豐原區",
+    "description": "推廣漆藝文化與工藝品展示",
+    "tags": [
+      "工藝",
+      "文化",
+      "展覽",
+      "教育"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE2",
+    "image_url": "https://your-bot-cdn.com/taichung/fengyuan_lacquer_museum.jpg"
+  },
+  {
+    "name": "豐原公老坪",
+    "type": "walk",
+    "city": "台中",
+    "district": "豐原區",
+    "description": "山區景觀與果園，可俯瞰豐原市區",
+    "tags": [
+      "觀景",
+      "果園",
+      "自然",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE3",
+    "image_url": "https://your-bot-cdn.com/taichung/gonglaoping.jpg"
+  },
+  {
+    "name": "霧峰農會酒莊",
+    "type": "spot",
+    "city": "台中",
+    "district": "霧峰區",
+    "description": "釀酒文化展示與品酒體驗，特色酒品與伴手禮",
+    "tags": [
+      "文化",
+      "體驗",
+      "酒莊",
+      "美食"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE4",
+    "image_url": "https://your-bot-cdn.com/taichung/wufeng_farm_winery.jpg"
+  },
+  {
+    "name": "光復新村眷村博物館",
+    "type": "spot",
+    "city": "台中",
+    "district": "霧峰區",
+    "description": "展示眷村歷史與生活文化",
+    "tags": [
+      "眷村",
+      "博物館",
+      "歷史",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE5",
+    "image_url": "https://your-bot-cdn.com/taichung/guangfu_village_museum.jpg"
+  },
+  {
+    "name": "烏日啤酒觀光工廠",
+    "type": "spot",
+    "city": "台中",
+    "district": "烏日區",
+    "description": "啤酒生產過程導覽與試飲，有冰品販售",
+    "tags": [
+      "工廠",
+      "體驗",
+      "美食",
+      "觀光"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE6",
+    "image_url": "https://your-bot-cdn.com/taichung/wuri_beer_factory.jpg"
+  },
+  {
+    "name": "筏子溪親水廊道",
+    "type": "walk",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "沿溪親水步道，夜晚燈光造景，適合散步",
+    "tags": [
+      "水岸",
+      "散步",
+      "夜景",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE7",
+    "image_url": "https://your-bot-cdn.com/taichung/fazi_river_walk.jpg"
+  },
+  {
+    "name": "中央公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "台中最大的綠地公園，多功能設施與生態湖",
+    "tags": [
+      "公園",
+      "休閒",
+      "散步",
+      "生態"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE8",
+    "image_url": "https://your-bot-cdn.com/taichung/central_park.jpg"
+  },
+  {
+    "name": "大安區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "大安區",
+    "description": "當地行政中心，周邊有農田景觀",
+    "tags": [
+      "行政",
+      "田園",
+      "城市",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE9",
+    "image_url": "https://your-bot-cdn.com/taichung/daan_office.jpg"
+  },
+  {
+    "name": "安農溫泉",
+    "type": "spot",
+    "city": "台中",
+    "district": "大安區",
+    "description": "大安區的特色溫泉，適合休閒泡湯",
+    "tags": [
+      "溫泉",
+      "休閒",
+      "在地",
+      "自然"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A00",
+    "image_url": "https://your-bot-cdn.com/taichung/annan_hotspring.jpg"
+  },
+  {
+    "name": "台中市北區國民運動中心",
+    "type": "walk",
+    "city": "台中",
+    "district": "北區",
+    "description": "提供多樣室內運動設施，周邊有公園",
+    "tags": [
+      "運動",
+      "休閒",
+      "健身",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A01",
+    "image_url": "https://your-bot-cdn.com/taichung/beiqu_sports_center.jpg"
+  },
+  {
+    "name": "中國醫藥大學商圈",
+    "type": "spot",
+    "city": "台中",
+    "district": "北區",
+    "description": "學生與醫院人潮聚集，美食與商店多",
+    "tags": [
+      "商圈",
+      "美食",
+      "學生",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A02",
+    "image_url": "https://your-bot-cdn.com/taichung/cmu_market.jpg"
+  },
+  {
+    "name": "中區舊城區",
+    "type": "walk",
+    "city": "台中",
+    "district": "中區",
+    "description": "保留許多日治時期老建築與巷弄，適合散步探訪",
+    "tags": [
+      "古蹟",
+      "歷史",
+      "散步",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A03",
+    "image_url": "https://your-bot-cdn.com/taichung/zhongqu_old_town.jpg"
+  },
+  {
+    "name": "台中市政府",
+    "type": "spot",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "現代化辦公大樓，周邊有七期商業區",
+    "tags": [
+      "地標",
+      "城市",
+      "建築",
+      "商業"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A04",
+    "image_url": "https://your-bot-cdn.com/taichung/taichung_city_hall.jpg"
+  },
+  {
+    "name": "新光三越/大遠百商圈",
+    "type": "spot",
+    "city": "台中",
+    "district": "西屯區",
+    "description": "七期頂級百貨商圈，國際精品與美食",
+    "tags": [
+      "購物",
+      "美食",
+      "精品",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A05",
+    "image_url": "https://your-bot-cdn.com/taichung/xinguang_far_eastern.jpg"
+  },
+  {
+    "name": "南屯圖書館",
+    "type": "spot",
+    "city": "台中",
+    "district": "南屯區",
+    "description": "造型特殊的公共圖書館，提供閱讀空間",
+    "tags": [
+      "建築",
+      "文青",
+      "閱讀",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A06",
+    "image_url": "https://your-bot-cdn.com/taichung/nantun_library.jpg"
+  },
+  {
+    "name": "豐樂公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "南屯區",
+    "description": "大型公園，湖畔步道與雕塑作品",
+    "tags": [
+      "公園",
+      "散步",
+      "休閒",
+      "藝術"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A07",
+    "image_url": "https://your-bot-cdn.com/taichung/fengle_park.jpg"
+  },
+  {
+    "name": "南區國立公共資訊圖書館",
+    "type": "spot",
+    "city": "台中",
+    "district": "南區",
+    "description": "現代化大型圖書館，周邊有水岸景觀",
+    "tags": [
+      "圖書館",
+      "建築",
+      "閱讀",
+      "休閒"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A08",
+    "image_url": "https://your-bot-cdn.com/taichung/natl_public_info_library.jpg"
+  },
+  {
+    "name": "積善樓",
+    "type": "spot",
+    "city": "台中",
+    "district": "東區",
+    "description": "歷史建築，保留清代建築風格",
+    "tags": [
+      "古蹟",
+      "建築",
+      "歷史",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A09",
+    "image_url": "https://your-bot-cdn.com/taichung/jishan_building.jpg"
+  },
+  {
+    "name": "東區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "東區",
+    "description": "當地行政中心，周邊有主要街道",
+    "tags": [
+      "地標",
+      "行政",
+      "城市",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%820",
+    "image_url": "https://your-bot-cdn.com/taichung/dongqu_office.jpg"
+  },
+  {
+    "name": "慈德慈惠堂",
+    "type": "spot",
+    "city": "台中",
+    "district": "北區",
+    "description": "知名媽祖廟，香火鼎盛",
+    "tags": [
+      "宗教",
+      "信仰",
+      "古蹟",
+      "文化"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%821",
+    "image_url": "https://your-bot-cdn.com/taichung/cide_cihui_temple.jpg"
+  },
+  {
+    "name": "南區樹義公園",
+    "type": "walk",
+    "city": "台中",
+    "district": "南區",
+    "description": "社區公園，有大片草皮與遊樂設施",
+    "tags": [
+      "公園",
+      "親子",
+      "休閒",
+      "散步"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%822",
+    "image_url": "https://your-bot-cdn.com/taichung/shuyi_park.jpg"
+  },
+  {
+    "name": "太平區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "太平區",
+    "description": "當地行政中心，周邊有主要商業區",
+    "tags": [
+      "地標",
+      "行政",
+      "城市",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%823",
+    "image_url": "https://your-bot-cdn.com/taichung/taiping_office.jpg"
+  },
+  {
+    "name": "烏日區公所",
+    "type": "spot",
+    "city": "台中",
+    "district": "烏日區",
+    "description": "當地行政中心，近高鐵站",
+    "tags": [
+      "行政",
+      "交通",
+      "城市",
+      "生活"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%824",
+    "image_url": "https://your-bot-cdn.com/taichung/wuri_office.jpg"
+  }
+]

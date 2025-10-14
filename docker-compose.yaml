@@ -1,0 +1,41 @@
+services:
+  bot:
+    build: .
+    container_name: today-go-where-bot
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/app             # 掛載程式碼，搭配 --reload 熱重載
+      - ./.env:/app/.env:ro
+    command: >
+      uvicorn app.main:app
+      --host 0.0.0.0
+      --port 8080
+      --reload
+    restart: unless-stopped
+
+  # 需要再加快取/資料庫時，打開下面區塊即可
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: tgwb-redis
+  #   ports:
+  #     - "6379:6379"
+  #   restart: unless-stopped
+
+  # postgres:
+  #   image: postgres:16-alpine
+  #   container_name: tgwb-postgres
+  #   environment:
+  #     POSTGRES_USER: bot
+  #     POSTGRES_PASSWORD: botpass
+  #     POSTGRES_DB: botdb
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - pgdata:/var/lib/postgresql/data
+  #   restart: unless-stopped
+
+# volumes:
+#   pgdata:

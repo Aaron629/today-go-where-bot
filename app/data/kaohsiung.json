@@ -1,0 +1,2111 @@
+[
+  {
+    "name": "美麗島站 光之穹頂",
+    "type": "spot",
+    "city": "高雄",
+    "district": "新興區",
+    "description": "世界最美地鐵站之一，彩色玻璃穹頂地標",
+    "tags": [
+      "地標",
+      "藝術",
+      "捷運"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%96%B0%E8%88%88%E5%8D%80%20%E7%BE%8E%E9%BA%97%E5%B3%B6%E7%AB%99%20%E5%85%89%E4%B9%8B%E7%A9%B9%E9%A0%82"
+  },
+  {
+    "name": "六合夜市",
+    "type": "food",
+    "city": "高雄",
+    "district": "新興區",
+    "description": "經典觀光夜市，聚集台灣小吃",
+    "tags": [
+      "夜市",
+      "美食",
+      "觀光"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%96%B0%E8%88%88%E5%8D%80%20%E5%85%AD%E5%90%88%E5%A4%9C%E5%B8%82"
+  },
+  {
+    "name": "中央公園",
+    "type": "walk",
+    "city": "高雄",
+    "district": "新興區",
+    "description": "市中心綠地公園，步道與水景",
+    "tags": [
+      "公園",
+      "散步",
+      "休閒"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%96%B0%E8%88%88%E5%8D%80%20%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "高雄市立電影館",
+    "type": "museum",
+    "city": "高雄",
+    "district": "前金區",
+    "description": "影展與主題展覽空間，臨愛河",
+    "tags": [
+      "電影",
+      "展覽",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%89%8D%E9%87%91%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E9%9B%BB%E5%BD%B1%E9%A4%A8"
+  },
+  {
+    "name": "新堀江商圈",
+    "type": "shop",
+    "city": "高雄",
+    "district": "前金區",
+    "description": "年輕流行商圈，服飾美食齊全",
+    "tags": [
+      "購物",
+      "美食",
+      "流行"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%89%8D%E9%87%91%E5%8D%80%20%E6%96%B0%E5%A0%80%E6%B1%9F%E5%95%86%E5%9C%88"
+  },
+  {
+    "name": "愛河之心",
+    "type": "spot",
+    "city": "高雄",
+    "district": "前金區",
+    "description": "愛河段景觀與步道，夜景優美",
+    "tags": [
+      "散步",
+      "夜景",
+      "河岸"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%89%8D%E9%87%91%E5%8D%80%20%E6%84%9B%E6%B2%B3%E4%B9%8B%E5%BF%83"
+  },
+  {
+    "name": "高雄市立文化中心",
+    "type": "spot",
+    "city": "高雄",
+    "district": "苓雅區",
+    "description": "藝文展演核心場館與綠地",
+    "tags": [
+      "藝文",
+      "展演",
+      "公園"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%8B%93%E9%9B%85%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B8%82%E7%AB%8B%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83"
+  },
+  {
+    "name": "四維彩虹教堂（勞工公園）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "苓雅區",
+    "description": "彩虹裝置與草地休憩",
+    "tags": [
+      "拍照",
+      "親子",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%8B%93%E9%9B%85%E5%8D%80%20%E5%9B%9B%E7%B6%AD%E5%BD%A9%E8%99%B9%E6%95%99%E5%A0%82%EF%BC%88%E5%8B%9E%E5%B7%A5%E5%85%AC%E5%9C%92%EF%BC%89"
+  },
+  {
+    "name": "武廟",
+    "type": "spot",
+    "city": "高雄",
+    "district": "苓雅區",
+    "description": "地方信仰中心，香火鼎盛",
+    "tags": [
+      "宗教",
+      "歷史",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%8B%93%E9%9B%85%E5%8D%80%20%E6%AD%A6%E5%BB%9F"
+  },
+  {
+    "name": "駁二藝術特區",
+    "type": "spot",
+    "city": "高雄",
+    "district": "鹽埕區",
+    "description": "倉庫群改造的文創園區，展覽市集多",
+    "tags": [
+      "文創",
+      "展覽",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B9%BD%E5%9F%95%E5%8D%80%20%E9%A7%81%E4%BA%8C%E8%97%9D%E8%A1%93%E7%89%B9%E5%8D%80"
+  },
+  {
+    "name": "棧貳庫 KW2",
+    "type": "spot",
+    "city": "高雄",
+    "district": "鹽埕區",
+    "description": "港邊老倉庫商場，夕陽海景",
+    "tags": [
+      "海景",
+      "美食",
+      "文青"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B9%BD%E5%9F%95%E5%8D%80%20%E6%A3%A7%E8%B2%B3%E5%BA%AB%20KW2"
+  },
+  {
+    "name": "高雄流行音樂中心",
+    "type": "spot",
+    "city": "高雄",
+    "district": "鹽埕區",
+    "description": "海港邊的大型演唱會與展演場域",
+    "tags": [
+      "音樂",
+      "演唱會",
+      "展演"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B9%BD%E5%9F%95%E5%8D%80%20%E9%AB%98%E9%9B%84%E6%B5%81%E8%A1%8C%E9%9F%B3%E6%A8%82%E4%B8%AD%E5%BF%83"
+  },
+  {
+    "name": "壽山動物園",
+    "type": "family",
+    "city": "高雄",
+    "district": "鼓山區",
+    "description": "山林中的親子友善動物園",
+    "tags": [
+      "親子",
+      "動物",
+      "教育"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%BC%93%E5%B1%B1%E5%8D%80%20%E5%A3%BD%E5%B1%B1%E5%8B%95%E7%89%A9%E5%9C%92"
+  },
+  {
+    "name": "西子灣風景區",
+    "type": "spot",
+    "city": "高雄",
+    "district": "鼓山區",
+    "description": "高雄經典夕陽與海景",
+    "tags": [
+      "海景",
+      "夕陽",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%BC%93%E5%B1%B1%E5%8D%80%20%E8%A5%BF%E5%AD%90%E7%81%A3%E9%A2%A8%E6%99%AF%E5%8D%80"
+  },
+  {
+    "name": "打狗英國領事館文化園區",
+    "type": "museum",
+    "city": "高雄",
+    "district": "鼓山區",
+    "description": "清代洋樓與歷史展覽，眺望港灣",
+    "tags": [
+      "歷史",
+      "建築",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%BC%93%E5%B1%B1%E5%8D%80%20%E6%89%93%E7%8B%97%E8%8B%B1%E5%9C%8B%E9%A0%98%E4%BA%8B%E9%A4%A8%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80"
+  },
+  {
+    "name": "旗津風車公園",
+    "type": "spot",
+    "city": "高雄",
+    "district": "旗津區",
+    "description": "海岸風車與步道，適合看夕陽",
+    "tags": [
+      "海邊",
+      "夕陽",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%97%97%E6%B4%A5%E5%8D%80%20%E6%97%97%E6%B4%A5%E9%A2%A8%E8%BB%8A%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "旗津海水浴場",
+    "type": "walk",
+    "city": "高雄",
+    "district": "旗津區",
+    "description": "細沙海灘與海鮮街",
+    "tags": [
+      "海灘",
+      "親子",
+      "美食"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%97%97%E6%B4%A5%E5%8D%80%20%E6%97%97%E6%B4%A5%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4"
+  },
+  {
+    "name": "旗後砲台",
+    "type": "spot",
+    "city": "高雄",
+    "district": "旗津區",
+    "description": "百年軍事遺址，展望台看港景",
+    "tags": [
+      "歷史",
+      "軍事",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%97%97%E6%B4%A5%E5%8D%80%20%E6%97%97%E5%BE%8C%E7%A0%B2%E5%8F%B0"
+  },
+  {
+    "name": "高雄展覽館",
+    "type": "spot",
+    "city": "高雄",
+    "district": "前鎮區",
+    "description": "國際級展覽場館，臨港景觀",
+    "tags": [
+      "展覽",
+      "會展",
+      "地標"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%89%8D%E9%8E%AE%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B1%95%E8%A6%BD%E9%A4%A8"
+  },
+  {
+    "name": "夢時代購物中心",
+    "type": "shop",
+    "city": "高雄",
+    "district": "前鎮區",
+    "description": "大型購物娛樂商城，摩天輪地標",
+    "tags": [
+      "購物",
+      "娛樂",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%89%8D%E9%8E%AE%E5%8D%80%20%E5%A4%A2%E6%99%82%E4%BB%A3%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83"
+  },
+  {
+    "name": "前鎮之星",
+    "type": "walk",
+    "city": "高雄",
+    "district": "前鎮區",
+    "description": "港灣景觀步道與橋梁",
+    "tags": [
+      "散步",
+      "海景",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%89%8D%E9%8E%AE%E5%8D%80%20%E5%89%8D%E9%8E%AE%E4%B9%8B%E6%98%9F"
+  },
+  {
+    "name": "國立科學工藝博物館",
+    "type": "museum",
+    "city": "高雄",
+    "district": "三民區",
+    "description": "大型科教館含常設與特展",
+    "tags": [
+      "科學",
+      "教育",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E4%B8%89%E6%B0%91%E5%8D%80%20%E5%9C%8B%E7%AB%8B%E7%A7%91%E5%AD%B8%E5%B7%A5%E8%97%9D%E5%8D%9A%E7%89%A9%E9%A4%A8"
+  },
+  {
+    "name": "高雄市客家文物館",
+    "type": "museum",
+    "city": "高雄",
+    "district": "三民區",
+    "description": "客家文化展示教育館",
+    "tags": [
+      "文化",
+      "博物館",
+      "教育"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E4%B8%89%E6%B0%91%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%B8%82%E5%AE%A2%E5%AE%B6%E6%96%87%E7%89%A9%E9%A4%A8"
+  },
+  {
+    "name": "中都濕地公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "三民區",
+    "description": "愛河支流旁的都會濕地",
+    "tags": [
+      "濕地",
+      "散步",
+      "生態"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E4%B8%89%E6%B0%91%E5%8D%80%20%E4%B8%AD%E9%83%BD%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "都會公園",
+    "type": "walk",
+    "city": "高雄",
+    "district": "楠梓區",
+    "description": "廣闊草地與自行車道，親子野餐",
+    "tags": [
+      "公園",
+      "散步",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A5%A0%E6%A2%93%E5%8D%80%20%E9%83%BD%E6%9C%83%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "國立高雄大學",
+    "type": "spot",
+    "city": "高雄",
+    "district": "楠梓區",
+    "description": "楓香大道與校園湖畔步道",
+    "tags": [
+      "校園",
+      "散步",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A5%A0%E6%A2%93%E5%8D%80%20%E5%9C%8B%E7%AB%8B%E9%AB%98%E9%9B%84%E5%A4%A7%E5%AD%B8"
+  },
+  {
+    "name": "援中港濕地公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "楠梓區",
+    "description": "濕地生態與候鳥棲地",
+    "tags": [
+      "生態",
+      "自然",
+      "賞鳥"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A5%A0%E6%A2%93%E5%8D%80%20%E6%8F%B4%E4%B8%AD%E6%B8%AF%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "小港森林公園",
+    "type": "walk",
+    "city": "高雄",
+    "district": "小港區",
+    "description": "林蔭步道與生態池",
+    "tags": [
+      "公園",
+      "散步",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B0%8F%E6%B8%AF%E5%8D%80%20%E5%B0%8F%E6%B8%AF%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "高雄國際機場觀景台",
+    "type": "spot",
+    "city": "高雄",
+    "district": "小港區",
+    "description": "近距離觀機起降",
+    "tags": [
+      "觀景",
+      "航空",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B0%8F%E6%B8%AF%E5%8D%80%20%E9%AB%98%E9%9B%84%E5%9C%8B%E9%9A%9B%E6%A9%9F%E5%A0%B4%E8%A7%80%E6%99%AF%E5%8F%B0"
+  },
+  {
+    "name": "紅毛港文化園區",
+    "type": "museum",
+    "city": "高雄",
+    "district": "小港區",
+    "description": "臨港工業與聚落史",
+    "tags": [
+      "歷史",
+      "港都",
+      "展覽"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B0%8F%E6%B8%AF%E5%8D%80%20%E7%B4%85%E6%AF%9B%E6%B8%AF%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80"
+  },
+  {
+    "name": "蓮池潭（龍虎塔）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "左營區",
+    "description": "龍虎塔、春秋閣等地標與環潭步道",
+    "tags": [
+      "湖景",
+      "宗教",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B7%A6%E7%87%9F%E5%8D%80%20%E8%93%AE%E6%B1%A0%E6%BD%AD%EF%BC%88%E9%BE%8D%E8%99%8E%E5%A1%94%EF%BC%89"
+  },
+  {
+    "name": "鳳山縣舊城（左營舊城）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "左營區",
+    "description": "清代古城遺跡與城門",
+    "tags": [
+      "歷史",
+      "古蹟",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B7%A6%E7%87%9F%E5%8D%80%20%E9%B3%B3%E5%B1%B1%E7%B8%A3%E8%88%8A%E5%9F%8E%EF%BC%88%E5%B7%A6%E7%87%9F%E8%88%8A%E5%9F%8E%EF%BC%89"
+  },
+  {
+    "name": "自助新村眷村文化園區",
+    "type": "spot",
+    "city": "高雄",
+    "district": "左營區",
+    "description": "眷村文化與彩繪",
+    "tags": [
+      "眷村",
+      "拍照",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B7%A6%E7%87%9F%E5%8D%80%20%E8%87%AA%E5%8A%A9%E6%96%B0%E6%9D%91%E7%9C%B7%E6%9D%91%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80"
+  },
+  {
+    "name": "澄觀湖",
+    "type": "nature",
+    "city": "高雄",
+    "district": "仁武區",
+    "description": "埤塘生態與湖畔步道",
+    "tags": [
+      "生態",
+      "散步",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E4%BB%81%E6%AD%A6%E5%8D%80%20%E6%BE%84%E8%A7%80%E6%B9%96"
+  },
+  {
+    "name": "八卦寮濕地公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "仁武區",
+    "description": "濕地與候鳥觀察點",
+    "tags": [
+      "自然",
+      "生態",
+      "賞鳥"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E4%BB%81%E6%AD%A6%E5%8D%80%20%E5%85%AB%E5%8D%A6%E5%AF%AE%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "仁武彩繪巷",
+    "type": "spot",
+    "city": "高雄",
+    "district": "仁武區",
+    "description": "社區彩繪與在地小吃",
+    "tags": [
+      "拍照",
+      "在地",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E4%BB%81%E6%AD%A6%E5%8D%80%20%E4%BB%81%E6%AD%A6%E5%BD%A9%E7%B9%AA%E5%B7%B7"
+  },
+  {
+    "name": "觀音山公園",
+    "type": "walk",
+    "city": "高雄",
+    "district": "大社區",
+    "description": "登高遠眺與步道",
+    "tags": [
+      "步道",
+      "觀景",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E7%A4%BE%E5%8D%80%20%E8%A7%80%E9%9F%B3%E5%B1%B1%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "大社清水宮",
+    "type": "spot",
+    "city": "高雄",
+    "district": "大社區",
+    "description": "地方信仰與傳統建築",
+    "tags": [
+      "宗教",
+      "文化",
+      "歷史"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E7%A4%BE%E5%8D%80%20%E5%A4%A7%E7%A4%BE%E6%B8%85%E6%B0%B4%E5%AE%AE"
+  },
+  {
+    "name": "大社老街",
+    "type": "food",
+    "city": "高雄",
+    "district": "大社區",
+    "description": "傳統小吃與在地商店",
+    "tags": [
+      "老街",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E7%A4%BE%E5%8D%80%20%E5%A4%A7%E7%A4%BE%E8%80%81%E8%A1%97"
+  },
+  {
+    "name": "岡山之眼天空廊道",
+    "type": "spot",
+    "city": "高雄",
+    "district": "岡山區",
+    "description": "高架觀景橋與夜間燈光秀",
+    "tags": [
+      "觀景",
+      "夜景",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B2%A1%E5%B1%B1%E5%8D%80%20%E5%B2%A1%E5%B1%B1%E4%B9%8B%E7%9C%BC%E5%A4%A9%E7%A9%BA%E5%BB%8A%E9%81%93"
+  },
+  {
+    "name": "空軍眷村文化園區",
+    "type": "museum",
+    "city": "高雄",
+    "district": "岡山區",
+    "description": "眷村故事與軍事文化",
+    "tags": [
+      "眷村",
+      "歷史",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B2%A1%E5%B1%B1%E5%8D%80%20%E7%A9%BA%E8%BB%8D%E7%9C%B7%E6%9D%91%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80"
+  },
+  {
+    "name": "阿公店水庫風景區",
+    "type": "nature",
+    "city": "高雄",
+    "district": "岡山區",
+    "description": "湖畔自行車道與山景",
+    "tags": [
+      "湖景",
+      "單車",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%B2%A1%E5%B1%B1%E5%8D%80%20%E9%98%BF%E5%85%AC%E5%BA%97%E6%B0%B4%E5%BA%AB%E9%A2%A8%E6%99%AF%E5%8D%80"
+  },
+  {
+    "name": "路竹運動公園",
+    "type": "walk",
+    "city": "高雄",
+    "district": "路竹區",
+    "description": "社區運動與親子設施",
+    "tags": [
+      "公園",
+      "親子",
+      "休憩"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%B7%AF%E7%AB%B9%E5%8D%80%20%E8%B7%AF%E7%AB%B9%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "路竹老街",
+    "type": "food",
+    "city": "高雄",
+    "district": "路竹區",
+    "description": "傳統小吃與百年商行",
+    "tags": [
+      "老街",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%B7%AF%E7%AB%B9%E5%8D%80%20%E8%B7%AF%E7%AB%B9%E8%80%81%E8%A1%97"
+  },
+  {
+    "name": "路科園區綠帶",
+    "type": "walk",
+    "city": "高雄",
+    "district": "路竹區",
+    "description": "園區綠帶步道",
+    "tags": [
+      "散步",
+      "綠地",
+      "休閒"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%B7%AF%E7%AB%B9%E5%8D%80%20%E8%B7%AF%E7%A7%91%E5%9C%92%E5%8D%80%E7%B6%A0%E5%B8%B6"
+  },
+  {
+    "name": "大崗山風景區（阿蓮側）",
+    "type": "nature",
+    "city": "高雄",
+    "district": "阿蓮區",
+    "description": "岩壁、寺廟與展望",
+    "tags": [
+      "登山",
+      "宗教",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%98%BF%E8%93%AE%E5%8D%80%20%E5%A4%A7%E5%B4%97%E5%B1%B1%E9%A2%A8%E6%99%AF%E5%8D%80%EF%BC%88%E9%98%BF%E8%93%AE%E5%81%B4%EF%BC%89"
+  },
+  {
+    "name": "阿蓮夜市",
+    "type": "food",
+    "city": "高雄",
+    "district": "阿蓮區",
+    "description": "在地夜市美食",
+    "tags": [
+      "夜市",
+      "美食",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%98%BF%E8%93%AE%E5%8D%80%20%E9%98%BF%E8%93%AE%E5%A4%9C%E5%B8%82"
+  },
+  {
+    "name": "崗山仔農村風貌",
+    "type": "spot",
+    "city": "高雄",
+    "district": "阿蓮區",
+    "description": "田園景觀與農事體驗",
+    "tags": [
+      "農村",
+      "體驗",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%98%BF%E8%93%AE%E5%8D%80%20%E5%B4%97%E5%B1%B1%E4%BB%94%E8%BE%B2%E6%9D%91%E9%A2%A8%E8%B2%8C"
+  },
+  {
+    "name": "田寮月世界地景公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "田寮區",
+    "description": "惡地地形與月世界步道",
+    "tags": [
+      "地質",
+      "步道",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%94%B0%E5%AF%AE%E5%8D%80%20%E7%94%B0%E5%AF%AE%E6%9C%88%E4%B8%96%E7%95%8C%E5%9C%B0%E6%99%AF%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "崇德宮（田寮）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "田寮區",
+    "description": "地方信仰中心",
+    "tags": [
+      "宗教",
+      "在地",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%94%B0%E5%AF%AE%E5%8D%80%20%E5%B4%87%E5%BE%B7%E5%AE%AE%EF%BC%88%E7%94%B0%E5%AF%AE%EF%BC%89"
+  },
+  {
+    "name": "牛寮溪步道",
+    "type": "walk",
+    "city": "高雄",
+    "district": "田寮區",
+    "description": "小眾溪谷步道",
+    "tags": [
+      "步道",
+      "自然",
+      "靜謐"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%94%B0%E5%AF%AE%E5%8D%80%20%E7%89%9B%E5%AF%AE%E6%BA%AA%E6%AD%A5%E9%81%93"
+  },
+  {
+    "name": "高雄科技大學（燕巢）校園步道",
+    "type": "spot",
+    "city": "高雄",
+    "district": "燕巢區",
+    "description": "學區綠帶與美食",
+    "tags": [
+      "校園",
+      "美食",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%87%95%E5%B7%A2%E5%8D%80%20%E9%AB%98%E9%9B%84%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%EF%BC%88%E7%87%95%E5%B7%A2%EF%BC%89%E6%A0%A1%E5%9C%92%E6%AD%A5%E9%81%93"
+  },
+  {
+    "name": "燕巢紫斑蝶廊道（季節）",
+    "type": "nature",
+    "city": "高雄",
+    "district": "燕巢區",
+    "description": "季節性蝶道生態",
+    "tags": [
+      "生態",
+      "賞蝶",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%87%95%E5%B7%A2%E5%8D%80%20%E7%87%95%E5%B7%A2%E7%B4%AB%E6%96%91%E8%9D%B6%E5%BB%8A%E9%81%93%EF%BC%88%E5%AD%A3%E7%AF%80%EF%BC%89"
+  },
+  {
+    "name": "尖山埤周邊農田景觀",
+    "type": "nature",
+    "city": "高雄",
+    "district": "燕巢區",
+    "description": "農田水圳與鄉間小路",
+    "tags": [
+      "農村",
+      "自然",
+      "單車"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%87%95%E5%B7%A2%E5%8D%80%20%E5%B0%96%E5%B1%B1%E5%9F%A4%E5%91%A8%E9%82%8A%E8%BE%B2%E7%94%B0%E6%99%AF%E8%A7%80"
+  },
+  {
+    "name": "橋頭糖廠（台糖花卉園區）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "橋頭區",
+    "description": "日式宿舍與糖業文化、拍照勝地",
+    "tags": [
+      "歷史",
+      "老屋",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A9%8B%E9%A0%AD%E5%8D%80%20%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0%EF%BC%88%E5%8F%B0%E7%B3%96%E8%8A%B1%E5%8D%89%E5%9C%92%E5%8D%80%EF%BC%89"
+  },
+  {
+    "name": "捷運橋頭糖廠站藝術廊道",
+    "type": "spot",
+    "city": "高雄",
+    "district": "橋頭區",
+    "description": "捷運站公共藝術",
+    "tags": [
+      "藝術",
+      "捷運",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A9%8B%E9%A0%AD%E5%8D%80%20%E6%8D%B7%E9%81%8B%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0%E7%AB%99%E8%97%9D%E8%A1%93%E5%BB%8A%E9%81%93"
+  },
+  {
+    "name": "橋頭老街",
+    "type": "food",
+    "city": "高雄",
+    "district": "橋頭區",
+    "description": "傳統美食與老屋風情",
+    "tags": [
+      "老街",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A9%8B%E9%A0%AD%E5%8D%80%20%E6%A9%8B%E9%A0%AD%E8%80%81%E8%A1%97"
+  },
+  {
+    "name": "蚵仔寮漁港",
+    "type": "food",
+    "city": "高雄",
+    "district": "梓官區",
+    "description": "海鮮市集與拍賣體驗",
+    "tags": [
+      "海鮮",
+      "市場",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A2%93%E5%AE%98%E5%8D%80%20%E8%9A%B5%E4%BB%94%E5%AF%AE%E6%BC%81%E6%B8%AF"
+  },
+  {
+    "name": "梓官海岸線",
+    "type": "walk",
+    "city": "高雄",
+    "district": "梓官區",
+    "description": "防風林與海岸步道",
+    "tags": [
+      "海邊",
+      "散步",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A2%93%E5%AE%98%E5%8D%80%20%E6%A2%93%E5%AE%98%E6%B5%B7%E5%B2%B8%E7%B7%9A"
+  },
+  {
+    "name": "梓官田園景觀",
+    "type": "nature",
+    "city": "高雄",
+    "district": "梓官區",
+    "description": "農田與灌溉圳道",
+    "tags": [
+      "農村",
+      "自然",
+      "單車"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A2%93%E5%AE%98%E5%8D%80%20%E6%A2%93%E5%AE%98%E7%94%B0%E5%9C%92%E6%99%AF%E8%A7%80"
+  },
+  {
+    "name": "彌陀漁港觀光市場",
+    "type": "food",
+    "city": "高雄",
+    "district": "彌陀區",
+    "description": "鮮魚美食與觀海平台",
+    "tags": [
+      "海鮮",
+      "美食",
+      "海景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%BD%8C%E9%99%80%E5%8D%80%20%E5%BD%8C%E9%99%80%E6%BC%81%E6%B8%AF%E8%A7%80%E5%85%89%E5%B8%82%E5%A0%B4"
+  },
+  {
+    "name": "南寮漁港濱海步道",
+    "type": "walk",
+    "city": "高雄",
+    "district": "彌陀區",
+    "description": "靜謐海岸線步道",
+    "tags": [
+      "海邊",
+      "散步",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%BD%8C%E9%99%80%E5%8D%80%20%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF%E6%BF%B1%E6%B5%B7%E6%AD%A5%E9%81%93"
+  },
+  {
+    "name": "彌陀海岸公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "彌陀區",
+    "description": "木棧道與防風林",
+    "tags": [
+      "自然",
+      "親子",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%BD%8C%E9%99%80%E5%8D%80%20%E5%BD%8C%E9%99%80%E6%B5%B7%E5%B2%B8%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "永新濕地",
+    "type": "nature",
+    "city": "高雄",
+    "district": "永安區",
+    "description": "濕地生態與賞鳥點",
+    "tags": [
+      "生態",
+      "自然",
+      "賞鳥"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%B0%B8%E5%AE%89%E5%8D%80%20%E6%B0%B8%E6%96%B0%E6%BF%95%E5%9C%B0"
+  },
+  {
+    "name": "永安鹽田遺址",
+    "type": "spot",
+    "city": "高雄",
+    "district": "永安區",
+    "description": "鹽業文化痕跡",
+    "tags": [
+      "歷史",
+      "產業",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%B0%B8%E5%AE%89%E5%8D%80%20%E6%B0%B8%E5%AE%89%E9%B9%BD%E7%94%B0%E9%81%BA%E5%9D%80"
+  },
+  {
+    "name": "永安海岸線",
+    "type": "walk",
+    "city": "高雄",
+    "district": "永安區",
+    "description": "靜謐海岸與風車",
+    "tags": [
+      "海邊",
+      "散步",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%B0%B8%E5%AE%89%E5%8D%80%20%E6%B0%B8%E5%AE%89%E6%B5%B7%E5%B2%B8%E7%B7%9A"
+  },
+  {
+    "name": "大湖公園（湖內）",
+    "type": "walk",
+    "city": "高雄",
+    "district": "湖內區",
+    "description": "社區水域景觀與步道",
+    "tags": [
+      "公園",
+      "散步",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%B9%96%E5%85%A7%E5%8D%80%20%E5%A4%A7%E6%B9%96%E5%85%AC%E5%9C%92%EF%BC%88%E6%B9%96%E5%85%A7%EF%BC%89"
+  },
+  {
+    "name": "捷運青埔站周邊綠地",
+    "type": "walk",
+    "city": "高雄",
+    "district": "湖內區",
+    "description": "捷運站周邊散步動線",
+    "tags": [
+      "散步",
+      "綠地",
+      "通勤"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%B9%96%E5%85%A7%E5%8D%80%20%E6%8D%B7%E9%81%8B%E9%9D%92%E5%9F%94%E7%AB%99%E5%91%A8%E9%82%8A%E7%B6%A0%E5%9C%B0"
+  },
+  {
+    "name": "湖內老街",
+    "type": "food",
+    "city": "高雄",
+    "district": "湖內區",
+    "description": "在地小吃與傳統商號",
+    "tags": [
+      "老街",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%B9%96%E5%85%A7%E5%8D%80%20%E6%B9%96%E5%85%A7%E8%80%81%E8%A1%97"
+  },
+  {
+    "name": "衛武營國家藝術文化中心",
+    "type": "spot",
+    "city": "高雄",
+    "district": "鳳山區",
+    "description": "國際級演藝廳群與公園草地",
+    "tags": [
+      "藝文",
+      "建築",
+      "公園"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B3%B3%E5%B1%B1%E5%8D%80%20%E8%A1%9B%E6%AD%A6%E7%87%9F%E5%9C%8B%E5%AE%B6%E8%97%9D%E8%A1%93%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83"
+  },
+  {
+    "name": "鳳儀書院",
+    "type": "museum",
+    "city": "高雄",
+    "district": "鳳山區",
+    "description": "清代書院古蹟，穿越情境展",
+    "tags": [
+      "歷史",
+      "教育",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B3%B3%E5%B1%B1%E5%8D%80%20%E9%B3%B3%E5%84%80%E6%9B%B8%E9%99%A2"
+  },
+  {
+    "name": "大東文化藝術中心",
+    "type": "spot",
+    "city": "高雄",
+    "district": "鳳山區",
+    "description": "藝文展館與光環境裝置",
+    "tags": [
+      "展覽",
+      "建築",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B3%B3%E5%B1%B1%E5%8D%80%20%E5%A4%A7%E6%9D%B1%E6%96%87%E5%8C%96%E8%97%9D%E8%A1%93%E4%B8%AD%E5%BF%83"
+  },
+  {
+    "name": "大寮溪埔社區彩繪巷",
+    "type": "spot",
+    "city": "高雄",
+    "district": "大寮區",
+    "description": "社區彩繪牆與巷弄",
+    "tags": [
+      "拍照",
+      "社區",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E5%AF%AE%E5%8D%80%20%E5%A4%A7%E5%AF%AE%E6%BA%AA%E5%9F%94%E7%A4%BE%E5%8D%80%E5%BD%A9%E7%B9%AA%E5%B7%B7"
+  },
+  {
+    "name": "大寮生態公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "大寮區",
+    "description": "生態池與步道",
+    "tags": [
+      "自然",
+      "親子",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E5%AF%AE%E5%8D%80%20%E5%A4%A7%E5%AF%AE%E7%94%9F%E6%85%8B%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "鳳林運動公園（大寮側）",
+    "type": "walk",
+    "city": "高雄",
+    "district": "大寮區",
+    "description": "運動休閒設施",
+    "tags": [
+      "公園",
+      "運動",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E5%AF%AE%E5%8D%80%20%E9%B3%B3%E6%9E%97%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92%EF%BC%88%E5%A4%A7%E5%AF%AE%E5%81%B4%EF%BC%89"
+  },
+  {
+    "name": "林園濕地公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "林園區",
+    "description": "沿海濕地與候鳥",
+    "tags": [
+      "自然",
+      "生態",
+      "賞鳥"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%9E%97%E5%9C%92%E5%8D%80%20%E6%9E%97%E5%9C%92%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "中芸漁港",
+    "type": "food",
+    "city": "高雄",
+    "district": "林園區",
+    "description": "靠海漁港與海鮮",
+    "tags": [
+      "海鮮",
+      "海景",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%9E%97%E5%9C%92%E5%8D%80%20%E4%B8%AD%E8%8A%B8%E6%BC%81%E6%B8%AF"
+  },
+  {
+    "name": "林園海岸線木棧道",
+    "type": "walk",
+    "city": "高雄",
+    "district": "林園區",
+    "description": "海岸風景步道",
+    "tags": [
+      "海邊",
+      "散步",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%9E%97%E5%9C%92%E5%8D%80%20%E6%9E%97%E5%9C%92%E6%B5%B7%E5%B2%B8%E7%B7%9A%E6%9C%A8%E6%A3%A7%E9%81%93"
+  },
+  {
+    "name": "澄清湖風景區（鳥松側）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "鳥松區",
+    "description": "高雄後花園，湖濱景致",
+    "tags": [
+      "湖景",
+      "步道",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B3%A5%E6%9D%BE%E5%8D%80%20%E6%BE%84%E6%B8%85%E6%B9%96%E9%A2%A8%E6%99%AF%E5%8D%80%EF%BC%88%E9%B3%A5%E6%9D%BE%E5%81%B4%EF%BC%89"
+  },
+  {
+    "name": "鳥松濕地公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "鳥松區",
+    "description": "濕地生態教育園區",
+    "tags": [
+      "生態",
+      "教育",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B3%A5%E6%9D%BE%E5%8D%80%20%E9%B3%A5%E6%9D%BE%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "本館公園",
+    "type": "walk",
+    "city": "高雄",
+    "district": "鳥松區",
+    "description": "社區綠地與運動設施",
+    "tags": [
+      "公園",
+      "親子",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%B3%A5%E6%9D%BE%E5%8D%80%20%E6%9C%AC%E9%A4%A8%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "佛光山佛陀紀念館",
+    "type": "museum",
+    "city": "高雄",
+    "district": "大樹區",
+    "description": "莊嚴佛教文化園區與展覽",
+    "tags": [
+      "宗教",
+      "博物館",
+      "地標"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E6%A8%B9%E5%8D%80%20%E4%BD%9B%E5%85%89%E5%B1%B1%E4%BD%9B%E9%99%80%E7%B4%80%E5%BF%B5%E9%A4%A8"
+  },
+  {
+    "name": "義大世界",
+    "type": "spot",
+    "city": "高雄",
+    "district": "大樹區",
+    "description": "購物中心與主題樂園（周邊）",
+    "tags": [
+      "樂園",
+      "購物",
+      "親子"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E6%A8%B9%E5%8D%80%20%E7%BE%A9%E5%A4%A7%E4%B8%96%E7%95%8C"
+  },
+  {
+    "name": "舊鐵橋濕地教育園區（大樹側）",
+    "type": "nature",
+    "city": "高雄",
+    "district": "大樹區",
+    "description": "濕地與鐵橋景觀",
+    "tags": [
+      "自然",
+      "拍照",
+      "散步"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%A4%A7%E6%A8%B9%E5%8D%80%20%E8%88%8A%E9%90%B5%E6%A9%8B%E6%BF%95%E5%9C%B0%E6%95%99%E8%82%B2%E5%9C%92%E5%8D%80%EF%BC%88%E5%A4%A7%E6%A8%B9%E5%81%B4%EF%BC%89"
+  },
+  {
+    "name": "旗山老街",
+    "type": "food",
+    "city": "高雄",
+    "district": "旗山區",
+    "description": "百年糖業小鎮老街與香蕉美食",
+    "tags": [
+      "老街",
+      "小吃",
+      "歷史"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%97%97%E5%B1%B1%E5%8D%80%20%E6%97%97%E5%B1%B1%E8%80%81%E8%A1%97"
+  },
+  {
+    "name": "旗山天后宮",
+    "type": "spot",
+    "city": "高雄",
+    "district": "旗山區",
+    "description": "媽祖信仰中心，古樸建築",
+    "tags": [
+      "宗教",
+      "歷史",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%97%97%E5%B1%B1%E5%8D%80%20%E6%97%97%E5%B1%B1%E5%A4%A9%E5%90%8E%E5%AE%AE"
+  },
+  {
+    "name": "旗山糖廠文化園區",
+    "type": "spot",
+    "city": "高雄",
+    "district": "旗山區",
+    "description": "糖業遺址與文創",
+    "tags": [
+      "歷史",
+      "產業",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%97%97%E5%B1%B1%E5%8D%80%20%E6%97%97%E5%B1%B1%E7%B3%96%E5%BB%A0%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80"
+  },
+  {
+    "name": "美濃民俗村",
+    "type": "museum",
+    "city": "高雄",
+    "district": "美濃區",
+    "description": "客家紙傘與民俗文化體驗",
+    "tags": [
+      "客家",
+      "文化",
+      "體驗"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%BE%8E%E6%BF%83%E5%8D%80%20%E7%BE%8E%E6%BF%83%E6%B0%91%E4%BF%97%E6%9D%91"
+  },
+  {
+    "name": "美濃湖",
+    "type": "nature",
+    "city": "高雄",
+    "district": "美濃區",
+    "description": "湖景環湖步道與落羽松景觀",
+    "tags": [
+      "湖景",
+      "散步",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%BE%8E%E6%BF%83%E5%8D%80%20%E7%BE%8E%E6%BF%83%E6%B9%96"
+  },
+  {
+    "name": "廣進勝油紙傘",
+    "type": "spot",
+    "city": "高雄",
+    "district": "美濃區",
+    "description": "百年油紙傘工坊",
+    "tags": [
+      "手作",
+      "文化",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%BE%8E%E6%BF%83%E5%8D%80%20%E5%BB%A3%E9%80%B2%E5%8B%9D%E6%B2%B9%E7%B4%99%E5%82%98"
+  },
+  {
+    "name": "不老溫泉",
+    "type": "spot",
+    "city": "高雄",
+    "district": "六龜區",
+    "description": "山林間的溫泉風情（合法區域）",
+    "tags": [
+      "溫泉",
+      "放鬆",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%85%AD%E9%BE%9C%E5%8D%80%20%E4%B8%8D%E8%80%81%E6%BA%AB%E6%B3%89"
+  },
+  {
+    "name": "新威森林公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "六龜區",
+    "description": "森林步道與季節花況",
+    "tags": [
+      "森林",
+      "步道",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%85%AD%E9%BE%9C%E5%8D%80%20%E6%96%B0%E5%A8%81%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "藤枝國家森林遊樂區（復育開放狀態以官網為準）",
+    "type": "nature",
+    "city": "高雄",
+    "district": "六龜區",
+    "description": "高海拔雲霧林生態",
+    "tags": [
+      "森林",
+      "登山",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%85%AD%E9%BE%9C%E5%8D%80%20%E8%97%A4%E6%9E%9D%E5%9C%8B%E5%AE%B6%E6%A3%AE%E6%9E%97%E9%81%8A%E6%A8%82%E5%8D%80%EF%BC%88%E5%BE%A9%E8%82%B2%E9%96%8B%E6%94%BE%E7%8B%80%E6%85%8B%E4%BB%A5%E5%AE%98%E7%B6%B2%E7%82%BA%E6%BA%96%EF%BC%89"
+  },
+  {
+    "name": "甲仙老街",
+    "type": "food",
+    "city": "高雄",
+    "district": "甲仙區",
+    "description": "芋頭名產與在地小吃",
+    "tags": [
+      "老街",
+      "小吃",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%94%B2%E4%BB%99%E5%8D%80%20%E7%94%B2%E4%BB%99%E8%80%81%E8%A1%97"
+  },
+  {
+    "name": "小林村紀念公園",
+    "type": "museum",
+    "city": "高雄",
+    "district": "甲仙區",
+    "description": "莫拉克災後紀念與教育",
+    "tags": [
+      "歷史",
+      "紀念",
+      "教育"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%94%B2%E4%BB%99%E5%8D%80%20%E5%B0%8F%E6%9E%97%E6%9D%91%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "白雲谷步道",
+    "type": "walk",
+    "city": "高雄",
+    "district": "甲仙區",
+    "description": "山野步道與溪谷",
+    "tags": [
+      "步道",
+      "自然",
+      "健行"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E7%94%B2%E4%BB%99%E5%8D%80%20%E7%99%BD%E9%9B%B2%E8%B0%B7%E6%AD%A5%E9%81%93"
+  },
+  {
+    "name": "月眉溫泉",
+    "type": "spot",
+    "city": "高雄",
+    "district": "杉林區",
+    "description": "山區溫泉休閒",
+    "tags": [
+      "溫泉",
+      "放鬆",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%9D%89%E6%9E%97%E5%8D%80%20%E6%9C%88%E7%9C%89%E6%BA%AB%E6%B3%89"
+  },
+  {
+    "name": "杉林溪谷步道",
+    "type": "walk",
+    "city": "高雄",
+    "district": "杉林區",
+    "description": "溪谷步道與林蔭",
+    "tags": [
+      "步道",
+      "自然",
+      "靜謐"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%9D%89%E6%9E%97%E5%8D%80%20%E6%9D%89%E6%9E%97%E6%BA%AA%E8%B0%B7%E6%AD%A5%E9%81%93"
+  },
+  {
+    "name": "杉林客家聚落",
+    "type": "spot",
+    "city": "高雄",
+    "district": "杉林區",
+    "description": "客家聚落人文風情",
+    "tags": [
+      "客家",
+      "文化",
+      "在地"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%9D%89%E6%9E%97%E5%8D%80%20%E6%9D%89%E6%9E%97%E5%AE%A2%E5%AE%B6%E8%81%9A%E8%90%BD"
+  },
+  {
+    "name": "內門宋江陣文化村",
+    "type": "museum",
+    "city": "高雄",
+    "district": "內門區",
+    "description": "武陣文化與民俗展演",
+    "tags": [
+      "民俗",
+      "文化",
+      "表演"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%85%A7%E9%96%80%E5%8D%80%20%E5%85%A7%E9%96%80%E5%AE%8B%E6%B1%9F%E9%99%A3%E6%96%87%E5%8C%96%E6%9D%91"
+  },
+  {
+    "name": "內門紫竹寺",
+    "type": "spot",
+    "city": "高雄",
+    "district": "內門區",
+    "description": "地方信仰中心",
+    "tags": [
+      "宗教",
+      "歷史",
+      "文化"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%85%A7%E9%96%80%E5%8D%80%20%E5%85%A7%E9%96%80%E7%B4%AB%E7%AB%B9%E5%AF%BA"
+  },
+  {
+    "name": "梅嶺步道（內門）",
+    "type": "walk",
+    "city": "高雄",
+    "district": "內門區",
+    "description": "梅花季節步道（區域周邊）",
+    "tags": [
+      "花季",
+      "步道",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E5%85%A7%E9%96%80%E5%8D%80%20%E6%A2%85%E5%B6%BA%E6%AD%A5%E9%81%93%EF%BC%88%E5%85%A7%E9%96%80%EF%BC%89"
+  },
+  {
+    "name": "茂林國家風景區（多納部落）",
+    "type": "nature",
+    "city": "高雄",
+    "district": "茂林區",
+    "description": "百步蛇傳說與原鄉文化",
+    "tags": [
+      "原民",
+      "自然",
+      "部落"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%8C%82%E6%9E%97%E5%8D%80%20%E8%8C%82%E6%9E%97%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80%EF%BC%88%E5%A4%9A%E7%B4%8D%E9%83%A8%E8%90%BD%EF%BC%89"
+  },
+  {
+    "name": "多納高吊橋",
+    "type": "spot",
+    "city": "高雄",
+    "district": "茂林區",
+    "description": "山谷吊橋景觀",
+    "tags": [
+      "吊橋",
+      "觀景",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%8C%82%E6%9E%97%E5%8D%80%20%E5%A4%9A%E7%B4%8D%E9%AB%98%E5%90%8A%E6%A9%8B"
+  },
+  {
+    "name": "茂林紫蝶生態公園",
+    "type": "nature",
+    "city": "高雄",
+    "district": "茂林區",
+    "description": "越冬蝶谷生態（季節）",
+    "tags": [
+      "生態",
+      "賞蝶",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E8%8C%82%E6%9E%97%E5%8D%80%20%E8%8C%82%E6%9E%97%E7%B4%AB%E8%9D%B6%E7%94%9F%E6%85%8B%E5%85%AC%E5%9C%92"
+  },
+  {
+    "name": "梅山口（南橫）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "桃源區",
+    "description": "南橫著名中繼點與高山景觀",
+    "tags": [
+      "高山",
+      "公路",
+      "觀景"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A1%83%E6%BA%90%E5%8D%80%20%E6%A2%85%E5%B1%B1%E5%8F%A3%EF%BC%88%E5%8D%97%E6%A9%AB%EF%BC%89"
+  },
+  {
+    "name": "拉芙蘭巨木群步道",
+    "type": "walk",
+    "city": "高雄",
+    "district": "桃源區",
+    "description": "原始林巨木生態",
+    "tags": [
+      "巨木",
+      "步道",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A1%83%E6%BA%90%E5%8D%80%20%E6%8B%89%E8%8A%99%E8%98%AD%E5%B7%A8%E6%9C%A8%E7%BE%A4%E6%AD%A5%E9%81%93"
+  },
+  {
+    "name": "寶山部落（桃源）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "桃源區",
+    "description": "原民部落文化與山景",
+    "tags": [
+      "部落",
+      "文化",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E6%A1%83%E6%BA%90%E5%8D%80%20%E5%AF%B6%E5%B1%B1%E9%83%A8%E8%90%BD%EF%BC%88%E6%A1%83%E6%BA%90%EF%BC%89"
+  },
+  {
+    "name": "達卡努瓦部落",
+    "type": "spot",
+    "city": "高雄",
+    "district": "那瑪夏區",
+    "description": "卡那卡那富族部落文化",
+    "tags": [
+      "部落",
+      "文化",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%82%A3%E7%91%AA%E5%A4%8F%E5%8D%80%20%E9%81%94%E5%8D%A1%E5%8A%AA%E7%93%A6%E9%83%A8%E8%90%BD"
+  },
+  {
+    "name": "新開九芎林步道",
+    "type": "walk",
+    "city": "高雄",
+    "district": "那瑪夏區",
+    "description": "森林系步道與展望",
+    "tags": [
+      "步道",
+      "森林",
+      "自然"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%82%A3%E7%91%AA%E5%A4%8F%E5%8D%80%20%E6%96%B0%E9%96%8B%E4%B9%9D%E8%8A%8E%E6%9E%97%E6%AD%A5%E9%81%93"
+  },
+  {
+    "name": "長青吊橋（那瑪夏）",
+    "type": "spot",
+    "city": "高雄",
+    "district": "那瑪夏區",
+    "description": "溪谷吊橋美景",
+    "tags": [
+      "吊橋",
+      "觀景",
+      "拍照"
+    ],
+    "hours": "依場館/公園公告為準",
+    "cost": "免費或依消費/票價",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=%E9%AB%98%E9%9B%84%20%E9%82%A3%E7%91%AA%E5%A4%8F%E5%8D%80%20%E9%95%B7%E9%9D%92%E5%90%8A%E6%A9%8B%EF%BC%88%E9%82%A3%E7%91%AA%E5%A4%8F%EF%BC%89"
+  }
+]

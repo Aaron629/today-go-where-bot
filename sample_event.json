@@ -1,0 +1,13 @@
+{
+  "destination": "Uxxxxxxxxxx",
+  "events": [
+    {
+      "type": "message",
+      "replyToken": "00000000000000000000000000000000",
+      "source": { "type": "user", "userId": "Utest" },
+      "timestamp": 1690000000000,
+      "mode": "active",
+      "message": { "id": "1", "type": "text", "text": "信義區" }
+    }
+  ]
+}
