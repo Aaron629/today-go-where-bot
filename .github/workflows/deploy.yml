@@ -21,14 +21,14 @@ jobs:
         with:
           workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
           service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
+          # 不指定 token_format；用預設 ADC 憑證檔
 
       - name: Setup gcloud
         uses: google-github-actions/setup-gcloud@v2
-        with:
-          project_id: ${{ vars.PROJECT_ID }}
+        # 刻意不傳 project_id，避免它自動跑 `gcloud config set project`
 
       - name: Configure Artifact Registry auth
-        run: gcloud auth configure-docker ${{ vars.REGION }}-docker.pkg.dev -q
+        run: gcloud --project=${{ vars.PROJECT_ID }} auth configure-docker ${{ vars.REGION }}-docker.pkg.dev -q
 
       - name: Build & Push image
         env:
@@ -42,7 +42,7 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           echo "Deploying SERVICE=${{ vars.SERVICE_NAME }} to PROJECT=${{ vars.PROJECT_ID }} in REGION=${{ vars.REGION }}"
-          gcloud run deploy ${{ vars.SERVICE_NAME }} \
+          gcloud --project=${{ vars.PROJECT_ID }} run deploy ${{ vars.SERVICE_NAME }} \
             --image "${IMAGE}" \
             --region ${{ vars.REGION }} \
             --platform managed \
