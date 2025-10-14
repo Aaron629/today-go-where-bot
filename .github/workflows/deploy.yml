@@ -16,17 +16,25 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Auth to GCP (WIF)
+    - id: auth
+      name: Auth to GCP (WIF)
       uses: google-github-actions/auth@v2
       with:
         workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
         service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
+        token_format: 'access_token'  # 讓我們能取得 access_token 作 docker login
 
     - name: Setup gcloud
       uses: google-github-actions/setup-gcloud@v2
 
     - name: Configure Artifact Registry auth
       run: gcloud auth configure-docker ${{ vars.REGION }}-docker.pkg.dev -q
+
+    - name: Docker login (Artifact Registry)
+      run: |
+        echo "${{ steps.auth.outputs.access_token }}" | \
+          docker login -u oauth2accesstoken --password-stdin \
+          ${{ vars.REGION }}-docker.pkg.dev
 
     - name: Build & Push image
       env:
