@@ -21,18 +21,15 @@ jobs:
         with:
           workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
           service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
-          # 不指定 token_format；用預設 ADC 憑證檔
+          # 使用預設 ADC 憑證（不要設定 token_format）
 
       - name: Setup gcloud
         uses: google-github-actions/setup-gcloud@v2
-        # 不帶 project_id，避免自動跑 config set
+        # 不傳 project_id，避免自動跑 `gcloud config set project`
 
-      # 不要再用 gcloud auth configure-docker；改用下面這段
-      - name: Docker login (impersonate SA explicitly)
+      - name: Docker login (use ADC from auth step)
         run: |
-          ACCESS_TOKEN=$(gcloud --project=${{ vars.PROJECT_ID }} \
-            auth print-access-token \
-            --impersonate-service-account=${{ secrets.DEPLOY_SA_EMAIL }})
+          ACCESS_TOKEN=$(gcloud --project=${{ vars.PROJECT_ID }} auth print-access-token)
           echo "$ACCESS_TOKEN" | docker login -u oauth2accesstoken --password-stdin \
             ${{ vars.REGION }}-docker.pkg.dev
 
@@ -47,6 +44,7 @@ jobs:
 
       - name: Deploy to Cloud Run
         run: |
+          echo "Deploying SERVICE=${{ vars.SERVICE_NAME }} to PROJECT=${{ vars.PROJECT_ID }} in REGION=${{ vars.REGION }}"
           gcloud --project=${{ vars.PROJECT_ID }} run deploy ${{ vars.SERVICE_NAME }} \
             --image "${IMAGE}" \
             --region ${{ vars.REGION }} \
