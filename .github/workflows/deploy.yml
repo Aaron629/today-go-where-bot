@@ -3,7 +3,6 @@ name: Deploy to Cloud Run
 on:
   push:
     branches: [ main ]
-  # 如需先手動試跑，改成：
   # workflow_dispatch:
 
 jobs:
@@ -22,10 +21,13 @@ jobs:
       with:
         workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
         service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
-        token_format: 'access_token'  # 讓我們能取得 access_token 作 docker login
+        token_format: 'access_token'  # 取 access_token 供 docker login
 
     - name: Setup gcloud
       uses: google-github-actions/setup-gcloud@v2
+
+    - name: Set gcloud project (explicit)
+      run: gcloud config set project ${{ vars.PROJECT_ID }}
 
     - name: Configure Artifact Registry auth
       run: gcloud auth configure-docker ${{ vars.REGION }}-docker.pkg.dev -q
@@ -40,12 +42,14 @@ jobs:
       env:
         IMAGE: ${{ vars.REGION }}-docker.pkg.dev/${{ vars.PROJECT_ID }}/${{ vars.REPO }}/app:${{ github.sha }}
       run: |
+        echo "IMAGE=${IMAGE}"
         docker build -t "${IMAGE}" .
         docker push "${IMAGE}"
         echo "IMAGE=${IMAGE}" >> $GITHUB_ENV
 
     - name: Deploy to Cloud Run
       run: |
+        echo "Deploying SERVICE=${{ vars.SERVICE_NAME }} to PROJECT=${{ vars.PROJECT_ID }} in REGION=${{ vars.REGION }}"
         gcloud run deploy ${{ vars.SERVICE_NAME }} \
           --image "${IMAGE}" \
           --region ${{ vars.REGION }} \
