@@ -8,6 +8,7 @@ import json
 from app.utils.category import CATEGORY_LABELS, to_category
 from app.config.settings import settings
 from urllib.parse import quote
+import os
 
 # 各城市 → 行政區清單
 DISTRICTS_MAP = {
@@ -100,7 +101,8 @@ def make_category_imagemap(city: str, district: str) -> ImagemapMessage:
         )
 
     # base_url = settings.asset_base_url.rstrip("/") + "/imagemeps/categories_1040_grid.png"
-    base_url = settings.asset_base_url.rstrip("/") + "/categories"
+    BASE_URL = os.getenv("ASSET_BASE_URL", "https://today-go-where-api-898860726599.asia-east1.run.app/imgmap/categories")
+    base_url = BASE_URL  # LINE 會請求 baseUrl/1040, /700, /460
     return ImagemapMessage(
         base_url=base_url,                      # 必須是可公開 HTTPS 圖
         alt_text=f"{city}{district}｜請選擇類別",
