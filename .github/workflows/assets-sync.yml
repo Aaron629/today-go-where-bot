@@ -2,11 +2,11 @@ name: Sync Assets to GCS
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
     paths:
-      - 'assets/places/**'
-  # 如需手動同步，另外加：
-  # workflow_dispatch:
+      - 'app/static/imagemeps/**'   # 你的 imagemap 圖片所在目錄
+      # - 'app/data/**'             # 若未來也要同步資料檔再打開
+  workflow_dispatch: {}
 
 jobs:
   sync:
@@ -16,19 +16,111 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Auth to GCP (WIF)
-      uses: google-github-actions/auth@v2
-      with:
-        workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
-        service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
+      - name: Auth to GCP (WIF)
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+          service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
+          create_credentials_file: true
+          export_environment_variables: true
+          token_format: access_token
 
-    - name: Setup gcloud
-      uses: google-github-actions/setup-gcloud@v2
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ vars.PROJECT_ID }}
 
-    - name: Rsync images to GCS
-      run: |
-        gsutil -m rsync -r ./assets/places gs://${{ vars.ASSET_BUCKET }}/places
-        # 設定強快取（1年），避免重載
-        gsutil -m setmeta -h "Cache-Control:public,max-age=31536000,immutable" gs://${{ vars.ASSET_BUCKET }}/places/** || true
+      - name: Prepare imagemap files (generate 300/240 if missing)
+        run: |
+          set -euo pipefail
+          STAGE="artifacts/imgmap/categories"
+          mkdir -p "$STAGE"
+
+          # 來源圖（優先 1040，其次 700、460）
+          SRC=""
+          for s in 1040 700 460; do
+            for ext in png jpg jpeg; do
+              p="app/static/imagemeps/categories_${s}.${ext}"
+              if [ -f "$p" ]; then SRC="$p"; break 2; fi
+            done
+          done
+          if [ -z "$SRC" ]; then
+            echo "❌ source categories image not found (categories_1040/700/460.[png|jpg])"
+            exit 1
+          fi
+          echo "Using source: $SRC"
+
+          # 複製現成的 1040/700/460 → 沒有副檔名的物件名
+          for s in 1040 700 460; do
+            for ext in png jpg jpeg; do
+              f="app/static/imagemeps/categories_${s}.${ext}"
+              if [ -f "$f" ]; then
+                cp "$f" "$STAGE/$s.png"
+                break
+              fi
+            done
+          done
+
+          # 產生 300、240（用 Python Pillow 確保比例與品質）
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+
+          stage = Path("artifacts/imgmap/categories")
+          # 找一張最大圖來縮
+          src = None
+          for s in (1040, 700, 460):
+              for ext in ("png","jpg","jpeg"):
+                  p = Path(f"app/static/imagemeps/categories_{s}.{ext}")
+                  if p.exists():
+                      src = p
+                      break
+              if src: break
+          if not src:
+              raise SystemExit("no source image found")
+
+          img = Image.open(src)
+          w, h = img.size
+          for size in (300, 240):
+              nh = int(h * (size / float(w)))
+              out = stage / f"{size}.png"
+              img.resize((size, nh), Image.LANCZOS).save(out, format="PNG", optimize=True)
+              print("wrote", out, out.exists())
+          PY
+
+          # 最終把副檔名去掉（LINE 會用不帶副檔名的路徑抓圖）
+          for s in 1040 700 460 300 240; do
+            if [ -f "$STAGE/$s.png" ]; then
+              mv "$STAGE/$s.png" "$STAGE/$s"
+            fi
+          done
+
+          echo "Staged files:"
+          ls -l "$STAGE"
+
+      - name: Upload to GCS (imgmap/categories)
+        run: |
+          set -euo pipefail
+          DEST="gs://${{ vars.ASSET_BUCKET }}/imgmap/categories"
+          gsutil -m rsync -r artifacts/imgmap/categories "$DEST"
+
+          # 指定正確 Content-Type（因為物件名無副檔名）
+          for s in 1040 700 460 300 240; do
+            gsutil setmeta -h "Content-Type:image/png" "$DEST/$s" || true
+          done
+
+          # 強快取
+          gsutil -m setmeta -h "Cache-Control:public,max-age=31536000,immutable" "$DEST/**" || true
+
+          # 若 bucket 尚未公讀，開放讀權限（若已設定 Uniform access + IAM，這行可省略）
+          gsutil iam ch allUsers:objectViewer gs://${{ vars.ASSET_BUCKET }} || true
+
+      - name: Show public test URLs
+        run: |
+          BASE="https://storage.googleapis.com/${{ vars.ASSET_BUCKET }}/imgmap/categories"
+          for s in 1040 700 460 300 240; do
+            echo "$BASE/$s"
+          done
