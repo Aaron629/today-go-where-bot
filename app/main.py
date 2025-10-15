@@ -32,6 +32,9 @@ from app.utils.links import normalize_existing_gmaps
 from app.services.image_compose import build_if_needed, ensure_resized
 import hmac, hashlib
 from base64 import b64encode
+from io import BytesIO
+from fastapi import Response
+from PIL import Image
 
 log = logging.getLogger(__name__)
 
@@ -70,14 +73,20 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 # ---------- Static helpers ----------
 @app.get("/imgmap/categories/{size}")
 def imagemap_categories(size: int):
-    """提供 1040/700/460 的分類底圖；若無則從 1040 版縮出並快取。"""
     try:
-        img_path = ensure_resized(size)
+        img_path = ensure_resized(size)  # 你現有的函式（目前產生的是 PNG）
+        im = Image.open(img_path).convert("RGB")
+        buf = BytesIO()
+        im.save(buf, format="JPEG", quality=90)
+        return Response(buf.getvalue(), media_type="image/jpeg")
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=404, detail=f"image build failed: {e}")
-    return FileResponse(img_path, media_type="image/png")
+
+@app.get("/imgmap/categories/{size}.jpg")
+def imagemap_categories_jpg(size: int):
+    return imagemap_categories(size)
 
 # ---------- Load data & normalize links ----------
 PLACES = settings.load_places()
