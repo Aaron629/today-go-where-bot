@@ -73,16 +73,28 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 # ---------- Static helpers ----------
 @app.get("/imgmap/categories/{size}")
 def imagemap_categories(size: int):
+    """
+    LINE Imagemap 會請求這個 endpoint (不帶副檔名)
+    必須返回 PNG 格式
+    """
     try:
-        img_path = ensure_resized(size)  # 你現有的函式（目前產生的是 PNG）
-        im = Image.open(img_path).convert("RGB")
+        img_path = ensure_resized(size)
+        
+        # 確保返回 PNG 格式
+        im = Image.open(img_path)
+        if im.mode != "RGB":
+            im = im.convert("RGB")
+        
         buf = BytesIO()
-        im.save(buf, format="JPEG", quality=90)
-        return Response(buf.getvalue(), media_type="image/jpeg")
+        im.save(buf, format="PNG")  # ← 改成 PNG
+        buf.seek(0)
+        
+        return Response(buf.getvalue(), media_type="image/png")
     except HTTPException:
         raise
     except Exception as e:
-        raise HTTPException(status_code=404, detail=f"image build failed: {e}")
+        log.exception("imagemap build failed: %s", e)
+        raise HTTPException(status_code=500, detail=f"image build failed: {e}")
 
 @app.get("/imgmap/categories/{size}.jpg")
 def imagemap_categories_jpg(size: int):
