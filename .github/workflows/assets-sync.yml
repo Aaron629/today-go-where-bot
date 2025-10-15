@@ -33,6 +33,18 @@ jobs:
         with:
           project_id: ${{ vars.PROJECT_ID }}
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'   # 或你想用的版本
+          cache: 'pip'
+
+      - name: Install Pillow
+        run: |
+          python -V
+          python -m pip install --upgrade pip
+          python -m pip install pillow
+          
       - name: Prepare imagemap files (generate 300/240 if missing)
         run: |
           set -euo pipefail
