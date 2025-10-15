@@ -66,7 +66,7 @@ jobs:
             --cpu 1 --memory 512Mi \
             --concurrency 10 --timeout 30s \
             --min-instances 1 \
-            --set-env-vars=ASSET_BASE_URL=https://storage.googleapis.com/${{ vars.ASSET_BUCKET }} \
+            --set-env-vars=ASSET_BASE_URL=https://storage.googleapis.com/${{ vars.ASSET_BUCKET }}/imgmap/categories \
             --set-secrets=CHANNEL_SECRET=CHANNEL_SECRET:latest,CHANNEL_ACCESS_TOKEN=CHANNEL_ACCESS_TOKEN:latest
 
       - name: Show service URL
