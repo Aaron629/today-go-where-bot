@@ -43,33 +43,25 @@ def build_if_needed(output_path: str, base_path: str, categories: list[str]) -> 
     return str(out)
 
 def ensure_resized(size: int) -> Path:
-    """
-    確保存在指定尺寸的底圖：若不存在則由 1040 版縮放產生並快取。
-    """
     if size not in ALLOWED_SIZES:
         raise HTTPException(status_code=404, detail="size not supported")
 
-    # 目標檔案名（和 LINE 的慣例對齊）
-    target = STATIC_IMAGEMAP_DIR / f"categories_{size}.png"
+    target = STATIC_IMAGEMAP_DIR / f"categories_{size}.png"  # ← 確保是 .png
 
-    # 已有就直接用
     if target.is_file():
         return target
 
-    # 必須要有 1040 來源
     if not SRC_1040.is_file():
         raise HTTPException(status_code=404, detail="source image (1040) missing")
 
-    # 產生縮圖（等比縮放到寬 = size，高依比例）
     with Image.open(SRC_1040) as im:
         w, h = im.size
         if w != 1040:
-            # 若你的 1040 檔不剛好 1040 寬，先等比縮到 1040，避免層層誤差
             im = im.resize((1040, int(h * 1040 / w)), Image.LANCZOS)
         new_h = int(im.height * (size / 1040))
         resized = im.resize((size, new_h), Image.LANCZOS)
         target.parent.mkdir(parents=True, exist_ok=True)
-        resized.save(target, format="PNG", optimize=True)
+        resized.save(target, format="PNG", optimize=True)  # ← 改成 PNG
 
     return target
 
