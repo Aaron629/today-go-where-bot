@@ -40,18 +40,3 @@ jobs:
           docker build -t "${IMAGE}" .
           docker push "${IMAGE}"
           echo "IMAGE=${IMAGE}" >> $GITHUB_ENV
-
-      - name: Deploy to Cloud Run
-        run: |
-          gcloud run deploy ${{ vars.SERVICE_NAME }} \
-            --project=${{ vars.PROJECT_ID }} \
-            --image "${IMAGE}" \
-            --region ${{ vars.REGION }} \
-            --platform managed \
-            --allow-unauthenticated \
-            --service-account cr-runtime@${{ vars.PROJECT_ID }}.iam.gserviceaccount.com \
-            --cpu 1 --memory 512Mi \
-            --concurrency 10 --timeout 10s \
-            --min-instances 1 \
-            --set-env-vars=ASSET_BASE_URL=https://storage.googleapis.com/${{ vars.ASSET_BUCKET }} \
-            --set-secrets=CHANNEL_SECRET=CHANNEL_SECRET:latest,CHANNEL_ACCESS_TOKEN=CHANNEL_ACCESS_TOKEN:latest
