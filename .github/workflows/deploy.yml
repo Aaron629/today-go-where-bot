@@ -15,6 +15,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Debug GitHub context
+        run: |
+          echo "GITHUB_REPOSITORY=$GITHUB_REPOSITORY"
+          echo "GITHUB_REF=$GITHUB_REF"
+          echo "GITHUB_ACTOR=$GITHUB_ACTOR"
+
       - name: Auth to GCP (WIF)
         uses: google-github-actions/auth@v2
         with:
@@ -22,12 +28,16 @@ jobs:
           service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
           create_credentials_file: true
           export_environment_variables: true
-          token_format: 'access_token'
+          token_format: access_token
 
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
         with:
           project_id: ${{ vars.PROJECT_ID }}
+
+      - name: Enable required APIs (idempotent)
+        run: |
+          gcloud services enable run.googleapis.com artifactregistry.googleapis.com iam.googleapis.com secretmanager.googleapis.com
 
       - name: Configure Artifact Registry auth
         run: gcloud auth configure-docker ${{ vars.REGION }}-docker.pkg.dev -q
@@ -40,3 +50,28 @@ jobs:
           docker build -t "${IMAGE}" .
           docker push "${IMAGE}"
           echo "IMAGE=${IMAGE}" >> $GITHUB_ENV
+
+      - name: Resolve image digest
+        id: digest
+        run: |
+          DIGEST=$(gcloud artifacts docker images describe "$IMAGE" --format='value(image_summary.digest)')
+          echo "IMAGE_WITH_DIGEST=${IMAGE%@*}@${DIGEST}" >> $GITHUB_ENV
+          echo "Resolved: ${IMAGE%@*}@${DIGEST}"
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy ${{ vars.SERVICE_NAME }} \
+            --project=${{ vars.PROJECT_ID }} \
+            --image "${IMAGE_WITH_DIGEST}" \
+            --region ${{ vars.REGION }} \
+            --platform managed \
+            --allow-unauthenticated \
+            --service-account cr-runtime@${{ vars.PROJECT_ID }}.iam.gserviceaccount.com \
+            --cpu 1 --memory 512Mi \
+            --concurrency 10 --timeout 30s \
+            --min-instances 1 \
+            --set-env-vars=ASSET_BASE_URL=https://storage.googleapis.com/${{ vars.ASSET_BUCKET }} \
+            --set-secrets=CHANNEL_SECRET=CHANNEL_SECRET:latest,CHANNEL_ACCESS_TOKEN=CHANNEL_ACCESS_TOKEN:latest
+
+      - name: Show service URL
+        run: gcloud run services describe ${{ vars.SERVICE_NAME }} --region ${{ vars.REGION }} --format='value(status.url)'
