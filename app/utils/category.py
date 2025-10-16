@@ -1,6 +1,6 @@
 CATEGORY_LABELS = {
   "landmark": "地標/拍照",
-  "museum": "博物/美術",
+  "museum": "博物館/美術館",
   "park_walk": "公園/步道",
   "food_market": "美食/夜市",
   "temple_history": "寺廟/古蹟",
