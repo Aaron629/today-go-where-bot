@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'app/static/imagemeps/**'   # 你的 imagemap 圖片所在目錄
-      # - 'app/data/**'             # 若未來也要同步資料檔再打開
+      - 'app/data/**'             # 若未來也要同步資料檔再打開
   workflow_dispatch: {}
 
 jobs:
