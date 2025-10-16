@@ -7,7 +7,8 @@ from math import radians, sin, cos, asin, sqrt
 from pathlib import Path
 import json
 import logging
-
+from linebot.v3.messaging.models import ReplyMessageRequest, PushMessageRequest, TextMessage
+from linebot.v3.messaging.exceptions import ApiException
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -26,6 +27,7 @@ from app.handlers.replies import (
     bubble_from_place,
     DISTRICTS_MAP,
 )
+from app.handlers.replies import create_today_pick_message, create_food_roulette_message
 from app.services.places import filter_places
 from app.utils.category import CATEGORY_LABELS
 from app.utils.links import normalize_existing_gmaps
@@ -35,6 +37,7 @@ from base64 import b64encode
 from io import BytesIO
 from fastapi import Response
 from PIL import Image
+import re
 
 log = logging.getLogger(__name__)
 
@@ -274,7 +277,37 @@ def _valid_sig(body: bytes, sig: str | None) -> bool:
         return hmac.compare_digest(expected, sig)
     except Exception:
         return False
+    
+# ---------- 安全回覆工具 ----------
+def safe_reply_or_push(msg_api, event, reply_tok: str, messages: list):
+    """
+    先嘗試 reply；若遇到 Invalid reply token (400) 就改用 push。
+    回傳 True 代表已送出任一種訊息。
+    """
+    try:
+        msg_api.reply_message(ReplyMessageRequest(replyToken=reply_tok, messages=messages))
+        return True
+    except ApiException as e:
+        # 解析 400 Invalid reply token → fallback to push
+        try:
+            body = getattr(e, "body", "") or getattr(e, "reason", "")
+            if e.status == 400 and "Invalid reply token" in str(body):
+                # 取 userId
+                user_id = None
+                # v3 event 物件
+                user_id = getattr(getattr(event, "source", None), "user_id", None) or user_id
+                # raw dict（若你是自己組的 ev）
+                if not user_id and isinstance(event, dict):
+                    user_id = event.get("source", {}).get("userId")
 
+                if user_id:
+                    msg_api.push_message(PushMessageRequest(to=user_id, messages=messages))
+                    return True
+        except Exception:
+            pass
+        # 其他錯誤或無 userId，就回傳 False，讓呼叫端決定要不要補一則錯誤文案
+        return False
+    
 # 同一個 handler 綁多條常見路徑（含結尾斜線），避免路徑不一致
 @app.post("/webhook")
 async def webhook(request: Request):
@@ -325,6 +358,29 @@ async def webhook(request: Request):
             t = (ev_msg.get("text", "") if isinstance(ev_msg, dict) else getattr(ev_msg, "text", "")).strip()
             if not t:
                 continue
+            
+            # === 今日推薦 ===
+            if t in ("/today", "今日推薦"):
+                try:
+                    msg = create_today_pick_message()  # FlexMessage 物件
+                    if not msg:
+                        safe_reply_or_push(msg_api, ev, reply_tok, [TextMessage(text="目前沒有可推薦的景點，稍後再試看看！")])
+                    else:
+                        safe_reply_or_push(msg_api, ev, reply_tok, [msg])
+                except Exception as e:
+                    log.exception("Send today-pick failed: %s", e)
+                    safe_reply_or_push(msg_api, ev, reply_tok, [TextMessage(text="今日推薦好像卡住了，等我一下再試 🙏")])
+                continue  # ← 務必保留，避免同一事件再次回覆
+
+            # === 吃什麼輪盤 ===
+            if t in ("輪盤", "吃什麼", "/eat"):
+                try:
+                    msg = create_food_roulette_message(city="台北", district="信義區")
+                    safe_reply_or_push(msg_api, ev, reply_tok, [msg])
+                except Exception as e:
+                    log.exception("Send food-roulette failed: %s", e)
+                    safe_reply_or_push(msg_api, ev, reply_tok, [TextMessage(text="轉盤好像卡住了，等我一下再轉 🙏")])
+                continue
 
             if t.startswith("CAT|"):
                 try:
@@ -344,7 +400,6 @@ async def webhook(request: Request):
                     log.exception("Send city selection failed: %s", e)
                 continue
 
-            import re
             m = re.match(r"^(台北|新北|台中|高雄)(?:#p(\d+))?$", t)
             if m:
                 city = m.group(1)
@@ -370,7 +425,7 @@ async def webhook(request: Request):
             if t in district_set or (t.endswith("區") and 2 <= len(t) <= 4):
                 send_reply_if_needed(reply_tok, pick_suggestions(t, datetime.now()))
                 continue
-
+            
         if ev_type == "postback":
             if isinstance(ev, dict):
                 pb = ev.get("postback") or {}
