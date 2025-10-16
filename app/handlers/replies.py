@@ -103,8 +103,8 @@ def make_category_imagemap(city: str, district: str) -> ImagemapMessage:
             )
         )
 
-    base_url = settings.asset_base_url.rstrip("/") + "/imgmap/categories"
-    # base_url = os.getenv("ASSET_BASE_URL", "https://today-go-where-api-898860726599.asia-east1.run.app/imgmap/categories")
+    # base_url = settings.asset_base_url.rstrip("/") + "/imgmap/categories"
+    base_url = os.getenv("ASSET_BASE_URL", "https://today-go-where-api-898860726599.asia-east1.run.app/imgmap/categories")
     return ImagemapMessage(
         base_url=base_url,                      # 必須是可公開 HTTPS 圖
         alt_text=f"{city}{district}｜請選擇類別",
