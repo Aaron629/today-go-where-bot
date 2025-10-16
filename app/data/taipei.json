@@ -1784,7 +1784,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%85%A7%E6%BA%9D%E6%BA%AA%E6%AD%A5%E9%81%93",
-    "image_url": "https://640life.com/wp-content/uploads/bf151623fdd1e31f2ddbe740be33a6f0.jpg"
+    "image_url": "https://tianya.tw/wp-content/uploads/2025/02/donghu-lohas-park-1.jpg"
   },
   {
     "name": "金面山步道",
@@ -1844,26 +1844,6 @@
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E7%A2%A7%E5%B1%B1%E5%B7%96",
     "image_url": "https://www.dahuparkhotel.com.tw/wp-content/uploads/sites/146/2022/10/%E7%A2%A7%E5%B1%B1%E5%B7%96.jpg"
-  },
-  {
-    "name": "彩虹橋（內湖側）",
-    "type": "walk",
-    "city": "台北",
-    "district": "內湖區",
-    "description": "河濱夜景與連通橋",
-    "tags": [
-      "河濱",
-      "拍照",
-      "散步"
-    ],
-    "hours": "依場館或店家為準",
-    "cost": "依消費或免費",
-    "geo": {
-      "lat": null,
-      "lng": null
-    },
-    "gmaps": "https://maps.app.goo.gl/?q=%E5%BD%A9%E8%99%B9%E6%A9%8B%EF%BC%88%E5%85%A7%E6%B9%96%E5%81%B4%EF%BC%89",
-    "image_url": "https://source.unsplash.com/featured/?%E5%8F%B0%E5%8C%97%20%E5%BD%A9%E8%99%B9%E6%A9%8B%EF%BC%88%E5%85%A7%E6%B9%96%E5%81%B4%EF%BC%89"
   },
   {
     "name": "內湖花市（週末）",
