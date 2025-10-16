@@ -1,13 +1,16 @@
-# replies.py（全 v3 版本）
-from linebot.v3.messaging import (
-    TextMessage,
-    QuickReply, QuickReplyItem, MessageAction,
-    ImagemapMessage, ImagemapBaseSize, ImagemapArea, ImagemapAction,MessageImagemapAction,
+from linebot.v3.messaging import Configuration, ApiClient, MessagingApi, ReplyMessageRequest, PushMessageRequest
+from linebot.v3.messaging.models import (
+    TextMessage, QuickReply, QuickReplyItem, MessageAction,
+    ImagemapMessage, ImagemapBaseSize, ImagemapArea, MessageImagemapAction,
+    FlexMessage
 )
 import json
 from app.utils.category import CATEGORY_LABELS, to_category
 from app.config.settings import settings
 from urllib.parse import quote
+from app.services.today_recommend import pick_today_place
+from app.services.roulette import spin_food_roulette
+from linebot.v3.messaging.exceptions import ApiException
 import os
 
 # 各城市 → 行政區清單
@@ -100,8 +103,8 @@ def make_category_imagemap(city: str, district: str) -> ImagemapMessage:
             )
         )
 
-    # base_url = settings.asset_base_url.rstrip("/") + "/categories_1040_grid.png"
-    base_url = os.getenv("ASSET_BASE_URL", "https://today-go-where-api-898860726599.asia-east1.run.app/imgmap/categories")
+    base_url = settings.asset_base_url.rstrip("/") + "/imgmap/categories"
+    # base_url = os.getenv("ASSET_BASE_URL", "https://today-go-where-api-898860726599.asia-east1.run.app/imgmap/categories")
     return ImagemapMessage(
         base_url=base_url,                      # 必須是可公開 HTTPS 圖
         alt_text=f"{city}{district}｜請選擇類別",
@@ -161,3 +164,153 @@ def bubble_from_place(p: dict) -> dict:
       }
     }
 
+def _extract_user_id(ev) -> str | None:
+    try:
+        # dict 事件
+        if isinstance(ev, dict):
+            return ev.get("source", {}).get("userId")
+        # v3 事件物件
+        src = getattr(ev, "source", None)
+        return getattr(src, "user_id", None) if src else None
+    except Exception:
+        return None
+
+def safe_reply_or_push(msg_api, ev, reply_tok: str, messages: list) -> bool:
+    try:
+        msg_api.reply_message(ReplyMessageRequest(replyToken=reply_tok, messages=messages))
+        return True
+    except ApiException as e:
+        body = getattr(e, "body", "") or getattr(e, "reason", "")
+        if e.status == 400 and "Invalid reply token" in str(body):
+            user_id = _extract_user_id(ev)
+            if user_id:
+                msg_api.push_message(PushMessageRequest(to=user_id, messages=messages))
+                return True
+        # 其他錯誤：回 False 讓呼叫端決定要不要補一則純文字
+        return False
+    
+# --- 今日推薦：把 place 轉 Flex ---
+from urllib.parse import quote
+from typing import Dict, Any
+try:
+    # 若你的 places 模組有 PLACES，拿來做名稱→物件對照
+    from app.services.places import PLACES  # 可選
+except Exception:
+    PLACES = []
+
+def _gmaps_search_url(name: str, lat=None, lng=None) -> str:
+    # 沒座標就用關鍵字搜尋
+    return f"https://www.google.com/maps/search/{quote(name)}"
+
+def _to_place_obj(p: Any) -> Dict[str, Any]:
+    """
+    把可能是 str/dict 的 place 正規化成 dict，
+    至少提供 name/description/gmaps/image_url 這些欄位。
+    """
+    if isinstance(p, dict):
+        return p
+
+    if isinstance(p, str):
+        # 1) 試著在 PLACES 裡找到同名物件
+        for obj in PLACES or []:
+            name = obj.get("name") or obj.get("title")
+            if name and name.strip() == p.strip():
+                return obj
+        # 2) 找不到就用最小結構包起來
+        return {
+            "name": p,
+            "description": "",
+            "gmaps": _gmaps_search_url(p),
+            "image_url": None,
+        }
+
+    # 不是 str 也不是 dict，給個保底
+    return {
+        "name": str(p),
+        "description": "",
+        "gmaps": _gmaps_search_url(str(p)),
+        "image_url": None,
+    }
+
+def create_today_pick_message(city: str | None = None,
+                              district: str | None = None,
+                              category: str | None = None):
+    places = pick_today_place(city=city, district=district, category=category, limit=1)
+    if not places:
+        return None
+
+    p = _to_place_obj(places[0])          # 確保是 dict
+    bubble = bubble_from_place(p)         # 這裡要回 dict，且內含 "type": "bubble"
+
+    # ✅ 修正：from_dict 要含 "type": "flex"
+    # ✅ 確認 bubble 內有 "type": "bubble"
+    return FlexMessage.from_dict({
+        "type": "flex",
+        "altText": f"今日推薦：{p.get('name', '景點')}",
+        "contents": (
+            bubble if isinstance(bubble, dict) and bubble.get("type") == "bubble"
+            else {"type": "bubble", **(bubble or {})}  # 保底補上 type
+        ),
+    })
+
+# --- 吃什麼輪盤：把抽到的食物轉 Flex ---
+def create_food_roulette_message(city: str = "台北", district: str = "信義區") -> FlexMessage:
+    result = spin_food_roulette(city=city, district=district)
+    food = result["food"]
+    gmaps = result["gmaps"]
+    
+    bubble = {
+        "type": "bubble",
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": f"🍴 今天就吃:{food}",
+                    "weight": "bold",
+                    "size": "xl",
+                    "wrap": True
+                },
+                {
+                    "type": "text",
+                    "text": f"區域:{district}",
+                    "size": "sm",
+                    "margin": "md",
+                    "color": "#666666"
+                },
+            ],
+        },
+        "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+                {
+                    "type": "button",
+                    "style": "primary",
+                    "height": "sm",
+                    "action": {
+                        "type": "uri",
+                        "label": "查看附近店家",
+                        "uri": gmaps
+                    }
+                },
+                {
+                    "type": "button",
+                    "style": "link",
+                    "height": "sm",
+                    "action": {
+                        "type": "message",
+                        "label": "再轉一次 🔄",
+                        "text": "輪盤"
+                    }
+                }
+            ]
+        }
+    }
+    
+    return FlexMessage(
+        alt_text="今天吃什麼?🎡",
+        contents=bubble
+    )
