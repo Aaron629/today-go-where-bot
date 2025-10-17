@@ -627,7 +627,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%AA%E5%B9%B3%E5%8D%80%20%E5%A4%AA%E5%B9%B3%E5%8D%81%E5%85%AB%E5%BD%8E%E5%8F%A4%E9%81%93",
-    "image_url": "https://your-bot-cdn.com/taichung/taiping_trail.jpg"
+    "image_url": "https://tourism.chcg.gov.tw/upload/27/2022041408540217292.JPG"
   },
   {
     "name": "太平運動公園",
@@ -648,7 +648,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%AA%E5%B9%B3%E5%8D%80%20%E5%A4%AA%E5%B9%B3%E9%81%8B%E5%8B%95%E5%85%AC%E5%9C%92",
-    "image_url": "https://your-bot-cdn.com/taichung/taiping_sports_park.jpg"
+    "image_url": "https://openmuseum.tw/files/muse_portal/muse_styles/w740/mcode/eaa823880b25d503c8ed29defa55b1a9.jpg?itok=cjqQPYoh"
   },
   {
     "name": "頭汴坑生態園區",
@@ -669,7 +669,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%AA%E5%B9%B3%E5%8D%80%20%E9%A0%AD%E6%B1%B4%E5%9D%91%E7%94%9F%E6%85%8B%E5%9C%92%E5%8D%80",
-    "image_url": "https://your-bot-cdn.com/taichung/toubianteng_ecopark.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/55749/1024x768"
   },
   {
     "name": "內新黃昏市場",
@@ -1847,27 +1847,6 @@
     "image_url": "https://your-bot-cdn.com/taichung/printing_museum.jpg"
   },
   {
-    "name": "知卡宣森林公園",
-    "type": "walk",
-    "city": "台中",
-    "district": "太平區",
-    "description": "大型森林公園，多樣遊樂設施與花園景觀",
-    "tags": [
-      "公園",
-      "森林",
-      "親子",
-      "休閒"
-    ],
-    "hours": "依場館或店家為準",
-    "cost": "依消費或免費",
-    "geo": {
-      "lat": null,
-      "lng": null
-    },
-    "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%883",
-    "image_url": "https://your-bot-cdn.com/taichung/jikaxuan_park.jpg"
-  },
-  {
     "name": "九二一地震教育園區",
     "type": "spot",
     "city": "台中",
@@ -2516,7 +2495,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%994",
-    "image_url": "https://your-bot-cdn.com/taichung/taiping_farm_museum.jpg"
+    "image_url": "https://www.taiping.taichung.gov.tw/media/666422/%E5%8F%A4%E8%BE%B2%E8%8E%8A%E6%96%87%E7%89%A9%E9%A4%A8%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg"
   },
   {
     "name": "潭子區公所",
@@ -3107,11 +3086,11 @@
     "image_url": "https://your-bot-cdn.com/taichung/shuyi_park.jpg"
   },
   {
-    "name": "太平區公所",
+    "name": "百年大榕樹",
     "type": "spot",
     "city": "台中",
     "district": "太平區",
-    "description": "當地行政中心，周邊有主要商業區",
+    "description": "歷經400年的老樟樹仍充滿著生命力，葉片翠綠，枝幹壯碩",
     "tags": [
       "地標",
       "行政",
@@ -3124,8 +3103,8 @@
       "lat": null,
       "lng": null
     },
-    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%823",
-    "image_url": "https://your-bot-cdn.com/taichung/taiping_office.jpg"
+    "gmaps": "https://maps.app.goo.gl/HWc2LuAbv4hNxmQg8",
+    "image_url": "https://misshuan.tw/wp-content/uploads/20180711204216_95.jpg"
   },
   {
     "name": "烏日區公所",
