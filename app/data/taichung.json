@@ -81,7 +81,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%91",
-    "image_url": "https://your-bot-cdn.com/taichung/miyahara_eyeclinic.jpg"
+    "image_url": "https://i0.wp.com/journey.tw/wp-content/uploads/2021-06-20-165326-88.jpg?resize=1100%2C734&quality=99&ssl=1"
   },
   {
     "name": "台中第二市場",
@@ -102,7 +102,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B4",
-    "image_url": "https://your-bot-cdn.com/taichung/2nd_market.jpg"
+    "image_url": "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20230122/1024x768_20230122000092.jpg"
   },
   {
     "name": "台中火車站",
@@ -123,7 +123,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%99",
-    "image_url": "https://your-bot-cdn.com/taichung/taichung_station.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Old_TRA_Taichung_station_May_2020.jpg"
   },
   {
     "name": "東區樂成宮",
@@ -133,7 +133,6 @@
     "description": "百年媽祖廟，台中重要信仰中心",
     "tags": [
       "寺廟",
-      "文化",
       "古蹟",
       "信仰"
     ],
@@ -144,28 +143,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE",
-    "image_url": "https://your-bot-cdn.com/taichung/lecheng_temple.jpg"
-  },
-  {
-    "name": "台中酒廠文創園區",
-    "type": "spot",
-    "city": "台中",
-    "district": "東區",
-    "description": "老酒廠轉型文創空間，展覽與市集",
-    "tags": [
-      "文創",
-      "展覽",
-      "市集",
-      "拍照"
-    ],
-    "hours": "依場館或店家為準",
-    "cost": "依消費或免費",
-    "geo": {
-      "lat": null,
-      "lng": null
-    },
-    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A0",
-    "image_url": "https://your-bot-cdn.com/taichung/taichung_brewery.jpg"
+    "image_url": "https://data.boch.gov.tw/old_upload/_upload/Assets_new/building/37410/photo/d7ee896e-08ca-49d3-9d19-a2daa3571f15.jpg"
   },
   {
     "name": "旱溪夜市",
@@ -186,7 +164,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%82",
-    "image_url": "https://your-bot-cdn.com/taichung/hanxi_nightmarket.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/59488/1024x768"
   },
   {
     "name": "審計新村",
@@ -207,7 +185,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%AF%A9%E8%A8%88%E6%96%B0%E6%9D%91",
-    "image_url": "https://your-bot-cdn.com/taichung/shenji_newvillage.jpg"
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/d0/6a/b2/caption.jpg?w=1200&h=-1&s=1"
   },
   {
     "name": "勤美術館與草悟道",
@@ -228,7 +206,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8B%A4%E7%BE%8E%E8%A1%93%E9%A4%A8",
-    "image_url": "https://your-bot-cdn.com/taichung/calligraphy_greenway.jpg"
+    "image_url": "https://media.vogue.com.tw/photos/675ad31727a3e49aa6ffa7df/master/w_1600%2Cc_limit/%25E5%259C%259608.%25E5%258B%25A4%25E7%25BE%258E%25E8%25A1%2593%25E9%25A4%25A8%25E6%259B%25B2%25E9%259D%25A2%25E5%25B1%258B%25E9%25A0%2582%25E7%25B6%25A0%25E6%2584%258F%25EF%25BC%2588Photo%2520Credit%25EF%25BC%259A%25E5%258B%25A4%25E7%25BE%258E%25E8%25A1%2593%25E9%25A4%25A8%25E3%2580%2581Photography%2520by%2520%25E6%25A5%258A%25E6%2589%25BF%25EF%25BC%2589.jpg"
   },
   {
     "name": "國立台灣美術館",
@@ -249,7 +227,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%9C%8B%E7%AB%8B%E5%8F%B0%E7%81%A3%E7%BE%8E%E8%A1%93%E9%A4%A8",
-    "image_url": "https://your-bot-cdn.com/taichung/natl_taiwan_museum_of_fine_arts.jpg"
+    "image_url": "https://c8.staticflickr.com/9/8664/28464285783_2887445cae_b.jpg"
   },
   {
     "name": "彩虹眷村",
@@ -1235,7 +1213,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E8%80%81%E8%A1%978",
-    "image_url": "https://your-bot-cdn.com/taichung/taichung_literature_museum.jpg"
+    "image_url": "https://beri.tw/wp-content/uploads/2024/10/Taichung-Literature-Pavilion-11.jpg"
   },
   {
     "name": "新社花海",
@@ -1319,7 +1297,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B42",
-    "image_url": "https://your-bot-cdn.com/taichung/liuchuan_waterfront.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/50508/1024x768"
   },
   {
     "name": "筏子溪門戶迎賓水岸廊道",
@@ -1361,7 +1339,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B44",
-    "image_url": "https://your-bot-cdn.com/taichung/luji_ice_monster.jpg"
+    "image_url": "https://media.vogue.com.tw/photos/5db88fe646ca340008da5a7c/master/w_1600%2Cc_limit/2016082677040209.JPG"
   },
   {
     "name": "清水鬼洞",
@@ -1760,7 +1738,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%928",
-    "image_url": "https://your-bot-cdn.com/taichung/hanxi_bikeway.jpg"
+    "image_url": "https://images.chinatimes.com/newsphoto/2020-09-11/656/20200911000897.jpg"
   },
   {
     "name": "北區中正公園",
@@ -1805,7 +1783,7 @@
     "image_url": "https://your-bot-cdn.com/taichung/taichung_confucius_temple.jpg"
   },
   {
-    "name": "刑務所演武場",
+    "name": "國家漫畫博物館(刑務所演武場)",
     "type": "spot",
     "city": "台中",
     "district": "西區",
@@ -1823,7 +1801,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%881",
-    "image_url": "https://your-bot-cdn.com/taichung/shiwuso_enbudan.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/60812/1024x768"
   },
   {
     "name": "台灣印刷探索館",
@@ -2894,7 +2872,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A03",
-    "image_url": "https://your-bot-cdn.com/taichung/zhongqu_old_town.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/26301?r=637837894641451490"
   },
   {
     "name": "台中市政府",
@@ -3020,28 +2998,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A09",
-    "image_url": "https://your-bot-cdn.com/taichung/jishan_building.jpg"
-  },
-  {
-    "name": "東區公所",
-    "type": "spot",
-    "city": "台中",
-    "district": "東區",
-    "description": "當地行政中心，周邊有主要街道",
-    "tags": [
-      "地標",
-      "行政",
-      "城市",
-      "生活"
-    ],
-    "hours": "依場館或店家為準",
-    "cost": "依消費或免費",
-    "geo": {
-      "lat": null,
-      "lng": null
-    },
-    "gmaps": "https://maps.app.goo.gl/?q=%E6%97%B1%E6%BA%AA%E5%A4%9C%E5%B8%820",
-    "image_url": "https://your-bot-cdn.com/taichung/dongqu_office.jpg"
+    "image_url": "https://www.tchac.taichung.gov.tw/uploads/tchac/images/large/ce681dee-3f73-4c46-9e78-bc74b5a1388d.jpg"
   },
   {
     "name": "慈德慈惠堂",
