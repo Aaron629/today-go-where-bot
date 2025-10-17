@@ -395,7 +395,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%BF%A0%E5%AD%9D%E5%A4%9C%E5%B8%82",
-    "image_url": "https://your-bot-cdn.com/taichung/zhongxiao_nightmarket.jpg"
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/7d/8e/d6/caption.jpg?w=900&h=500&s=1"
   },
   {
     "name": "文化創意產業園區",
@@ -416,7 +416,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E6%96%87%E5%8C%96%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E5%9C%92%E5%8D%80",
-    "image_url": "https://your-bot-cdn.com/taichung/cultural_creative_park.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/50403/1024x768"
   },
   {
     "name": "中興大學",
@@ -437,7 +437,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%AD%E8%88%88%E5%A4%A7%E5%AD%B8",
-    "image_url": "https://your-bot-cdn.com/taichung/NCHU.jpg"
+    "image_url": "https://photo.travelking.com.tw/scenery/DE6589F1-FA8D-4C35-BDD1-98CBA3CCE8D4_e.jpg"
   },
   {
     "name": "大坑風景區",
@@ -1822,7 +1822,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%882",
-    "image_url": "https://your-bot-cdn.com/taichung/printing_museum.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/55669/1024x768"
   },
   {
     "name": "九二一地震教育園區",
@@ -2977,7 +2977,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A08",
-    "image_url": "https://your-bot-cdn.com/taichung/natl_public_info_library.jpg"
+    "image_url": "https://www.nlpi.edu.tw/FileHandler.ashx?oid=900974bf-4c66-42ef-875d-b69e0e168d6d&fid=abf1cb07-e9bd-43fc-bfe2-a70c91b0e206"
   },
   {
     "name": "積善樓",
