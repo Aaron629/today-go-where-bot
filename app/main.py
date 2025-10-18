@@ -43,12 +43,12 @@ log = logging.getLogger(__name__)
 
 # 你六張分類小圖（放在 app/static/imagemeps/）
 CATS_SRC = [
-    "categories_1040_0.jpg",
-    "categories_1040_1.jpg",
-    "categories_1040_2.jpg",
-    "categories_1040_3.jpg",
-    "categories_1040_4.jpg",
-    "categories_1040_5.jpg",
+    "categories_1040_0.png",
+    "categories_1040_1.png",
+    "categories_1040_2.png",
+    "categories_1040_3.png",
+    "categories_1040_4.png",
+    "categories_1040_5.png",
 ]
 
 # ---------- App lifecycle ----------
