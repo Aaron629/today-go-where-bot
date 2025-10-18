@@ -12,7 +12,8 @@ from app.services.today_recommend import pick_today_place
 from app.services.roulette import spin_food_roulette
 from linebot.v3.messaging.exceptions import ApiException
 import os
-
+import time
+import re
 # 各城市 → 行政區清單
 DISTRICTS_MAP = {
     "台北": ["中正區","大同區","中山區","松山區","大安區","萬華區","信義區","士林區","北投區","內湖區","南港區","文山區"],
@@ -79,6 +80,25 @@ def create_district_selection_message(city: str, page: int = 1) -> TextMessage:
     return TextMessage(text=title, quick_reply=QuickReply(items=qr_items))
 
 
+def _versioned_base_url() -> str:
+    """
+    產生帶 /v{ver} 的 baseUrl。
+    規則：
+    1) 若 ASSET_BASE_URL 已經有 /vxxx 結尾 -> 原樣返回
+    2) 否則在尾巴加 /v{ASSET_VER | GITHUB_SHA | 啟動時間戳}
+    """
+    base = os.getenv(
+        "ASSET_BASE_URL",
+        "https://today-go-where-api-898860726599.asia-east1.run.app/imgmap/categories",
+    ).rstrip("/")
+
+    # 已經帶版本了就直接用
+    if re.search(r"/v[0-9A-Za-z._-]+$", base):
+        return base
+
+    ver = os.getenv("ASSET_VER") or os.getenv("GITHUB_SHA") or str(int(time.time()))
+    return f"{base}/v{ver}"
+
 def make_category_imagemap(city: str, district: str) -> ImagemapMessage:
     size = ImagemapBaseSize(height=1040, width=1040)
     W, H = 520, 346
@@ -95,21 +115,18 @@ def make_category_imagemap(city: str, district: str) -> ImagemapMessage:
     for x, y, cat in rects:
         payload = f"CAT|{city}|{district}|{cat}|1"
         actions.append(
-            MessageImagemapAction(               # ← 專屬子類
+            MessageImagemapAction(
                 text=payload,
-                area=ImagemapArea(
-                    x=int(x), y=int(y), width=int(W), height=int(H)
-                )
+                area=ImagemapArea(x=int(x), y=int(y), width=int(W), height=int(H)),
             )
         )
 
-    # base_url = settings.asset_base_url.rstrip("/") + "/imgmap/categories"
-    base_url = os.getenv("ASSET_BASE_URL", "https://today-go-where-api-898860726599.asia-east1.run.app/imgmap/categories")
+    base_url = _versioned_base_url()  # ← 這裡一定會是 /imgmap/categories/v{ver}
     return ImagemapMessage(
-        base_url=base_url,                      # 必須是可公開 HTTPS 圖
+        base_url=base_url,
         alt_text=f"{city}{district}｜請選擇類別",
         base_size=size,
-        actions=actions
+        actions=actions,
     )
 
 
