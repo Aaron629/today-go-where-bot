@@ -37,15 +37,61 @@ from base64 import b64encode
 from io import BytesIO
 from fastapi import Response
 from PIL import Image
+from google.cloud import storage
 import re
 
 log = logging.getLogger(__name__)
+
+# 你六張分類小圖（檔名不變）
+CATS_SRC = [
+    "categories_1040_0.png",
+    "categories_1040_1.png",
+    "categories_1040_2.png",
+    "categories_1040_3.png",
+    "categories_1040_4.png",
+    "categories_1040_5.png",
+]
+
+TMP_DIR = "/tmp/imagemeps"   # ← 新增：統一用 /tmp
+
+def _sync_from_gcs(bucket_name: str, prefix: str, files: list[str], local_dir: str):
+    """把 GCS 上 prefix/files 同步到 local_dir"""
+    client = storage.Client()
+    bucket = client.bucket(bucket_name)
+    Path(local_dir).mkdir(parents=True, exist_ok=True)
+    for fn in files:
+        blob = bucket.blob(f"{prefix}/{fn}".strip("/"))
+        dst = Path(local_dir) / fn
+        blob.download_to_filename(str(dst))
 
 # ---------- App lifecycle ----------
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     try:
+        # 1) 從 GCS 同步六張 1040 小圖到 /tmp/imagemeps
+        if not settings.assets_bucket:
+            raise RuntimeError("ASSETS_BUCKET 未設定，無法從 GCS 取素材")
+        _sync_from_gcs(settings.assets_bucket, settings.assets_prefix, CATS_SRC, TMP_DIR)
+
+        # 2) 刪除舊 1040 grid，強迫重建
+        p1040 = Path(TMP_DIR) / "categories_1040_grid.png"
+        if p1040.exists():
+            p1040.unlink()
+
+        # 3) 組新版 1040 grid（輸出在 /tmp/imagemeps）
         build_if_needed(
+            output_path=str(p1040),
+            base_path=TMP_DIR,
+            categories=CATS_SRC,
+        )
+
+        # 4) 砍掉舊縮圖，讓 700/460 重新產生
+        for s in (700, 460):
+            p = Path(TMP_DIR) / f"categories_{s}.png"
+            if p.exists():
+                p.unlink()
+
+        log.info("[lifespan] synced from GCS and rebuilt grid under %s", TMP_DIR)
             output_path="app/static/imagemeps/categories_1040_grid.png",
             base_path="app/static/imagemeps",
             categories=[

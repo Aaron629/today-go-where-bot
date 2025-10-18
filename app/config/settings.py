@@ -8,6 +8,7 @@ from typing import Optional, Iterable, List, Dict, Any
 import json
 from pydantic import Field
 from dotenv import load_dotenv
+import os
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 ENV_FILE = PROJECT_ROOT / ".env"
@@ -35,6 +36,9 @@ class Settings(BaseSettings):
     # ✅ 舊：單一檔案（相容用；若設了就用它）
     places_path: Optional[Path] = Field(default=None, env="PLACES_PATH")
 
+    assets_bucket: str | None = os.getenv("ASSETS_BUCKET")  # 你的 GCS bucket 名稱
+    assets_prefix: str = os.getenv("ASSETS_PREFIX", "imagemeps")  # 存放目錄前綴（可用預設）
+    
     # ---- 路徑工具 ----
     @property
     def taipei_path(self) -> Path:
