@@ -42,28 +42,32 @@ def build_if_needed(output_path: str, base_path: str, categories: list[str]) -> 
         return make_category_grid_image(output_path, base_path, categories)
     return str(out)
 
-def ensure_resized(size: int) -> Path:
-    if size not in ALLOWED_SIZES:
-        raise HTTPException(status_code=404, detail="size not supported")
+# 下面是新的確保縮圖：從 base_dir 讀 grid，輸出到 base_dir
+def ensure_resized(size: int, base_dir: str = "/tmp/imagemeps") -> str:
+    """
+    確保存在 {base_dir}/categories_{size}.png，若無就從 {base_dir}/categories_1040_grid.png 重產
+    回傳檔案路徑
+    """
+    base = Path(base_dir)
+    base.mkdir(parents=True, exist_ok=True)
+    out_path = base / f"categories_{size}.png"
+    if out_path.exists():
+        return str(out_path)
 
-    target = STATIC_IMAGEMAP_DIR / f"categories_{size}.png"  # ← 確保是 .png
+    src = base / "categories_1040_grid.png"
+    if not src.exists():
+        raise FileNotFoundError(f"Missing {src}")
 
-    if target.is_file():
-        return target
+    im = Image.open(src)
+    if size != im.width:
+        ratio = size / im.width
+        new_h = int(round(im.height * ratio))
+        im = im.resize((size, new_h), Image.LANCZOS)
+    if im.mode != "RGB":
+        im = im.convert("RGB")
+    im.save(out_path, format="PNG")
+    return str(out_path)
 
-    if not SRC_1040.is_file():
-        raise HTTPException(status_code=404, detail="source image (1040) missing")
-
-    with Image.open(SRC_1040) as im:
-        w, h = im.size
-        if w != 1040:
-            im = im.resize((1040, int(h * 1040 / w)), Image.LANCZOS)
-        new_h = int(im.height * (size / 1040))
-        resized = im.resize((size, new_h), Image.LANCZOS)
-        target.parent.mkdir(parents=True, exist_ok=True)
-        resized.save(target, format="PNG", optimize=True)  # ← 改成 PNG
-
-    return target
 
 def imagemap_categories(size: int):
     try:
