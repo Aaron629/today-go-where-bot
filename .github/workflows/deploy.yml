@@ -64,10 +64,10 @@ jobs:
             --allow-unauthenticated \
             --service-account cr-runtime@${{ vars.PROJECT_ID }}.iam.gserviceaccount.com \
             --cpu 1 --memory 512Mi \
-            --concurrency 10 --timeout 30s \
+            --concurrency 10 --timeout 90s \
             --min-instances 1 \
-            --set-env-vars=ASSETS_BUCKET=today-go-where-assets,ASSETS_PREFIX=imgmap/categories
-            --set-secrets=CHANNEL_SECRET=CHANNEL_SECRET:latest,CHANNEL_ACCESS_TOKEN=CHANNEL_ACCESS_TOKEN:latest
+            --set-env-vars "ASSETS_BUCKET=${{ vars.ASSET_BUCKET }},ASSETS_PREFIX=imgmap/categories" \
+            --set-secrets "CHANNEL_SECRET=CHANNEL_SECRET:latest,CHANNEL_ACCESS_TOKEN=CHANNEL_ACCESS_TOKEN:latest"
 
       - name: Show service URL
         run: gcloud run services describe ${{ vars.SERVICE_NAME }} --region ${{ vars.REGION }} --format='value(status.url)'
