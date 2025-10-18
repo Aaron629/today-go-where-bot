@@ -70,8 +70,9 @@ async def lifespan(app: FastAPI):
     try:
         # 1) 從 GCS 同步六張 1040 小圖到 /tmp/imagemeps
         if not settings.assets_bucket:
-            raise RuntimeError("ASSETS_BUCKET 未設定，無法從 GCS 取素材")
-        _sync_from_gcs(settings.assets_bucket, settings.assets_prefix, CATS_SRC, TMP_DIR)
+            log.error("ASSETS_BUCKET 未設定，將跳過同步（服務仍會啟動）")
+        else:
+            _sync_from_gcs(settings.assets_bucket, settings.assets_prefix, CATS_SRC, TMP_DIR)
 
         # 2) 刪除舊 1040 grid，強迫重建
         p1040 = Path(TMP_DIR) / "categories_1040_grid.png"
@@ -91,31 +92,13 @@ async def lifespan(app: FastAPI):
             if p.exists():
                 p.unlink()
 
-        log.info("[lifespan] synced from GCS and rebuilt grid under %s", TMP_DIR)
-            output_path="app/static/imagemeps/categories_1040_grid.png",
-            base_path="app/static/imagemeps",
-            categories=[
-                "categories_1040_0.png",
-                "categories_1040_1.png",
-                "categories_1040_2.png",
-                "categories_1040_3.png",
-                "categories_1040_4.png",
-                "categories_1040_5.png",
-            ],
-        )
-        # 刪掉舊縮圖，讓 700/460 以新版 1040 重新產生
-        for s in (700, 460):
-            p = Path(f"app/static/imagemeps/categories_{s}.png")
-            if p.exists():
-                p.unlink()
-        log.info("[lifespan] category grid ready & resized cache cleared.")
+        log.info("[lifespan] synced/rebuilt assets under %s", TMP_DIR)
     except Exception as e:
         log.exception("[lifespan] prepare assets failed: %s", e)
 
     yield
-
-    # Shutdown：目前無需清理
     return
+
 
 app = FastAPI(lifespan=lifespan)
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
