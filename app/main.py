@@ -106,32 +106,41 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 # ---------- Static helpers ----------
 @app.get("/imgmap/categories/{size}")
 def imagemap_categories(size: int):
-    """
-    LINE Imagemap 會請求這個 endpoint (不帶副檔名)
-    必須返回 PNG 格式
-    """
     try:
-        img_path = ensure_resized(size)
-        
-        # 確保返回 PNG 格式
+        # 如果 ensure_resized 支援 base_dir 參數，用它指向 /tmp
+        # 若不支援，就維持原來的呼叫
+        try:
+            img_path = ensure_resized(size, base_dir=TMP_DIR)  # ✅ 推薦
+        except TypeError:
+            img_path = ensure_resized(size)  # 舊版簽名就用這個
+
         im = Image.open(img_path)
         if im.mode != "RGB":
             im = im.convert("RGB")
-        
+
         buf = BytesIO()
-        im.save(buf, format="PNG")  # ← 改成 PNG
+        im.save(buf, format="PNG")
         buf.seek(0)
-        
-        return Response(buf.getvalue(), media_type="image/png")
+
+        resp = Response(buf.getvalue(), media_type="image/png")
+        resp.headers["Cache-Control"] = "no-store"
+        resp.headers["Pragma"] = "no-cache" # 不要快取
+        return resp
     except HTTPException:
         raise
     except Exception as e:
         log.exception("imagemap build failed: %s", e)
         raise HTTPException(status_code=500, detail=f"image build failed: {e}")
-
-@app.get("/imgmap/categories/{size}.png")
-def imagemap_categories_jpg(size: int):
+    
+# 版本化路徑（忽略 ver，單純用來破快取）
+@app.get("/imgmap/categories/v{ver}/{size}")
+def imagemap_categories_v(ver: str, size: int):
     return imagemap_categories(size)
+
+@app.get("/imgmap/categories/v{ver}/{size}.png")
+def imagemap_categories_v_png(ver: str, size: int):
+    return imagemap_categories(size)
+
 
 # ---------- Load data & normalize links ----------
 PLACES = settings.load_places()
