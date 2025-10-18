@@ -92,10 +92,29 @@ async def lifespan(app: FastAPI):
                 p.unlink()
 
         log.info("[lifespan] synced from GCS and rebuilt grid under %s", TMP_DIR)
+            output_path="app/static/imagemeps/categories_1040_grid.png",
+            base_path="app/static/imagemeps",
+            categories=[
+                "categories_1040_0.png",
+                "categories_1040_1.png",
+                "categories_1040_2.png",
+                "categories_1040_3.png",
+                "categories_1040_4.png",
+                "categories_1040_5.png",
+            ],
+        )
+        # 刪掉舊縮圖，讓 700/460 以新版 1040 重新產生
+        for s in (700, 460):
+            p = Path(f"app/static/imagemeps/categories_{s}.png")
+            if p.exists():
+                p.unlink()
+        log.info("[lifespan] category grid ready & resized cache cleared.")
     except Exception as e:
         log.exception("[lifespan] prepare assets failed: %s", e)
 
     yield
+
+    # Shutdown：目前無需清理
     return
 
 app = FastAPI(lifespan=lifespan)
@@ -127,7 +146,7 @@ def imagemap_categories(size: int):
         log.exception("imagemap build failed: %s", e)
         raise HTTPException(status_code=500, detail=f"image build failed: {e}")
 
-@app.get("/imgmap/categories/{size}.jpg")
+@app.get("/imgmap/categories/{size}.png")
 def imagemap_categories_jpg(size: int):
     return imagemap_categories(size)
 
