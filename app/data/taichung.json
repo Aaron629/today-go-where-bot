@@ -269,7 +269,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E8%B1%90%E6%A8%82%E9%9B%95%E5%A1%91%E5%85%AC%E5%9C%92",
-    "image_url": "https://your-bot-cdn.com/taichung/feng_le_sculpture_park.jpg"
+    "image_url": "https://travel.taichung.gov.tw/content/images/attractions/6542/1024x768_Filedata635300568660901882.jpg"
   },
   {
     "name": "萬和宮",
@@ -290,7 +290,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E8%90%AC%E5%92%8C%E5%AE%AE",
-    "image_url": "https://your-bot-cdn.com/taichung/wanhe_temple.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/575/1024x768"
   },
   {
     "name": "台中國家歌劇院",
@@ -458,7 +458,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%A4%A7%E5%9D%91%E9%A2%A8%E6%99%AF%E5%8D%80",
-    "image_url": "https://your-bot-cdn.com/taichung/dakeng.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/31573/1024x768"
   },
   {
     "name": "心之芳庭",
@@ -479,7 +479,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%BF%83%E4%B9%8B%E8%8A%B3%E5%BA%AD",
-    "image_url": "https://your-bot-cdn.com/taichung/moncoeur.jpg"
+    "image_url": "https://petsyoyo.tw/wp-content/uploads/2020/03/09.jpeg"
   },
   {
     "name": "廍子公園",
@@ -500,7 +500,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%BB%8D%E5%AD%90%E5%85%AC%E5%9C%92",
-    "image_url": "https://your-bot-cdn.com/taichung/bu_zi_park.jpg"
+    "image_url": "https://www.taichung.gov.tw/media/1225494/01-%E6%8A%8A%E6%8F%A1%E6%9C%80%E5%BE%8C%E6%98%A5%E6%97%A5%E9%99%90%E5%AE%9A%E7%BE%8E%E6%99%AF-%E5%BB%8D%E5%AD%90%E5%85%AC%E5%9C%92%E9%BB%83%E8%8A%B1%E9%A2%A8%E9%88%B4%E6%9C%A8%E7%9B%9B%E9%96%8B%E7%82%B8%E6%BB%BF-_0.jpg"
   },
   {
     "name": "潭雅神綠園道",
@@ -920,7 +920,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B8%85%E6%B0%B4%E5%8D%80%20%E9%AB%98%E7%BE%8E%E6%BF%95%E5%9C%B0",
-    "image_url": "https://your-bot-cdn.com/taichung/gaomei_wetland.jpg"
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/9b/d0/29/2.jpg?w=900&h=-1&s=1"
   },
   {
     "name": "鰲峰山公園",
@@ -941,7 +941,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B8%85%E6%B0%B4%E5%8D%80%20%E9%B0%B2%E5%B3%B0%E5%B1%B1%E5%85%AC%E5%9C%92",
-    "image_url": "https://your-bot-cdn.com/taichung/aofeng_park.jpg"
+    "image_url": "https://www.walkerland.com.tw/image/1200/0/article/2021/12/m37560/1712721118d31c645457fbfe1fd783fee347cc7b.jpg"
   },
   {
     "name": "清水紫雲巖",
@@ -962,7 +962,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B8%85%E6%B0%B4%E5%8D%80%20%E6%B8%85%E6%B0%B4%E7%B4%AB%E9%9B%B2%E5%B7%96",
-    "image_url": "https://your-bot-cdn.com/taichung/ziyun_temple.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/4406/1024x768"
   },
   {
     "name": "鎮瀾宮",
@@ -973,7 +973,7 @@
     "tags": [
       "宗教",
       "信仰",
-      "文化",
+      "寺廟",
       "地標"
     ],
     "hours": "依場館或店家為準",
@@ -983,7 +983,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E7%94%B2%E5%8D%80%20%E9%8E%AE%E7%80%BE%E5%AE%AE",
-    "image_url": "https://your-bot-cdn.com/taichung/zhenlan_temple.jpg"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpdSsp_r_tuwodhEDsXpuBkLylOOGApc_zmQ&s"
   },
   {
     "name": "大甲鐵砧山風景區",
@@ -1004,7 +1004,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E7%94%B2%E5%8D%80%20%E5%A4%A7%E7%94%B2%E9%90%B5%E7%A0%A7%E5%B1%B1%E9%A2%A8%E6%99%AF%E5%8D%80",
-    "image_url": "https://your-bot-cdn.com/taichung/tieh_chen_mountain.jpg"
+    "image_url": "https://www.scenic.taichung.gov.tw/media/628613/%E5%A4%A7%E7%94%B2%E9%90%B5%E7%A0%A7%E5%B1%B1.jpg"
   },
   {
     "name": "大甲文昌祠",
@@ -1014,7 +1014,7 @@
     "description": "傳統文昌信仰與古風建築",
     "tags": [
       "宗教",
-      "文化",
+      "寺廟",
       "歷史",
       "古蹟"
     ],
@@ -1025,7 +1025,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%A4%A7%E7%94%B2%E5%8D%80%20%E5%A4%A7%E7%94%B2%E6%96%87%E6%98%8C%E7%A5%A0",
-    "image_url": "https://your-bot-cdn.com/taichung/wenchang_shrine.jpg"
+    "image_url": "https://travel.taichung.gov.tw/instagram-src/c10zjhssqjc"
   },
   {
     "name": "豐原廟東夜市",
@@ -1046,7 +1046,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E8%B1%90%E5%8E%9F%E5%8D%80%20%E8%B1%90%E5%8E%9F%E5%BB%9F%E6%9D%B1%E5%A4%9C%E5%B8%82",
-    "image_url": "https://your-bot-cdn.com/taichung/fengyuan_miaodong_nightmarket.jpg"
+    "image_url": "https://cdn-smiletaiwan.cw.com.tw/article/201904/article-5caebc766da06.jpg"
   },
   {
     "name": "葫蘆墩公園",
@@ -1067,7 +1067,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E8%B1%90%E5%8E%9F%E5%8D%80%20%E8%91%AB%E8%98%86%E5%A2%A9%E5%85%AC%E5%9C%92",
-    "image_url": "https://your-bot-cdn.com/taichung/huludun_park.jpg"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5HyfPJHkHSDboYgdCdMIkeSzgzoj43nU9w&s"
   },
   {
     "name": "慈濟宮",
@@ -1077,7 +1077,7 @@
     "description": "豐原信仰中心，歷史悠久媽祖廟",
     "tags": [
       "宗教",
-      "文化",
+      "寺廟",
       "古蹟",
       "信仰"
     ],
@@ -1088,7 +1088,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E8%B1%90%E5%8E%9F%E5%8D%80%20%E6%85%88%E6%BF%9F%E5%AE%AE",
-    "image_url": "https://your-bot-cdn.com/taichung/cici_temple.jpg"
+    "image_url": "https://images.chinatimes.com/newsphoto/2024-12-27/656/20241227004911.jpg"
   },
   {
     "name": "麗寶樂園",
@@ -1171,7 +1171,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E8%80%81%E8%A1%976",
-    "image_url": "https://your-bot-cdn.com/taichung/yide_mansion.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/53796/1024x768"
   },
   {
     "name": "分子藥局 (大里店)",
@@ -1276,7 +1276,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B41",
-    "image_url": "https://your-bot-cdn.com/taichung/wanggaoliao_park.jpg"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrz7gwWoKtNGpouZZLD0X4eHaInHs_jZCm9A&s"
   },
   {
     "name": "柳川水岸景觀步道",
@@ -1360,7 +1360,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B420",
-    "image_url": "https://your-bot-cdn.com/taichung/qingshui_ghost_cave.jpg"
+    "image_url": "https://www.taichung.gov.tw/media/659067/%E4%B8%AD%E5%B8%82%E6%B8%85%E6%B0%B4%E9%AC%BC%E6%B4%9E%E9%87%8D%E5%95%9F%E9%96%8B%E6%94%BE-%E9%98%B2%E7%96%AB%E4%B8%8D%E9%AC%86%E6%87%88.jpg"
   },
   {
     "name": "沙鹿休閒景觀公園",
@@ -1465,7 +1465,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B425",
-    "image_url": "https://your-bot-cdn.com/taichung/dongshi_forest.jpg"
+    "image_url": "https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_694_2.jpg"
   },
   {
     "name": "新社古堡花園",
@@ -1633,7 +1633,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%923",
-    "image_url": "https://your-bot-cdn.com/taichung/dongfeng_bikeway.jpg"
+    "image_url": "https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_9410_5.jpg"
   },
   {
     "name": "月眉糖廠",
@@ -1948,7 +1948,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%889",
-    "image_url": "https://your-bot-cdn.com/taichung/nantun_old_street.jpg"
+    "image_url": "https://sister.travel/wp-content/uploads/2023/10/Nantun-Oldstreet.jpg"
   },
   {
     "name": "台中市議會",
@@ -1989,7 +1989,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%911",
-    "image_url": "https://your-bot-cdn.com/taichung/feng_chia_university.jpg"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzGG7_Mqhax0pVPIRHk9EkGXiYidVB4P4hog&s"
   },
   {
     "name": "東海別墅商圈",
@@ -2262,7 +2262,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B44",
-    "image_url": "https://your-bot-cdn.com/taichung/dongshi_hakka_park.jpg"
+    "image_url": "https://as660707.com/wp-content/uploads/20241028162417_0_f97819.jpg"
   },
   {
     "name": "東勢林業文化園區",
@@ -2283,7 +2283,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B45",
-    "image_url": "https://your-bot-cdn.com/taichung/dongshi_forestry_park.jpg"
+    "image_url": "https://www.forest.gov.tw/Attachments/ArticlePictures/10000223/img/2000_10000223.jpg"
   },
   {
     "name": "后里環保公園",
@@ -2378,7 +2378,7 @@
     "tags": [
       "歷史",
       "古蹟",
-      "文化",
+      "寺廟",
       "傳說"
     ],
     "hours": "依場館或店家為準",
@@ -2388,7 +2388,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%990",
-    "image_url": "https://your-bot-cdn.com/taichung/tieh_chen_jianjing.jpg"
+    "image_url": "https://www.taichung.gov.tw/media/515479/%E6%B0%91%E7%9C%BE%E7%89%B9%E5%AF%AB%E5%8A%8D%E4%BA%95%E6%AD%B7%E5%8F%B2%E7%A2%91.jpg"
   },
   {
     "name": "清水街觀光夜市",
@@ -2409,7 +2409,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%991",
-    "image_url": "https://your-bot-cdn.com/taichung/qingshui_nightmarket.jpg"
+    "image_url": "https://misshuan.tw/wp-content/uploads/20200809004936_85.jpg"
   },
   {
     "name": "大雅橫山公園",
@@ -2589,7 +2589,7 @@
       "古蹟",
       "歷史",
       "建築",
-      "文化"
+      "寺廟"
     ],
     "hours": "依場館或店家為準",
     "cost": "依消費或免費",
@@ -2598,7 +2598,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE0",
-    "image_url": "https://your-bot-cdn.com/taichung/dajia_lin_shrine.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/%E5%A4%A7%E7%94%B2%E6%9E%97%E6%B0%8F%E8%B2%9E%E5%AD%9D%E5%9D%8A.jpg"
   },
   {
     "name": "大里藝術廣場",
@@ -2640,7 +2640,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE2",
-    "image_url": "https://your-bot-cdn.com/taichung/fengyuan_lacquer_museum.jpg"
+    "image_url": "https://www.tromnimedia.com/FileUploads/ArticlePhoto/20230720061732748.jpg"
   },
   {
     "name": "豐原公老坪",
@@ -2661,7 +2661,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%A8%82%E6%88%90%E5%AE%AE3",
-    "image_url": "https://your-bot-cdn.com/taichung/gonglaoping.jpg"
+    "image_url": "https://www.taichung.gov.tw/media/657851/%E8%B1%90%E5%8E%9F%E5%85%AC%E8%80%81%E5%9D%AA%E5%A4%9C%E6%99%AF.jpg"
   },
   {
     "name": "霧峰農會酒莊",
@@ -2808,7 +2808,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A01",
-    "image_url": "https://your-bot-cdn.com/taichung/beiqu_sports_center.jpg"
+    "image_url": "https://taichung.travel/content/images/articles/24151/1024x768_image1636413488763905530.jpg"
   },
   {
     "name": "中國醫藥大學商圈",
@@ -2913,28 +2913,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A06",
-    "image_url": "https://your-bot-cdn.com/taichung/nantun_library.jpg"
-  },
-  {
-    "name": "豐樂公園",
-    "type": "walk",
-    "city": "台中",
-    "district": "南屯區",
-    "description": "大型公園，湖畔步道與雕塑作品",
-    "tags": [
-      "公園",
-      "散步",
-      "休閒",
-      "藝術"
-    ],
-    "hours": "依場館或店家為準",
-    "cost": "依消費或免費",
-    "geo": {
-      "lat": null,
-      "lng": null
-    },
-    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E9%85%92%E5%BB%A07",
-    "image_url": "https://your-bot-cdn.com/taichung/fengle_park.jpg"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5v9qPe-ZZ6WTTmB4BUmOxDzXvNxGp8-70gA&s"
   },
   {
     "name": "南區國立公共資訊圖書館",
