@@ -248,7 +248,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%BD%A9%E8%99%B9%E7%9C%B7%E6%9D%91",
-    "image_url": "https://your-bot-cdn.com/taichung/rainbow_village.jpg"
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR298_7Xam1veOOdx4SP4m-kcz39QlvpVUK9w&s"
   },
   {
     "name": "豐樂雕塑公園",
@@ -794,7 +794,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B2%99%E9%B9%BF%E5%8D%80%20%E9%9D%9C%E5%AE%9C%E5%A4%A7%E5%AD%B8",
-    "image_url": "https://your-bot-cdn.com/taichung/providence_university.jpg"
+    "image_url": "https://images.1111.com.tw/discussPic/13/47735613_144865938.329223.jpg"
   },
   {
     "name": "沙鹿夢想街",
@@ -815,10 +815,10 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B2%99%E9%B9%BF%E5%8D%80%20%E6%B2%99%E9%B9%BF%E5%A4%A2%E6%83%B3%E8%A1%97",
-    "image_url": "https://your-bot-cdn.com/taichung/shalu_dream_st.jpg"
+    "image_url": "https://img.fun-life.com.tw/Taichung-play/dream-street/DSC05585.jpg"
   },
   {
-    "name": "北勢溪親水公園",
+    "name": "南勢溪湧泉親水區",
     "type": "walk",
     "city": "台中",
     "district": "沙鹿區",
@@ -835,8 +835,8 @@
       "lat": null,
       "lng": null
     },
-    "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E6%B2%99%E9%B9%BF%E5%8D%80%20%E5%8C%97%E5%8B%A2%E6%BA%AA%E8%A6%AA%E6%B0%B4%E5%85%AC%E5%9C%92",
-    "image_url": "https://your-bot-cdn.com/taichung/beishi_river_park.jpg"
+    "gmaps": "https://maps.app.goo.gl/4KpqAvKLMPcDPeYn9",
+    "image_url": "https://dcm.s3.hicloud.net.tw/new/collection/2021-04-02/cbb4e575-968f-4068-9ba0-efc7f2782614/862fdeca-210c-4b93-997f-d261a95e4340.JPG"
   },
   {
     "name": "龍井海岸",
@@ -1108,7 +1108,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%90%8E%E9%87%8C%E5%8D%80%20%E9%BA%97%E5%AF%B6%E6%A8%82%E5%9C%92",
-    "image_url": "https://your-bot-cdn.com/taichung/lihpao_land.jpg"
+    "image_url": "https://photo.settour.com.tw/900x600/https%3A%2F%2Fwww.settour.com.tw%2Fss_img%2FGDP%2F0000%2F0013%2F66%2Fori_9702613.jpg"
   },
   {
     "name": "中社花市花海",
@@ -1150,7 +1150,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%90%8E%E9%87%8C%E5%8D%80%20%E5%90%8E%E9%87%8C%E9%A6%AC%E5%A0%B4",
-    "image_url": "https://your-bot-cdn.com/taichung/houli_horse_farm.jpg"
+    "image_url": "https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_9407_7.jpg"
   },
   {
     "name": "一德洋樓 (林懋陽故居)",
@@ -1381,7 +1381,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B421",
-    "image_url": "https://your-bot-cdn.com/taichung/shalu_leisure_park.jpg"
+    "image_url": "https://live.staticflickr.com/65535/51355584667_90b4a325ca_b.jpg"
   },
   {
     "name": "東海藝術街商圈",
@@ -1654,7 +1654,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%924",
-    "image_url": "https://your-bot-cdn.com/taichung/yuemei_sugar_factory.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/59448/1024x768"
   },
   {
     "name": "張家祖廟",
@@ -1696,7 +1696,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E5%85%AC%E5%9C%926",
-    "image_url": "https://your-bot-cdn.com/taichung/wuqi_fish_port.jpg"
+    "image_url": "https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_9409_10.jpg"
   },
   {
     "name": "台中都會公園",
@@ -2013,7 +2013,7 @@
     "image_url": "https://your-bot-cdn.com/taichung/donghai_villa_market.jpg"
   },
   {
-    "name": "台中港",
+    "name": "臺中港",
     "type": "spot",
     "city": "台中",
     "district": "梧棲區",
@@ -2031,7 +2031,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%913",
-    "image_url": "https://your-bot-cdn.com/taichung/taichung_port.jpg"
+    "image_url": "https://cruise.twport.com.tw/ArtPic1.ashx?id=2624&w=1920"
   },
   {
     "name": "神岡區公所",
@@ -2055,15 +2055,14 @@
     "image_url": "https://your-bot-cdn.com/taichung/shengang_office.jpg"
   },
   {
-    "name": "神岡社口犂頭店",
+    "name": "神岡社口犂記餅店",
     "type": "spot",
     "city": "台中",
     "district": "神岡區",
-    "description": "歷史悠久傳統農具店，具文化保存價值",
+    "description": "歷史悠久的太陽餅老店，傳承在地美食文化",
     "tags": [
-      "古蹟",
-      "文化",
-      "歷史",
+      "美食",
+      "伴手禮",
       "在地"
     ],
     "hours": "依場館或店家為準",
@@ -2073,7 +2072,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%915",
-    "image_url": "https://your-bot-cdn.com/taichung/shekou_litou_shop.jpg"
+    "image_url": "https://flyblog.cc/wp-content/uploads/2022/08/batch_DSCF8288.jpg"
   },
   {
     "name": "社口林宅",
@@ -2094,7 +2093,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%916",
-    "image_url": "https://your-bot-cdn.com/taichung/shekou_lin_residence.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/55740/1024x768"
   },
   {
     "name": "和平區公所",
@@ -2535,7 +2534,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%997",
-    "image_url": "https://your-bot-cdn.com/taichung/taichung_port_center.jpg"
+    "image_url": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2025/02/07/realtime/31455399.jpg&x=0&y=0&sw=0&sh=0&exp=3600"
   },
   {
     "name": "外埔農會花園",
@@ -2577,7 +2576,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%999",
-    "image_url": "https://your-bot-cdn.com/taichung/qingshui_military_village.jpg"
+    "image_url": "https://image-cdn.learnin.tw/bnextmedia/image/album/2024-11/img-1732766169-69034.jpg?w=600&output=webp"
   },
   {
     "name": "大甲林氏貞孝坊",
