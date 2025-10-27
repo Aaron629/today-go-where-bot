@@ -521,7 +521,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%BD%AD%E9%9B%85%E7%A5%9E%E7%B6%A0%E5%9C%92%E9%81%93",
-    "image_url": "https://your-bot-cdn.com/taichung/tanyashen_bikeway.jpg"
+    "image_url": "https://www.taichung.gov.tw/media/593687/s%E5%BD%8E%E9%81%93.jpg"
   },
   {
     "name": "潭子國小日式宿舍群",
@@ -542,7 +542,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%BD%AD%E5%AD%90%E5%9C%8B%E5%B0%8F%E6%97%A5%E5%BC%8F%E5%AE%BF%E8%88%8D",
-    "image_url": "https://your-bot-cdn.com/taichung/tanzi_school_dorm.jpg"
+    "image_url": "https://data.boch.gov.tw/upload/media/2023-08-28/e0cf3ea7-b450-4cba-8c60-4621349ce994/20230703-01.jpg"
   },
   {
     "name": "摘星山莊",
@@ -563,7 +563,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E6%91%98%E6%98%9F%E5%B1%B1%E8%8E%8A",
-    "image_url": "https://your-bot-cdn.com/taichung/zhai_xing_mountain_villa.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/55507/1024x768"
   },
   {
     "name": "大雅小麥文化節",
@@ -584,7 +584,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%A4%A7%E9%9B%85%E5%B0%8F%E9%BA%A5",
-    "image_url": "https://your-bot-cdn.com/taichung/daya_wheat_festival.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/32452/1024x768"
   },
   {
     "name": "太平十八彎古道",
@@ -1129,7 +1129,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%20%E5%90%8E%E9%87%8C%E5%8D%80%20%E4%B8%AD%E7%A4%BE%E8%8A%B1%E5%B8%82%E8%8A%B1%E6%B5%B7",
-    "image_url": "https://your-bot-cdn.com/taichung/zhongshe_flower_market.jpg"
+    "image_url": "https://lh4.googleusercontent.com/proxy/WOAgHhoiKx2lTmfRBIE52GvCfCb3HYDiz5p5MycAK6MJIOvuiSR3NNJAnFCYn9qZon3Q1uL3vIZClATQ0w3AlgO_d51zY5HWz3QCksk"
   },
   {
     "name": "后里馬場",
@@ -1255,7 +1255,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B40",
-    "image_url": "https://your-bot-cdn.com/taichung/houfeng_bikeway.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/63263/1024x768"
   },
   {
     "name": "望高寮夜景公園",
@@ -1444,7 +1444,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%89%E8%8A%9D%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B424",
-    "image_url": "https://your-bot-cdn.com/taichung/tai-an_sakura.jpg"
+    "image_url": "https://www.taichung.gov.tw/media/536442/%E5%90%8E%E9%87%8C%E6%B3%B0%E5%AE%89%E6%AB%BB%E8%8A%B1%E5%AD%A3-228%E9%80%A3%E5%81%87%E9%96%8B%E5%A5%BD%E9%96%8B%E6%BB%BF-%E6%84%9F%E5%8F%97%E7%99%BE%E8%8A%B1%E9%BD%8A%E6%94%BE%E7%94%9F%E5%91%BD%E5%8A%9B.jpg"
   },
   {
     "name": "東勢林場遊樂區",
@@ -1864,7 +1864,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%885",
-    "image_url": "https://your-bot-cdn.com/taichung/tanzi_sports_park.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/794/1024x768"
   },
   {
     "name": "烏日高鐵站廣場",
@@ -1906,7 +1906,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E4%B8%80%E4%B8%AD%E8%A1%97%E5%95%86%E5%9C%887",
-    "image_url": "https://your-bot-cdn.com/taichung/daya_park.jpg"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/%E5%A4%A7%E9%9B%85%E5%8D%80%E5%85%AC%E5%9C%92.JPG"
   },
   {
     "name": "大里區公所",
@@ -2304,7 +2304,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B8%82%E5%A0%B46",
-    "image_url": "https://your-bot-cdn.com/taichung/houli_eco_park.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/27907/1024x768"
   },
   {
     "name": "月眉人工濕地公園",
@@ -2412,7 +2412,7 @@
     "image_url": "https://misshuan.tw/wp-content/uploads/20200809004936_85.jpg"
   },
   {
-    "name": "大雅橫山公園",
+    "name": "中科橫山公園",
     "type": "walk",
     "city": "台中",
     "district": "大雅區",
@@ -2430,7 +2430,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%992",
-    "image_url": "https://your-bot-cdn.com/taichung/daya_hengshan_park.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/32441/1024x768"
   },
   {
     "name": "台中市纖維工藝博物館",
@@ -2496,7 +2496,7 @@
     "image_url": "https://your-bot-cdn.com/taichung/tanzi_office.jpg"
   },
   {
-    "name": "大雅忠義公園",
+    "name": "戰車公園",
     "type": "walk",
     "city": "台中",
     "district": "大雅區",
@@ -2514,7 +2514,7 @@
       "lng": null
     },
     "gmaps": "https://maps.app.goo.gl/?q=%E5%8F%B0%E4%B8%AD%E7%81%AB%E8%BB%8A%E7%AB%996",
-    "image_url": "https://your-bot-cdn.com/taichung/daya_zhongyi_park.jpg"
+    "image_url": "https://travel.taichung.gov.tw/image/58278/1024x768"
   },
   {
     "name": "臺中港旅客服務中心",
