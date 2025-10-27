@@ -20,6 +20,29 @@ jobs:
           echo "GITHUB_REPOSITORY=$GITHUB_REPOSITORY"
           echo "GITHUB_REF=$GITHUB_REF"
           echo "GITHUB_ACTOR=$GITHUB_ACTOR"
+          
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: web-roulette/package-lock.json
+
+      - name: Write env for frontend
+        run: |
+          cd web-roulette
+          echo "VITE_LIFF_ID=${{ vars.VITE_LIFF_ID }}" > .env.production
+
+      - name: Build frontend & copy to backend
+        run: |
+          cd web-roulette
+          npm ci
+          npm run build
+          cd ..
+          rm -rf app/static/liff/roulette
+          mkdir -p app/static/liff/roulette
+          cp -r web-roulette/dist/* app/static/liff/roulette/
+          ls -la app/static/liff/roulette
 
       - name: Auth to GCP (WIF)
         uses: google-github-actions/auth@v2

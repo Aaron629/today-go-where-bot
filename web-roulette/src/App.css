@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.subtitle code {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-family: 'Courier New', monospace;
+}
+
+.card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.muted {
+  color: #888;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  outline: none;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: #667eea;
+  border: 2px solid #667eea;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.btn.ghost:hover:not(:disabled) {
+  background: #667eea;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  flex: 1;
+  margin-right: 12px;
+}
+
+.btn.primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+}
+
+.btn.primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.btn.primary.spinning {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 25px rgba(102, 126, 234, 0.8);
+  }
+}
+
+.btn.secondary {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+  flex: 1;
+}
+
+.btn.secondary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(245, 87, 108, 0.5);
+}
+
+.btn.secondary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.actions {
+  display: flex;
+  gap: 0;
+  margin-top: 24px;
+}
+
+.result {
+  margin-top: 28px;
+  padding: 24px;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 16px;
+  animation: slideUp 0.4s ease-out;
+  box-shadow: 0 8px 24px rgba(252, 182, 159, 0.3);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #d84315;
+  margin-bottom: 8px;
+}
+
+.result p {
+  margin: 8px 0;
+  color: #5d4037;
+  line-height: 1.6;
+}
+
+.result a {
+  color: #d84315;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid #d84315;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.result a:hover {
+  color: #bf360c;
+  border-bottom-color: #bf360c;
+  transform: translateY(-1px);
+}
+
+/* 響應式設計 */
+@media (max-width: 640px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .card {
+    padding: 20px;
+  }
+  
+  .actions {
+    flex-direction: column;
+  }
+  
+  .btn.primary {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  
+  .result h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Canvas 容器樣式 */
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

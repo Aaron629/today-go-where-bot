@@ -102,6 +102,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
+app.mount("/liff", StaticFiles(directory="app/static/liff", html=True))
 
 # ---------- Static helpers ----------
 @app.get("/imgmap/categories/{size}")
