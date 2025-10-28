@@ -120,12 +120,12 @@ export default function App() {
           { name:'迷客夏', description:'鮮奶茶系', gmaps:'https://maps.app.goo.gl/?q=迷客夏' },
           { name:'COCO', description:'經典手搖', gmaps:'https://maps.app.goo.gl/?q=COCO' },
           { name:'茶湯會', description:'珍珠奶茶創始', gmaps:'https://maps.app.goo.gl/?q=茶湯會' },
-          { name:'一芳', description:'水果茶系列', gmaps:'https://maps.app.goo.gl/?q=一芳' },
+          { name:'鶴茶樓', description:'芝麻凍、杏仁凍等特色佐料', gmaps:'https://maps.app.goo.gl/?q=鶴茶樓' },
           { name:'麻古茶坊', description:'芝芝系列必喝', gmaps:'https://maps.app.goo.gl/?q=麻古茶坊' },
           { name:'萬波', description:'楊枝甘露招牌', gmaps:'https://maps.app.goo.gl/?q=萬波' },
-          { name:'茶的魔手', description:'便宜大杯實在', gmaps:'https://maps.app.goo.gl/?q=茶的魔手' },
-          { name:'星巴克', description:'咖啡星冰樂', gmaps:'https://maps.app.goo.gl/?q=星巴克' },
-          { name:'路易莎', description:'咖啡輕食舒適', gmaps:'https://maps.app.goo.gl/?q=路易莎' },
+          { name:'五桐號', description:'杏仁凍尚讚', gmaps:'https://maps.app.goo.gl/?q=五桐號' },
+          { name:'龜記', description:'茶的專家', gmaps:'https://maps.app.goo.gl/?q=龜記' },
+          { name:'得正', description:'咖啡輕食舒適', gmaps:'https://maps.app.goo.gl/?q=得正' },
         ],
       };
       const base = DB[mealKey] || DB.main
@@ -221,23 +221,22 @@ export default function App() {
   return (
     <div className={`wrap meal-${mealKey}`}>
       <h1 className="title">{title} 🎡</h1>
-      <div className="subtitle">
-        支援參數：<code>?meal=breakfast</code>、<code>?meal=main</code>、<code>?meal=drink</code>
-        （相容：<code>?meal=lunch</code>/<code>?meal=dinner</code> → <code>main</code>）
-      </div>
-
       <div className="card">
         <div className="card-head">
           <span className="muted">候選 {items.length} 筆</span>
           <button onClick={reload} className="btn ghost">重載</button>
         </div>
 
-        <RouletteCanvas
-          key={mealKey}               // ← 讓 component 在主題切換時重新掛載
-          items={items}
-          angle={angle}
-          themeKey={mealKey}
-        />
+        <div className="roulette-wrap">
+          <div className="roulette-stage">
+            <RouletteCanvas
+              key={mealKey}            // 切換餐別時重新掛載
+              items={items}
+              angle={angle}
+              themeKey={mealKey}
+            />
+          </div>
+        </div>
         
         <div className="actions">
           <button onClick={onSpin} disabled={spinning || items.length===0}

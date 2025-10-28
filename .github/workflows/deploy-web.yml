@@ -1,0 +1,84 @@
+name: Deploy Web (Next.js) to Cloud Run
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "web/**"
+      - ".github/workflows/deploy-web.yml"
+  workflow_dispatch:
+
+env:
+  REGION: ${{ vars.REGION }}
+  PROJECT_ID: ${{ vars.PROJECT_ID }}
+  SERVICE_NAME: ${{ vars.WEB_SERVICE_NAME }}
+  IMAGE: ${{ vars.REGION }}-docker.pkg.dev/${{ vars.PROJECT_ID }}/${{ vars.REPO }}/web:${{ github.sha }}
+
+jobs:
+  deploy-web:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    concurrency:
+      group: deploy-web-${{ github.ref }}
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+          cache-dependency-path: web/package-lock.json
+
+      - name: Auth to Google Cloud (WIF)
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+          service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ vars.PROJECT_ID }}
+
+      - name: Build & Push Docker image (Cloud Build)
+        run: |
+          gcloud builds submit web \
+            --tag "$IMAGE" \
+            --project "$PROJECT_ID"
+
+      - name: Resolve image digest
+        id: digest
+        run: |
+          DIGEST=$(gcloud artifacts docker images describe "$IMAGE" --format='value(image_summary.digest)')
+          echo "IMAGE_WITH_DIGEST=${IMAGE%@*}@$DIGEST" >> $GITHUB_ENV
+          echo "Resolved: ${IMAGE%@*}@$DIGEST"
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy "$SERVICE_NAME" \
+            --project "$PROJECT_ID" \
+            --region "$REGION" \
+            --platform managed \
+            --image "$IMAGE_WITH_DIGEST" \
+            --allow-unauthenticated \
+            --port 8080 \
+            --cpu 1 --memory 512Mi \
+            --concurrency 40 \
+            --min-instances 0 \
+            --set-env-vars NEXT_TELEMETRY_DISABLED=1 \
+            --set-env-vars NEXT_PUBLIC_API_BASE=${{ vars.NEXT_PUBLIC_API_BASE }} \
+            --set-env-vars NEXT_PUBLIC_ROULETTE_URL=${{ vars.NEXT_PUBLIC_ROULETTE_URL }} \
+            --quiet
+
+      - name: Show Web URL
+        run: |
+          gcloud run services describe "$SERVICE_NAME" \
+            --region "$REGION" \
+            --format='value(status.url)'

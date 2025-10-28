@@ -134,7 +134,7 @@ body {
   color: var(--text-main);
 }
 
-.wrap { max-width: 600px; margin: 0 auto; animation: fadeIn 0.6s ease-out; }
+.wrap { max-width: 600px; margin: 0 auto; animation: fadeIn 0.6s ease-out; justify-content: center; }
 
 @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -235,7 +235,28 @@ canvas {
 }
 
 /* （選用）提供給 RouletteCanvas 的 class，如果你在那邊有用 className 控制 */
-.roulette-pin { background: var(--pin); }
 .seg-0 { fill: var(--seg-1); }
 .seg-1 { fill: var(--seg-2); }
 .seg-2 { fill: var(--seg-3); }
+
+
+/* 置中舞台：讓輪盤置中顯示 */
+.roulette-wrap {
+  display: flex;
+}
+
+/* 這層決定輪盤寬度與上方給指針的空隙 */
+.roulette-stage {
+  position: relative;
+  width: min(560px, 92vw); /* 想大一點可改 640px */
+  margin: 0 auto;
+  padding-top: 34px;       /* 騰出上方空間，避免指針壓到外圈文字 */
+}
+
+/* 讓 canvas 真的置中、隨容器縮放 */
+.roulette-stage canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
