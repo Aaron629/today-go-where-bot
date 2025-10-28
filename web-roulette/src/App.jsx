@@ -6,6 +6,21 @@ import './App.css'
 const q = new URLSearchParams(location.search)
 const getParam = (k, d = '') => q.get(k) ?? d
 
+function makeGmapsUrl(name) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name)}`
+}
+
+function normalizeGmapsUrl(u, name) {
+  if (!u || typeof u !== 'string') return makeGmapsUrl(name)
+  try {
+    const url = new URL(u)
+    // 將 maps.app.goo.gl/?q=xxx 也轉成 api=1 的標準搜尋
+    const q = url.searchParams.get('q')
+    if (q) return makeGmapsUrl(q)
+  } catch {}
+  return u
+}
+
 function normalizeMeal(raw) {
   const m = (raw || 'main').toLowerCase()
   if (m === 'breakfast' || m === 'bf') return 'breakfast'
@@ -40,6 +55,28 @@ export default function App() {
     main:      '今天吃什麼 · 午／晚餐',
     drink:     '今天喝什麼 · 手搖飲',
   }[mealKey]), [mealKey])
+
+  // ✅ 將主題 class 掛到 body（讓 body 背景、按鈕等變數生效）
+  useEffect(() => {
+    const cls = `meal-${mealKey}`
+    // 先把其他主題拔掉，再加上目前主題
+    document.body.classList.remove('meal-breakfast', 'meal-main', 'meal-drink')
+    document.body.classList.add(cls)
+    // 清理（避免 route 切換或卸載殘留）
+    return () => document.body.classList.remove(cls)
+  }, [mealKey])
+
+   // ✅ A) 餐別變更時重置轉盤（放這裡）
+  useEffect(() => {
+    cancelAnimationFrame(raf.current)
+    setAngle(0)
+    setSelected(null)
+  }, [mealKey])
+
+  // ✅ B) 元件卸載時停止動畫（放這裡）
+  useEffect(() => {
+    return () => cancelAnimationFrame(raf.current)
+  }, [])
 
   useEffect(() => {
     (async () => {
@@ -91,7 +128,13 @@ export default function App() {
           { name:'路易莎', description:'咖啡輕食舒適', gmaps:'https://maps.app.goo.gl/?q=路易莎' },
         ],
       };
-      setItems(DB[mealKey] || DB.main)
+      const base = DB[mealKey] || DB.main
+      setItems(
+        base.map(it => ({
+          ...it,
+          gmaps: normalizeGmapsUrl(it.gmaps, it.name),
+        }))
+      )
       // ===============================================================
     })()
   }, [mealKey])
@@ -124,29 +167,59 @@ export default function App() {
 
   const onSend = async () => {
     if (!selected) return
-    if (!liff) {
-      await navigator.clipboard?.writeText(`${title}：${selected.name}\n${selected.gmaps ?? ''}`)
-      alert('已複製結果，請貼到聊天中')
-      return
-    }
+
+    const safeUrl = normalizeGmapsUrl(selected.gmaps, selected.name)
+
     const flex = {
       type:'bubble',
       body:{ type:'box', layout:'vertical', contents:[
         { type:'text', text:selected.name, weight:'bold', size:'lg', wrap:true },
-        ...(selected.description ? [{ type:'text', text:selected.description, size:'sm', color:'#555', wrap:true }] : [])
+        ...(selected.description ? [{ type:'text', text:selected.description, size:'sm', color:'#555555', wrap:true }] : [])
       ]},
       footer:{ type:'box', layout:'vertical', spacing:'sm', contents:[
-        ...(selected.gmaps ? [{ type:'button', style:'link', action:{ type:'uri', label:'Google 地圖', uri:selected.gmaps } }] : [])
+        ...(safeUrl ? [{ type:'button', style:'link', action:{ type:'uri', label:'Google 地圖', uri:safeUrl } }] : [])
       ]}
     }
-    await liff.sendMessages([{ type:'flex', altText:`${title}：${selected.name}`, contents:flex }])
-    liff.closeWindow()
+
+
+    const text = `${title}：${selected.name}\n${safeUrl ?? ''}`
+
+    try {
+      if (liff) {
+        // 情境 A：在 LINE App 內，直接送訊息
+        if (liff.isInClient && liff.isInClient()) {
+          await liff.sendMessages([{ type:'flex', altText:`${title}：${selected.name}`, contents:flex }])
+          liff.closeWindow && liff.closeWindow()
+          return
+        }
+        // 情境 B：外部瀏覽器但支援 shareTargetPicker
+        if (liff.isApiAvailable && liff.isApiAvailable('shareTargetPicker')) {
+          await liff.shareTargetPicker([
+            { type: 'text', text },
+            { type: 'flex', altText:`${title}：${selected.name}`, contents:flex }
+          ])
+          return
+        }
+      }
+    } catch (err) {
+      console.error('LIFF send failed:', err)
+      // 繼續走 clipboard fallback
+    }
+
+    // 情境 C：無 LIFF 或在外部瀏覽器不支援分享 → 複製貼上
+    try {
+      await navigator.clipboard?.writeText(text)
+      alert('已複製結果，請貼到聊天中')
+    } catch {
+      alert(text) // 萬一無法存取剪貼簿，至少把文字顯示出來
+    }
   }
+
 
   const reload = () => { setAngle(0); setSelected(null) }
 
   return (
-    <div className="wrap">
+    <div className={`wrap meal-${mealKey}`}>
       <h1 className="title">{title} 🎡</h1>
       <div className="subtitle">
         支援參數：<code>?meal=breakfast</code>、<code>?meal=main</code>、<code>?meal=drink</code>
@@ -159,8 +232,13 @@ export default function App() {
           <button onClick={reload} className="btn ghost">重載</button>
         </div>
 
-        <RouletteCanvas items={items} angle={angle} />
-
+        <RouletteCanvas
+          key={mealKey}               // ← 讓 component 在主題切換時重新掛載
+          items={items}
+          angle={angle}
+          themeKey={mealKey}
+        />
+        
         <div className="actions">
           <button onClick={onSpin} disabled={spinning || items.length===0}
             className={`btn primary ${spinning ? 'spinning' : ''}`}>
@@ -175,7 +253,12 @@ export default function App() {
           <div className="result">
             <h2>{selected.name}</h2>
             {selected.description && <p>{selected.description}</p>}
-            {selected.gmaps && <p><a href={selected.gmaps} target="_blank" rel="noreferrer">在 Google 地圖開啟</a></p>}
+            {(() => {
+              const safeUrl = normalizeGmapsUrl(selected.gmaps, selected.name)
+              return safeUrl ? (
+                <p><a href={safeUrl} target="_blank" rel="noreferrer">在 Google 地圖開啟</a></p>
+              ) : null
+            })()}
           </div>
         )}
       </div>
