@@ -41,20 +41,26 @@ jobs:
         with:
           workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
           service_account: ${{ secrets.DEPLOY_SA_EMAIL }}
+          create_credentials_file: true
+          export_environment_variables: true
+          token_format: access_token
 
       - name: Setup gcloud
         uses: google-github-actions/setup-gcloud@v2
         with:
-          project_id: ${{ vars.PROJECT_ID }}
+          project_id: ${{ env.PROJECT_ID }}
 
-      - name: Build & Push Docker image (Cloud Build)
+      - name: Configure Artifact Registry auth
+        run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev -q
+
+      - name: Build & Push Docker image (local)
         run: |
-          gcloud builds submit web \
-            --tag "$IMAGE" \
-            --project "$PROJECT_ID"
+          echo "IMAGE=${IMAGE}"
+          docker build -t "$IMAGE" web
+          docker push "$IMAGE"
+          echo "IMAGE=$IMAGE" >> $GITHUB_ENV
 
       - name: Resolve image digest
-        id: digest
         run: |
           DIGEST=$(gcloud artifacts docker images describe "$IMAGE" --format='value(image_summary.digest)')
           echo "IMAGE_WITH_DIGEST=${IMAGE%@*}@$DIGEST" >> $GITHUB_ENV
@@ -68,13 +74,14 @@ jobs:
             --platform managed \
             --image "$IMAGE_WITH_DIGEST" \
             --allow-unauthenticated \
+            --service-account cr-runtime@${PROJECT_ID}.iam.gserviceaccount.com \
             --port 8080 \
             --cpu 1 --memory 512Mi \
             --concurrency 40 \
             --min-instances 0 \
             --set-env-vars NEXT_TELEMETRY_DISABLED=1 \
-            --set-env-vars NEXT_PUBLIC_API_BASE=${{ vars.NEXT_PUBLIC_API_BASE }} \
-            --set-env-vars NEXT_PUBLIC_ROULETTE_URL=${{ vars.NEXT_PUBLIC_ROULETTE_URL }} \
+            --set-env-vars NEXT_PUBLIC_API_BASE='${{ vars.NEXT_PUBLIC_API_BASE }}' \
+            --set-env-vars NEXT_PUBLIC_ROULETTE_URL='${{ vars.NEXT_PUBLIC_ROULETTE_URL }}' \
             --quiet
 
       - name: Show Web URL
