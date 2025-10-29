@@ -1,5 +1,7 @@
+"use client";
+
 import { motion } from "framer-motion";
-import { 
+import {
   Compass, MapPin, Sparkles, Clock, Zap, Globe, Layers, Database, Cloud, Shield, Github, Rocket
 } from "lucide-react";
 
@@ -51,12 +53,14 @@ export default function AboutPage() {
     { date: "Q4 2025", text: "規劃：新北/台中/高雄擴充、營運儀表板、A/B Test" },
   ];
 
+  const YEAR = new Date().getFullYear(); // 同一年內不會造成 mismatch，保留動態即可
+
   return (
     <section className="mx-auto max-w-5xl px-4 py-10">
       {/* Hero */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         animate="show"
         transition={{ duration: 0.4 }}
         className="mb-10"
@@ -71,7 +75,7 @@ export default function AboutPage() {
       {/* Value props */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.4, delay: 0.05 }}
@@ -93,18 +97,13 @@ export default function AboutPage() {
       {/* Stats */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.4, delay: 0.1 }}
         className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4"
       >
-        {[
-          { k: "城市覆蓋", v: "4+" },
-          { k: "景點/店家", v: "200+" },
-          { k: "平均回覆", v: "<200ms" },
-          { k: "可用性", v: ">=99.9%" },
-        ].map((s, i) => (
+        {[{ k: "城市覆蓋", v: "4+" }, { k: "景點/店家", v: "200+" }, { k: "平均回覆", v: "<200ms" }, { k: "可用性", v: ">=99.9%" }].map((s, i) => (
           <div key={i} className="rounded-2xl border p-4 text-center">
             <div className="text-2xl font-bold">{s.v}</div>
             <div className="text-xs uppercase tracking-wider text-muted-foreground mt-1">{s.k}</div>
@@ -115,7 +114,7 @@ export default function AboutPage() {
       {/* Tech Stack */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.4, delay: 0.15 }}
@@ -143,7 +142,7 @@ export default function AboutPage() {
       {/* Deployment & Architecture */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.4, delay: 0.2 }}
@@ -186,7 +185,7 @@ export default function AboutPage() {
       {/* Milestones */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.4, delay: 0.25 }}
@@ -209,7 +208,7 @@ export default function AboutPage() {
       {/* FAQ */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.4, delay: 0.3 }}
@@ -241,26 +240,40 @@ export default function AboutPage() {
       {/* CTA */}
       <motion.div
         variants={fadeUp}
-        initial="hidden"
+        initial={false}
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.4, delay: 0.35 }}
-        className="mt-12 rounded-2xl border p-6 bg-gradient-to-br from-white to-slate-50 text-center"
+        className="mt-12 rounded-2xl border text-center shadow-sm bg-white/90 backdrop-blur border-slate-200 dark:bg-white/5 dark:border-white/15 dark:shadow-none px-6 py-6"
       >
-        <p className="text-sm text-muted-foreground">喜歡這個專案嗎？歡迎追蹤並參與開發</p>
+        <p className="text-sm text-slate-700 dark:text-slate-200">
+          喜歡這個專案嗎？歡迎追蹤並參與開發
+        </p>
+
         <div className="mt-3 flex items-center justify-center gap-3">
-          <a href="https://github.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border px-3 py-2 text-sm hover:shadow">
-            <Github className="w-4 h-4" /> GitHub Repo
+          <a
+            href="https://github.com/Aaron629/today-go-where-bot"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm border border-slate-300 bg-white text-slate-900 hover:bg-slate-50 dark:border-white/20 dark:bg-white/10 dark:text-white dark:hover:bg-white/15"
+          >
+            <Github className="h-4 w-4 opacity-80" />
+            GitHub Repo
           </a>
-          <a href="/" className="inline-flex items-center gap-2 rounded-xl border px-3 py-2 text-sm hover:shadow">
-            <MapPin className="w-4 h-4" /> 立刻開始逛逛
+
+          <a
+            href="/"
+            className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm bg-slate-900 text-white hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100"
+          >
+            <MapPin className="h-4 w-4 opacity-80" />
+            立刻開始逛逛
           </a>
         </div>
       </motion.div>
 
       {/* Footer note */}
       <p className="mt-10 text-xs text-center text-muted-foreground">
-        © {new Date().getFullYear()} 今天去哪兒 · Built with Next.js & Cloud Run
+        © <time dateTime={`${YEAR}`}>{YEAR}</time> 今天去哪兒 · Built with Next.js & Cloud Run
       </p>
     </section>
   );
