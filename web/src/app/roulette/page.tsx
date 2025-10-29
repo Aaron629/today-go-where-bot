@@ -1,4 +1,5 @@
-// src/app/roulette/page.tsx
+export const runtime = 'edge';
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
