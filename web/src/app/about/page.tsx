@@ -53,10 +53,10 @@ export default function AboutPage() {
     { date: "Q4 2025", text: "規劃：新北/台中/高雄擴充、營運儀表板、A/B Test" },
   ];
 
-  const YEAR = new Date().getFullYear(); // 同一年內不會造成 mismatch，保留動態即可
+  const YEAR = new Date().getFullYear();
 
   return (
-    <section className="mx-auto max-w-5xl px-4 py-10">
+    <section className="mx-auto max-w-5xl px-4 py-10 overflow-x-clip">
       {/* Hero */}
       <motion.div
         variants={fadeUp}
@@ -82,7 +82,7 @@ export default function AboutPage() {
         className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"
       >
         {features.map((f, i) => (
-          <div key={i} className="rounded-2xl border bg-white/50 backdrop-blur p-4 shadow-sm hover:shadow transition">
+          <div key={i} className="min-w-0 rounded-2xl border bg-white/50 backdrop-blur p-4 shadow-sm hover:shadow transition">
             <div className="flex items-center gap-2 font-semibold">
               <span className="inline-flex items-center justify-center rounded-xl border w-9 h-9">
                 {f.icon}
@@ -125,7 +125,7 @@ export default function AboutPage() {
         </h2>
         <div className="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {stack.map((g, i) => (
-            <div key={i} className="rounded-2xl border p-4">
+            <div key={i} className="min-w-0 rounded-2xl border p-4">
               <div className="text-sm font-medium opacity-80">{g.name}</div>
               <div className="mt-2 flex flex-wrap gap-2">
                 {g.items.map((it, j) => (
@@ -152,7 +152,7 @@ export default function AboutPage() {
           <Cloud className="w-5 h-5" /> 部署架構（GCP）
         </h2>
         <div className="mt-4 grid gap-4 lg:grid-cols-2">
-          <div className="rounded-2xl border p-4">
+          <div className="min-w-0 rounded-2xl border p-4">
             <h3 className="font-medium flex items-center gap-2"><Database className="w-4 h-4" /> Data Flow</h3>
             <ul className="mt-2 list-disc list-inside text-sm text-muted-foreground space-y-1">
               <li>資料來源：人工整理 + 開放資料（地標、行政區、營業資訊）。</li>
@@ -161,7 +161,7 @@ export default function AboutPage() {
               <li>媒體：圖片與靜態資源存放於 Cloud Storage（GCS）。</li>
             </ul>
           </div>
-          <div className="rounded-2xl border p-4">
+          <div className="min-w-0 rounded-2xl border p-4">
             <h3 className="font-medium flex items-center gap-2"><Shield className="w-4 h-4" /> Runtime</h3>
             <ul className="mt-2 list-disc list-inside text-sm text-muted-foreground space-y-1">
               <li>前端：Next.js（SSG/ISR + Edge Runtime 規劃）。</li>
@@ -172,17 +172,19 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="mt-4 rounded-2xl border p-4 bg-white/60">
-          <pre className="text-xs leading-6 overflow-x-auto"><code>{`Client (LINE / Web)
+          <pre className="text-xs leading-6 overflow-x-auto max-w-full">
+            <code>{`Client (LINE / Web)
   └─▶ Next.js (App Router / Edge) 
        └─▶ API Gateway (GraphQL + REST)
             ├─▶ FastAPI (Business / Caching)
             ├─▶ Cloud SQL (PostgreSQL)
             └─▶ Cloud Storage (Images/Assets)
-`}</code></pre>
+`}</code>
+          </pre>
         </div>
       </motion.div>
 
-      {/* Milestones */}
+      {/* Milestones (fixed) */}
       <motion.div
         variants={fadeUp}
         initial={false}
@@ -194,10 +196,10 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold flex items-center gap-2">
           <Rocket className="w-5 h-5" /> 里程碑
         </h2>
-        <ol className="mt-4 relative border-s ps-6 space-y-4">
+        <ol className="mt-4 space-y-4">
           {milestones.map((m, i) => (
-            <li key={i} className="ms-4">
-              <div className="absolute -start-1.5 mt-1.5 w-3 h-3 rounded-full border bg-white" />
+            <li key={i} className="relative ps-6 border-s">
+              <span className="pointer-events-none absolute left-0 top-2 inline-block h-3 w-3 rounded-full border bg-white" />
               <div className="text-sm font-semibold">{m.date}</div>
               <p className="text-sm text-muted-foreground mt-1">{m.text}</p>
             </li>
@@ -250,12 +252,12 @@ export default function AboutPage() {
           喜歡這個專案嗎？歡迎追蹤並參與開發
         </p>
 
-        <div className="mt-3 flex items-center justify-center gap-3">
+        <div className="mt-3 flex flex-wrap items-center justify-center gap-3">
           <a
             href="https://github.com/Aaron629/today-go-where-bot"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm border border-slate-300 bg-white text-slate-900 hover:bg-slate-50 dark:border-white/20 dark:bg-white/10 dark:text-white dark:hover:bg-white/15"
+            className="w-full sm:w-auto inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm border border-slate-300 bg-white text-slate-900 hover:bg-slate-50 dark:border-white/20 dark:bg-white/10 dark:text-white dark:hover:bg-white/15"
           >
             <Github className="h-4 w-4 opacity-80" />
             GitHub Repo
@@ -263,7 +265,7 @@ export default function AboutPage() {
 
           <a
             href="/"
-            className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm bg-slate-900 text-white hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100"
+            className="w-full sm:w-auto inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm bg-slate-900 text-white hover:bg-slate-800 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-100"
           >
             <MapPin className="h-4 w-4 opacity-80" />
             立刻開始逛逛
