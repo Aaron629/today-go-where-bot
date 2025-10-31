@@ -1,0 +1,1906 @@
+[
+  {
+    "name": "勝利早點",
+    "type": "snack",
+    "city": "台北",
+    "district": "東區",
+    "description": "東區人氣蛋餅/燒餅，早午餐人潮多。",
+    "tags": [
+      "早餐",
+      "蛋餅",
+      "東區"
+    ],
+    "hours": "06:30–13:30",
+    "cost": "低消依店家為準",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=勝利早點",
+    "image_url": ""
+  },
+  {
+    "name": "信義A11美食街",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "信義區",
+    "description": "百貨公司美食街，多國料理選擇。",
+    "tags": [
+      "聚餐",
+      "商場",
+      "信義區"
+    ],
+    "hours": "依商場公告",
+    "cost": "依消費為準",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=信義A11美食街",
+    "image_url": ""
+  },
+  {
+    "name": "淡水老街阿給",
+    "type": "snack",
+    "city": "新北",
+    "district": "淡水",
+    "description": "淡水經典在地小吃，觀光必吃。",
+    "tags": [
+      "小吃",
+      "老街",
+      "觀光"
+    ],
+    "hours": "依店家為準",
+    "cost": "依消費為準",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=淡水阿給",
+    "image_url": ""
+  },
+  {
+    "name": "帕尼尼咖啡",
+    "type": "cafe",
+    "city": "台北",
+    "district": "東區",
+    "description": "手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點",
+      "插座"
+    ],
+    "hours": "11:00–21:00",
+    "cost": "每人約 200–400",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=帕尼尼咖啡",
+    "image_url": ""
+  },
+  {
+    "name": "東區餐館 #1",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "東區",
+    "description": "東區多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=東區餐館 #1",
+    "image_url": ""
+  },
+  {
+    "name": "東區咖啡 #2",
+    "type": "cafe",
+    "city": "台北",
+    "district": "東區",
+    "description": "東區手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=東區咖啡 #2",
+    "image_url": ""
+  },
+  {
+    "name": "東區小吃 #3",
+    "type": "snack",
+    "city": "台北",
+    "district": "東區",
+    "description": "東區在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=東區小吃 #3",
+    "image_url": ""
+  },
+  {
+    "name": "信義區餐館 #4",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "信義區",
+    "description": "信義區多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=信義區餐館 #4",
+    "image_url": ""
+  },
+  {
+    "name": "信義區咖啡 #5",
+    "type": "cafe",
+    "city": "台北",
+    "district": "信義區",
+    "description": "信義區手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=信義區咖啡 #5",
+    "image_url": ""
+  },
+  {
+    "name": "信義區小吃 #6",
+    "type": "snack",
+    "city": "台北",
+    "district": "信義區",
+    "description": "信義區在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=信義區小吃 #6",
+    "image_url": ""
+  },
+  {
+    "name": "永康街餐館 #7",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "永康街",
+    "description": "永康街多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=永康街餐館 #7",
+    "image_url": ""
+  },
+  {
+    "name": "永康街咖啡 #8",
+    "type": "cafe",
+    "city": "台北",
+    "district": "永康街",
+    "description": "永康街手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=永康街咖啡 #8",
+    "image_url": ""
+  },
+  {
+    "name": "永康街小吃 #9",
+    "type": "snack",
+    "city": "台北",
+    "district": "永康街",
+    "description": "永康街在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=永康街小吃 #9",
+    "image_url": ""
+  },
+  {
+    "name": "西門町餐館 #10",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "西門町",
+    "description": "西門町多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=西門町餐館 #10",
+    "image_url": ""
+  },
+  {
+    "name": "西門町咖啡 #11",
+    "type": "cafe",
+    "city": "台北",
+    "district": "西門町",
+    "description": "西門町手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=西門町咖啡 #11",
+    "image_url": ""
+  },
+  {
+    "name": "西門町小吃 #12",
+    "type": "snack",
+    "city": "台北",
+    "district": "西門町",
+    "description": "西門町在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=西門町小吃 #12",
+    "image_url": ""
+  },
+  {
+    "name": "士林夜市餐館 #13",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "士林夜市",
+    "description": "士林夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=士林夜市餐館 #13",
+    "image_url": ""
+  },
+  {
+    "name": "士林夜市咖啡 #14",
+    "type": "cafe",
+    "city": "台北",
+    "district": "士林夜市",
+    "description": "士林夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=士林夜市咖啡 #14",
+    "image_url": ""
+  },
+  {
+    "name": "士林夜市小吃 #15",
+    "type": "snack",
+    "city": "台北",
+    "district": "士林夜市",
+    "description": "士林夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=士林夜市小吃 #15",
+    "image_url": ""
+  },
+  {
+    "name": "饒河夜市餐館 #16",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "饒河夜市",
+    "description": "饒河夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=饒河夜市餐館 #16",
+    "image_url": ""
+  },
+  {
+    "name": "饒河夜市咖啡 #17",
+    "type": "cafe",
+    "city": "台北",
+    "district": "饒河夜市",
+    "description": "饒河夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=饒河夜市咖啡 #17",
+    "image_url": ""
+  },
+  {
+    "name": "饒河夜市小吃 #18",
+    "type": "snack",
+    "city": "台北",
+    "district": "饒河夜市",
+    "description": "饒河夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=饒河夜市小吃 #18",
+    "image_url": ""
+  },
+  {
+    "name": "公館商圈餐館 #19",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "公館商圈",
+    "description": "公館商圈多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=公館商圈餐館 #19",
+    "image_url": ""
+  },
+  {
+    "name": "公館商圈咖啡 #20",
+    "type": "cafe",
+    "city": "台北",
+    "district": "公館商圈",
+    "description": "公館商圈手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=公館商圈咖啡 #20",
+    "image_url": ""
+  },
+  {
+    "name": "公館商圈小吃 #21",
+    "type": "snack",
+    "city": "台北",
+    "district": "公館商圈",
+    "description": "公館商圈在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=公館商圈小吃 #21",
+    "image_url": ""
+  },
+  {
+    "name": "南西商圈餐館 #22",
+    "type": "restaurant",
+    "city": "台北",
+    "district": "南西商圈",
+    "description": "南西商圈多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=南西商圈餐館 #22",
+    "image_url": ""
+  },
+  {
+    "name": "南西商圈咖啡 #23",
+    "type": "cafe",
+    "city": "台北",
+    "district": "南西商圈",
+    "description": "南西商圈手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=南西商圈咖啡 #23",
+    "image_url": ""
+  },
+  {
+    "name": "南西商圈小吃 #24",
+    "type": "snack",
+    "city": "台北",
+    "district": "南西商圈",
+    "description": "南西商圈在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=南西商圈小吃 #24",
+    "image_url": ""
+  },
+  {
+    "name": "板橋府中餐館 #25",
+    "type": "restaurant",
+    "city": "新北",
+    "district": "板橋府中",
+    "description": "板橋府中多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=板橋府中餐館 #25",
+    "image_url": ""
+  },
+  {
+    "name": "板橋府中咖啡 #26",
+    "type": "cafe",
+    "city": "新北",
+    "district": "板橋府中",
+    "description": "板橋府中手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=板橋府中咖啡 #26",
+    "image_url": ""
+  },
+  {
+    "name": "板橋府中小吃 #27",
+    "type": "snack",
+    "city": "新北",
+    "district": "板橋府中",
+    "description": "板橋府中在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=板橋府中小吃 #27",
+    "image_url": ""
+  },
+  {
+    "name": "新莊餐館 #28",
+    "type": "restaurant",
+    "city": "新北",
+    "district": "新莊",
+    "description": "新莊多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=新莊餐館 #28",
+    "image_url": ""
+  },
+  {
+    "name": "新莊咖啡 #29",
+    "type": "cafe",
+    "city": "新北",
+    "district": "新莊",
+    "description": "新莊手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=新莊咖啡 #29",
+    "image_url": ""
+  },
+  {
+    "name": "新莊小吃 #30",
+    "type": "snack",
+    "city": "新北",
+    "district": "新莊",
+    "description": "新莊在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=新莊小吃 #30",
+    "image_url": ""
+  },
+  {
+    "name": "中和環球餐館 #31",
+    "type": "restaurant",
+    "city": "新北",
+    "district": "中和環球",
+    "description": "中和環球多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中和環球餐館 #31",
+    "image_url": ""
+  },
+  {
+    "name": "中和環球咖啡 #32",
+    "type": "cafe",
+    "city": "新北",
+    "district": "中和環球",
+    "description": "中和環球手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中和環球咖啡 #32",
+    "image_url": ""
+  },
+  {
+    "name": "中和環球小吃 #33",
+    "type": "snack",
+    "city": "新北",
+    "district": "中和環球",
+    "description": "中和環球在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中和環球小吃 #33",
+    "image_url": ""
+  },
+  {
+    "name": "永和樂華夜市餐館 #34",
+    "type": "restaurant",
+    "city": "新北",
+    "district": "永和樂華夜市",
+    "description": "永和樂華夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=永和樂華夜市餐館 #34",
+    "image_url": ""
+  },
+  {
+    "name": "永和樂華夜市咖啡 #35",
+    "type": "cafe",
+    "city": "新北",
+    "district": "永和樂華夜市",
+    "description": "永和樂華夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=永和樂華夜市咖啡 #35",
+    "image_url": ""
+  },
+  {
+    "name": "永和樂華夜市小吃 #36",
+    "type": "snack",
+    "city": "新北",
+    "district": "永和樂華夜市",
+    "description": "永和樂華夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=永和樂華夜市小吃 #36",
+    "image_url": ""
+  },
+  {
+    "name": "淡水餐館 #37",
+    "type": "restaurant",
+    "city": "新北",
+    "district": "淡水",
+    "description": "淡水多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=淡水餐館 #37",
+    "image_url": ""
+  },
+  {
+    "name": "淡水咖啡 #38",
+    "type": "cafe",
+    "city": "新北",
+    "district": "淡水",
+    "description": "淡水手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=淡水咖啡 #38",
+    "image_url": ""
+  },
+  {
+    "name": "淡水小吃 #39",
+    "type": "snack",
+    "city": "新北",
+    "district": "淡水",
+    "description": "淡水在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=淡水小吃 #39",
+    "image_url": ""
+  },
+  {
+    "name": "三重三和夜市餐館 #40",
+    "type": "restaurant",
+    "city": "新北",
+    "district": "三重三和夜市",
+    "description": "三重三和夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=三重三和夜市餐館 #40",
+    "image_url": ""
+  },
+  {
+    "name": "三重三和夜市咖啡 #41",
+    "type": "cafe",
+    "city": "新北",
+    "district": "三重三和夜市",
+    "description": "三重三和夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=三重三和夜市咖啡 #41",
+    "image_url": ""
+  },
+  {
+    "name": "三重三和夜市小吃 #42",
+    "type": "snack",
+    "city": "新北",
+    "district": "三重三和夜市",
+    "description": "三重三和夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=三重三和夜市小吃 #42",
+    "image_url": ""
+  },
+  {
+    "name": "三峽老街餐館 #43",
+    "type": "restaurant",
+    "city": "新北",
+    "district": "三峽老街",
+    "description": "三峽老街多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=三峽老街餐館 #43",
+    "image_url": ""
+  },
+  {
+    "name": "三峽老街咖啡 #44",
+    "type": "cafe",
+    "city": "新北",
+    "district": "三峽老街",
+    "description": "三峽老街手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=三峽老街咖啡 #44",
+    "image_url": ""
+  },
+  {
+    "name": "三峽老街小吃 #45",
+    "type": "snack",
+    "city": "新北",
+    "district": "三峽老街",
+    "description": "三峽老街在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=三峽老街小吃 #45",
+    "image_url": ""
+  },
+  {
+    "name": "藝文特區餐館 #46",
+    "type": "restaurant",
+    "city": "桃園",
+    "district": "藝文特區",
+    "description": "藝文特區多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=藝文特區餐館 #46",
+    "image_url": ""
+  },
+  {
+    "name": "藝文特區咖啡 #47",
+    "type": "cafe",
+    "city": "桃園",
+    "district": "藝文特區",
+    "description": "藝文特區手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=藝文特區咖啡 #47",
+    "image_url": ""
+  },
+  {
+    "name": "藝文特區小吃 #48",
+    "type": "snack",
+    "city": "桃園",
+    "district": "藝文特區",
+    "description": "藝文特區在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=藝文特區小吃 #48",
+    "image_url": ""
+  },
+  {
+    "name": "中壢SOGO餐館 #49",
+    "type": "restaurant",
+    "city": "桃園",
+    "district": "中壢SOGO",
+    "description": "中壢SOGO多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中壢SOGO餐館 #49",
+    "image_url": ""
+  },
+  {
+    "name": "中壢SOGO咖啡 #50",
+    "type": "cafe",
+    "city": "桃園",
+    "district": "中壢SOGO",
+    "description": "中壢SOGO手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中壢SOGO咖啡 #50",
+    "image_url": ""
+  },
+  {
+    "name": "中壢SOGO小吃 #51",
+    "type": "snack",
+    "city": "桃園",
+    "district": "中壢SOGO",
+    "description": "中壢SOGO在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中壢SOGO小吃 #51",
+    "image_url": ""
+  },
+  {
+    "name": "中央大學商圈餐館 #52",
+    "type": "restaurant",
+    "city": "桃園",
+    "district": "中央大學商圈",
+    "description": "中央大學商圈多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中央大學商圈餐館 #52",
+    "image_url": ""
+  },
+  {
+    "name": "中央大學商圈咖啡 #53",
+    "type": "cafe",
+    "city": "桃園",
+    "district": "中央大學商圈",
+    "description": "中央大學商圈手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中央大學商圈咖啡 #53",
+    "image_url": ""
+  },
+  {
+    "name": "中央大學商圈小吃 #54",
+    "type": "snack",
+    "city": "桃園",
+    "district": "中央大學商圈",
+    "description": "中央大學商圈在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=中央大學商圈小吃 #54",
+    "image_url": ""
+  },
+  {
+    "name": "桃園夜市餐館 #55",
+    "type": "restaurant",
+    "city": "桃園",
+    "district": "桃園夜市",
+    "description": "桃園夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=桃園夜市餐館 #55",
+    "image_url": ""
+  },
+  {
+    "name": "桃園夜市咖啡 #56",
+    "type": "cafe",
+    "city": "桃園",
+    "district": "桃園夜市",
+    "description": "桃園夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=桃園夜市咖啡 #56",
+    "image_url": ""
+  },
+  {
+    "name": "桃園夜市小吃 #57",
+    "type": "snack",
+    "city": "桃園",
+    "district": "桃園夜市",
+    "description": "桃園夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=桃園夜市小吃 #57",
+    "image_url": ""
+  },
+  {
+    "name": "城隍廟餐館 #58",
+    "type": "restaurant",
+    "city": "新竹",
+    "district": "城隍廟",
+    "description": "城隍廟多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=城隍廟餐館 #58",
+    "image_url": ""
+  },
+  {
+    "name": "城隍廟咖啡 #59",
+    "type": "cafe",
+    "city": "新竹",
+    "district": "城隍廟",
+    "description": "城隍廟手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=城隍廟咖啡 #59",
+    "image_url": ""
+  },
+  {
+    "name": "城隍廟小吃 #60",
+    "type": "snack",
+    "city": "新竹",
+    "district": "城隍廟",
+    "description": "城隍廟在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=城隍廟小吃 #60",
+    "image_url": ""
+  },
+  {
+    "name": "清大商圈餐館 #61",
+    "type": "restaurant",
+    "city": "新竹",
+    "district": "清大商圈",
+    "description": "清大商圈多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=清大商圈餐館 #61",
+    "image_url": ""
+  },
+  {
+    "name": "清大商圈咖啡 #62",
+    "type": "cafe",
+    "city": "新竹",
+    "district": "清大商圈",
+    "description": "清大商圈手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=清大商圈咖啡 #62",
+    "image_url": ""
+  },
+  {
+    "name": "清大商圈小吃 #63",
+    "type": "snack",
+    "city": "新竹",
+    "district": "清大商圈",
+    "description": "清大商圈在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=清大商圈小吃 #63",
+    "image_url": ""
+  },
+  {
+    "name": "竹北文興餐館 #64",
+    "type": "restaurant",
+    "city": "新竹",
+    "district": "竹北文興",
+    "description": "竹北文興多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=竹北文興餐館 #64",
+    "image_url": ""
+  },
+  {
+    "name": "竹北文興咖啡 #65",
+    "type": "cafe",
+    "city": "新竹",
+    "district": "竹北文興",
+    "description": "竹北文興手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=竹北文興咖啡 #65",
+    "image_url": ""
+  },
+  {
+    "name": "竹北文興小吃 #66",
+    "type": "snack",
+    "city": "新竹",
+    "district": "竹北文興",
+    "description": "竹北文興在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=竹北文興小吃 #66",
+    "image_url": ""
+  },
+  {
+    "name": "巨城商圈餐館 #67",
+    "type": "restaurant",
+    "city": "新竹",
+    "district": "巨城商圈",
+    "description": "巨城商圈多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=巨城商圈餐館 #67",
+    "image_url": ""
+  },
+  {
+    "name": "巨城商圈咖啡 #68",
+    "type": "cafe",
+    "city": "新竹",
+    "district": "巨城商圈",
+    "description": "巨城商圈手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=巨城商圈咖啡 #68",
+    "image_url": ""
+  },
+  {
+    "name": "巨城商圈小吃 #69",
+    "type": "snack",
+    "city": "新竹",
+    "district": "巨城商圈",
+    "description": "巨城商圈在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=巨城商圈小吃 #69",
+    "image_url": ""
+  },
+  {
+    "name": "逢甲夜市餐館 #70",
+    "type": "restaurant",
+    "city": "台中",
+    "district": "逢甲夜市",
+    "description": "逢甲夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=逢甲夜市餐館 #70",
+    "image_url": ""
+  },
+  {
+    "name": "逢甲夜市咖啡 #71",
+    "type": "cafe",
+    "city": "台中",
+    "district": "逢甲夜市",
+    "description": "逢甲夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=逢甲夜市咖啡 #71",
+    "image_url": ""
+  },
+  {
+    "name": "逢甲夜市小吃 #72",
+    "type": "snack",
+    "city": "台中",
+    "district": "逢甲夜市",
+    "description": "逢甲夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=逢甲夜市小吃 #72",
+    "image_url": ""
+  },
+  {
+    "name": "一中街餐館 #73",
+    "type": "restaurant",
+    "city": "台中",
+    "district": "一中街",
+    "description": "一中街多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=一中街餐館 #73",
+    "image_url": ""
+  },
+  {
+    "name": "一中街咖啡 #74",
+    "type": "cafe",
+    "city": "台中",
+    "district": "一中街",
+    "description": "一中街手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=一中街咖啡 #74",
+    "image_url": ""
+  },
+  {
+    "name": "一中街小吃 #75",
+    "type": "snack",
+    "city": "台中",
+    "district": "一中街",
+    "description": "一中街在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=一中街小吃 #75",
+    "image_url": ""
+  },
+  {
+    "name": "草悟道餐館 #76",
+    "type": "restaurant",
+    "city": "台中",
+    "district": "草悟道",
+    "description": "草悟道多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=草悟道餐館 #76",
+    "image_url": ""
+  },
+  {
+    "name": "草悟道咖啡 #77",
+    "type": "cafe",
+    "city": "台中",
+    "district": "草悟道",
+    "description": "草悟道手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=草悟道咖啡 #77",
+    "image_url": ""
+  },
+  {
+    "name": "草悟道小吃 #78",
+    "type": "snack",
+    "city": "台中",
+    "district": "草悟道",
+    "description": "草悟道在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=草悟道小吃 #78",
+    "image_url": ""
+  },
+  {
+    "name": "東海商圈餐館 #79",
+    "type": "restaurant",
+    "city": "台中",
+    "district": "東海商圈",
+    "description": "東海商圈多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=東海商圈餐館 #79",
+    "image_url": ""
+  },
+  {
+    "name": "東海商圈咖啡 #80",
+    "type": "cafe",
+    "city": "台中",
+    "district": "東海商圈",
+    "description": "東海商圈手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=東海商圈咖啡 #80",
+    "image_url": ""
+  },
+  {
+    "name": "東海商圈小吃 #81",
+    "type": "snack",
+    "city": "台中",
+    "district": "東海商圈",
+    "description": "東海商圈在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=東海商圈小吃 #81",
+    "image_url": ""
+  },
+  {
+    "name": "國華街餐館 #82",
+    "type": "restaurant",
+    "city": "台南",
+    "district": "國華街",
+    "description": "國華街多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=國華街餐館 #82",
+    "image_url": ""
+  },
+  {
+    "name": "國華街咖啡 #83",
+    "type": "cafe",
+    "city": "台南",
+    "district": "國華街",
+    "description": "國華街手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=國華街咖啡 #83",
+    "image_url": ""
+  },
+  {
+    "name": "國華街小吃 #84",
+    "type": "snack",
+    "city": "台南",
+    "district": "國華街",
+    "description": "國華街在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=國華街小吃 #84",
+    "image_url": ""
+  },
+  {
+    "name": "正興街餐館 #85",
+    "type": "restaurant",
+    "city": "台南",
+    "district": "正興街",
+    "description": "正興街多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "定食",
+      "丼飯"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=正興街餐館 #85",
+    "image_url": ""
+  },
+  {
+    "name": "正興街咖啡 #86",
+    "type": "cafe",
+    "city": "台南",
+    "district": "正興街",
+    "description": "正興街手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=正興街咖啡 #86",
+    "image_url": ""
+  },
+  {
+    "name": "正興街小吃 #87",
+    "type": "snack",
+    "city": "台南",
+    "district": "正興街",
+    "description": "正興街在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=正興街小吃 #87",
+    "image_url": ""
+  },
+  {
+    "name": "安平老街餐館 #88",
+    "type": "restaurant",
+    "city": "台南",
+    "district": "安平老街",
+    "description": "安平老街多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "家庭友善",
+      "多人"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=安平老街餐館 #88",
+    "image_url": ""
+  },
+  {
+    "name": "安平老街咖啡 #89",
+    "type": "cafe",
+    "city": "台南",
+    "district": "安平老街",
+    "description": "安平老街手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=安平老街咖啡 #89",
+    "image_url": ""
+  },
+  {
+    "name": "安平老街小吃 #90",
+    "type": "snack",
+    "city": "台南",
+    "district": "安平老街",
+    "description": "安平老街在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=安平老街小吃 #90",
+    "image_url": ""
+  },
+  {
+    "name": "花園夜市餐館 #91",
+    "type": "restaurant",
+    "city": "台南",
+    "district": "花園夜市",
+    "description": "花園夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "聚餐",
+      "商圈"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=花園夜市餐館 #91",
+    "image_url": ""
+  },
+  {
+    "name": "花園夜市咖啡 #92",
+    "type": "cafe",
+    "city": "台南",
+    "district": "花園夜市",
+    "description": "花園夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=花園夜市咖啡 #92",
+    "image_url": ""
+  },
+  {
+    "name": "花園夜市小吃 #93",
+    "type": "snack",
+    "city": "台南",
+    "district": "花園夜市",
+    "description": "花園夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=花園夜市小吃 #93",
+    "image_url": ""
+  },
+  {
+    "name": "瑞豐夜市餐館 #94",
+    "type": "restaurant",
+    "city": "高雄",
+    "district": "瑞豐夜市",
+    "description": "瑞豐夜市多國料理/台式熱炒選擇豐富，聚餐友善。",
+    "tags": [
+      "火鍋",
+      "燒肉"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=瑞豐夜市餐館 #94",
+    "image_url": ""
+  },
+  {
+    "name": "瑞豐夜市咖啡 #95",
+    "type": "cafe",
+    "city": "高雄",
+    "district": "瑞豐夜市",
+    "description": "瑞豐夜市手沖咖啡與甜點，適合久坐聊天與工作。",
+    "tags": [
+      "咖啡",
+      "甜點"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=瑞豐夜市咖啡 #95",
+    "image_url": ""
+  },
+  {
+    "name": "瑞豐夜市小吃 #96",
+    "type": "snack",
+    "city": "高雄",
+    "district": "瑞豐夜市",
+    "description": "瑞豐夜市在地小吃聚集，平價又有特色。",
+    "tags": [
+      "夜市",
+      "平價"
+    ],
+    "hours": "依場館或店家為準",
+    "cost": "依消費或免費",
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "gmaps": "https://maps.app.goo.gl/?q=瑞豐夜市小吃 #96",
+    "image_url": ""
+  }
+]

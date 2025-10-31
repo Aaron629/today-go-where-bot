@@ -24,6 +24,10 @@ export default function HomePage() {
           <div className="font-semibold">關於</div>
           <p className="text-sm text-black/60 mt-1">專案介紹、技術棧、聯絡方式</p>
         </a>
+        <a href="/foodarea" className="rounded-xl border p-5 hover:bg-black/5">
+          <div className="font-semibold">商圈美食</div>
+          <p className="text-sm text-black/60 mt-1">依城市/商圈瀏覽餐廳、咖啡廳、小吃</p>
+        </a>
         <a href="https://line.me/R" target="_blank" className="rounded-xl border p-5 hover:bg-black/5">
           <div className="font-semibold">加入 LINE Bot</div>
           <p className="text-sm text-black/60 mt-1">（放上你的官方帳號連結）</p>
