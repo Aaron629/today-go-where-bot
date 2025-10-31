@@ -36,9 +36,15 @@ class Settings(BaseSettings):
     # ✅ 舊：單一檔案（相容用；若設了就用它）
     places_path: Optional[Path] = Field(default=None, env="PLACES_PATH")
 
-    assets_bucket: str | None = os.getenv("ASSETS_BUCKET")  # 你的 GCS bucket 名稱
-    assets_prefix: str = os.getenv("ASSETS_PREFIX", "imagemeps")  # 存放目錄前綴（可用預設）
+    assets_bucket: Optional[str] = Field(default=None, env="ASSETS_BUCKET")
+    assets_prefix: str = Field(default="imagemeps", env="ASSETS_PREFIX")
     
+    # --- OpenAI ---
+    openai_api_key: Optional[str] = Field(default=None, env="OPENAI_API_KEY")
+    openai_model: str = Field(default="gpt-5", env="OPENAI_MODEL")  # 之後要換模型只改 .env
+
+    gemini_api_key: Optional[str] = Field(default=None, env="GEMINI_API_KEY")
+    gemini_model: str = Field(default="models/gemini-2.5-flash", env="GEMINI_MODEL")
     # ---- 路徑工具 ----
     @property
     def taipei_path(self) -> Path:
