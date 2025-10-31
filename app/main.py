@@ -32,6 +32,9 @@ from app.services.places import filter_places
 from app.utils.category import CATEGORY_LABELS
 from app.utils.links import normalize_existing_gmaps
 from app.services.image_compose import build_if_needed, ensure_resized
+from app.services.gemini import generate_text 
+from app.handlers.ai_cards import itinerary_flex, cafe_list_flex
+from linebot.v3.messaging.models import FlexMessage, QuickReply, QuickReplyItem, MessageAction
 import hmac, hashlib
 from base64 import b64encode
 from io import BytesIO
@@ -399,6 +402,129 @@ async def webhook(request: Request):
             if not t:
                 continue
             
+            # === 咖啡放鬆清單（關鍵字觸發） ===
+            if ("咖啡" in t and ("放鬆" in t or "下午" in t)) or t in ("咖啡放鬆","下午喝咖啡"):
+                # 1) 這裡先用固定假資料示範；之後可用 PLACES 自動篩選 type=="cafe"
+                demo = [
+                    {
+                        "name":"Simple Kaffa",
+                        "district":"信義區",
+                        "price":"≈150–250",
+                        "time":"12:00–20:00",
+                        "features":["插座","Wi-Fi","不限時"],
+                        "tags":["手沖","甜點不錯"],
+                        "gmaps":"https://maps.app.goo.gl/?q=Simple+Kaffa",
+                    },
+                    {
+                        "name":"Woolloomooloo",
+                        "district":"信義區",
+                        "price":"≈160–260",
+                        "time":"10:00–22:00",
+                        "features":["插座","Wi-Fi"],
+                        "tags":["早午餐","空間大"],
+                        "gmaps":"https://maps.app.goo.gl/?q=Woolloomooloo",
+                    },
+                    {
+                        "name":"Fika Fika Cafe",
+                        "district":"松山區",
+                        "price":"≈150–220",
+                        "time":"11:00–19:00",
+                        "features":["Wi-Fi"],
+                        "tags":["北歐烘焙","拿鐵好喝"],
+                        "gmaps":"https://maps.app.goo.gl/?q=Fika+Fika+Cafe",
+                    },
+                ]
+
+                bubble = cafe_list_flex(
+                    title="下午放鬆喝咖啡",
+                    subtitle="精選可久坐/有插座/Wi-Fi 的店家",
+                    cafes=demo,
+                )
+
+                flex = FlexMessage.from_dict({
+                    "type": "flex",
+                    "altText": "咖啡放鬆清單",
+                    "contents": bubble,  # 你的 bubble dict
+                    "quickReply": {
+                        "items": [
+                            {"type":"action","action":{"type":"message","label":"信義區一日遊","text":"北海岸一日遊"}},
+                            {"type":"action","action":{"type":"message","label":"今日推薦","text":"/today"}},
+                            {"type":"action","action":{"type":"message","label":"吃什麼輪盤","text":"/eat"}},
+                        ]
+                    }
+                })
+
+                safe_reply_or_push(msg_api, ev, reply_tok, [flex])
+                continue
+
+            if "北海岸" in t and ("一日遊" in t or "行程" in t):
+                bubble = itinerary_flex(
+                    title="北海岸一日遊",
+                    subtitle="海天一線｜自然地景・美食・人文",
+                    tags=["自駕優先","春秋最佳","記得防曬"],
+                    sections=[
+                        {"title":"上午",
+                        "items":[
+                            "淺水灣／白沙灣：海景咖啡＆散步拍照（約 60–90 分）",
+                            "富貴角燈塔：台灣最北端，步道看海蝕地形",
+                            "（季節）老梅綠石槽：3–5 月退潮時最美"
+                        ]},
+                        {"title":"中午",
+                        "items":[
+                            "金山老街：金山鴨肉、自助端菜；地瓜＆石花凍當點心"
+                        ]},
+                        {"title":"下午",
+                        "items":[
+                            "野柳地質公園：女王頭、蕈狀岩；注意防曬與補水"
+                        ]},
+                        {"title":"傍晚/晚餐",
+                        "items":[
+                            "龜吼漁港：逛魚市吃海鮮；或沿路找點看夕陽再返程"
+                        ]},
+                    ]
+                )
+
+                flex = FlexMessage.from_dict({
+                    "type":"flex",
+                    "altText":"北海岸一日遊建議",
+                    "contents": bubble
+                })
+
+                safe_reply_or_push(msg_api, ev, reply_tok, [flex])
+                continue
+
+            # === Gemini 簡易對話指令 ===
+            if t.startswith("/ai ") or t.startswith("ai "):
+                q = t.split(" ", 1)[1].strip() or "請用繁體中文打招呼。"
+
+                # 第一步：先告知使用者正在生成中
+                safe_reply_or_push(
+                    msg_api, ev, reply_tok,
+                    [TextMessage(text="☕ 內容生成中，請稍候幾秒...")]
+                )
+
+                try:
+                    ans = await generate_text(q)
+
+                    # 第二步：AI 完成後再主動推送（避免 Invalid reply token）
+                    user_id = None
+                    if isinstance(ev, dict):
+                        user_id = ev.get("source", {}).get("userId")
+                    else:
+                        user_id = getattr(getattr(ev, "source", None), "user_id", None)
+
+                    if user_id:
+                        msg_api.push_message(
+                            PushMessageRequest(to=user_id, messages=[TextMessage(text=ans[:1900])])
+                        )
+                except Exception as e:
+                    log.exception("Gemini failed: %s", e)
+                    safe_reply_or_push(
+                        msg_api, ev, reply_tok,
+                        [TextMessage(text="Gemini 呼叫失敗，稍後再試 🙏")]
+                    )
+                continue
+
             # === 今日推薦 ===
             if t in ("/today", "今日推薦"):
                 try:
@@ -465,6 +591,22 @@ async def webhook(request: Request):
             if t in district_set or (t.endswith("區") and 2 <= len(t) <= 4):
                 send_reply_if_needed(reply_tok, pick_suggestions(t, datetime.now()))
                 continue
+            
+            # === GPT 指令 ===
+            mode = None
+            content = t
+            if t.startswith("/摘要"):
+                mode, content = "summary", t.replace("/摘要", "", 1).strip() or t
+            elif t.startswith("/翻譯"):
+                mode, content = "translate", t.replace("/翻譯", "", 1).strip() or t
+            elif t.startswith("/改寫"):
+                mode, content = "rewrite", t.replace("/改寫", "", 1).strip() or t
+
+            ai = await generate_text(content, mode=mode)
+            sent = safe_reply_or_push(msg_api, ev, reply_tok, [TextMessage(text=ai)])
+            if not sent:
+                send_reply_if_needed(reply_tok, "回覆似乎有點塞車，稍後再試一次～")
+            continue
             
         if ev_type == "postback":
             if isinstance(ev, dict):
