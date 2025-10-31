@@ -47,6 +47,9 @@ export default function RootLayout({
               <a href="/spots" className="px-3 py-1 rounded hover:bg-black/5">
                 隨機景點
               </a>
+              <a href="/foodarea" className="px-3 py-1 rounded hover:bg-black/5">
+                商圈美食
+              </a>
               <a href="/about" className="px-3 py-1 rounded hover:bg-black/5">
                 關於
               </a>
